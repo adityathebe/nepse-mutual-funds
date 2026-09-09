@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "funds": [
+    {
+      "symbol": "GIBF1",
+      "source": "globalime",
+      "manager": "Global IME Capital",
+      "name": "Global IME Balance Fund-I",
+      "source_url": "https://www.globalimecapital.com/mutual-fund/global-ime-balance-fund",
+      "history_url": "https://globalimecapital.com/api/v1/public/mutual-funds/global-ime-balance-fund",
+      "latest_as_of": "2026-09-03",
+      "last_successful_fetch": "2026-09-09T16:22:43Z",
+      "points": 263
+    },
+    {
+      "symbol": "NMBHF2",
+      "source": "nmb",
+      "manager": "NMB Capital",
+      "name": "NMB Hybrid Fund L II",
+      "source_url": "https://www.nmbcl.com.np/navhistory",
+      "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=6",
+      "latest_as_of": "2026-08-31",
+      "last_successful_fetch": "2026-09-09T16:19:16Z",
+      "points": 96
+    },
+    {
+      "symbol": "PSF",
+      "source": "prabhu",
+      "manager": "Prabhu Capital",
+      "name": "Prabhu Select Fund",
+      "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PSF",
+      "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PSF",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T16:21:48Z",
+      "points": 338
+    },
+    {
+      "symbol": "SIGS2",
+      "source": "siddhartha",
+      "manager": "Siddhartha Capital",
+      "name": "Siddhartha Investment Growth Scheme 2",
+      "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
+      "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=2",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T16:21:51Z",
+      "points": 461
+    },
+    {
+      "symbol": "SIGS3",
+      "source": "siddhartha",
+      "manager": "Siddhartha Capital",
+      "name": "Siddhartha Investment Growth Scheme 3",
+      "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
+      "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T16:21:51Z",
+      "points": 219
+    }
+  ]
+}

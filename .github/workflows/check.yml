@@ -1,0 +1,26 @@
+name: Validate collector
+
+on:
+  push:
+    paths: ['**.go', go.mod, 'data/**', 'scripts/**', '.github/workflows/**']
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: false
+      - name: Check formatting, build, vet, and static data
+        run: |
+          test -z "$(gofmt -l cmd internal)"
+          go build ./...
+          go vet ./...
+          go run ./cmd/navcollector validate
+          bash -n scripts/globalime-ca-bundle.sh
