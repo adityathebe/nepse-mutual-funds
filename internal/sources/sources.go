@@ -22,11 +22,11 @@ type Adapter struct {
 
 // All lists the contributor-maintained sources in a stable execution order.
 func All() []Adapter {
-	return []Adapter{{"nmb", fetchNMB}, {"prabhu", fetchPrabhu}, {"siddhartha", fetchSiddhartha}, {"globalime", fetchGlobalIME}}
+	return []Adapter{{"nmb", fetchNMB}, {"prabhu", fetchPrabhu}, {"siddhartha", fetchSiddhartha}, {"globalime", fetchGlobalIME}, {"machhapuchchhre", fetchMBL}, {"rbb", fetchRBB}, {"nimb", fetchNIMB}, {"himalayaninvest", fetchHLI}, {"reliable", fetchReliable}, {"citizens", fetchCitizens}, {"nepallife", fetchNepalLife}}
 }
 
 // request bounds response size and request rate; normal TLS verification stays enabled.
-// POST is used only for the public, read-only Siddhartha filter endpoint.
+// POST is used only for public, read-only filters. A *string receives HTML verbatim.
 func request(ctx context.Context, client *http.Client, endpoint string, form url.Values, result any) error {
 	select {
 	case <-ctx.Done():
@@ -44,7 +44,7 @@ func request(ctx context.Context, client *http.Client, endpoint string, form url
 		return err
 	}
 	req.Header.Set("User-Agent", "nepse-mutual-funds/1.0 (+https://github.com/adityathebe/nepse-mutual-funds)")
-	req.Header.Set("Accept", "application/json")
+	req.Header.Set("Accept", "application/json, text/html")
 	if form != nil {
 		req.Header.Set("Content-Type", "application/x-www-form-urlencoded")
 	}
@@ -63,6 +63,10 @@ func request(ctx context.Context, client *http.Client, endpoint string, form url
 	}
 	if len(b) > limit {
 		return fmt.Errorf("%s: response exceeds 16 MiB", endpoint)
+	}
+	if text, ok := result.(*string); ok {
+		*text = string(b)
+		return nil
 	}
 	if err := json.Unmarshal(b, result); err != nil {
 		return fmt.Errorf("%s: invalid JSON: %w", endpoint, err)

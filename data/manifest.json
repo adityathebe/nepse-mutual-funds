@@ -2,6 +2,28 @@
   "schema_version": 1,
   "funds": [
     {
+      "symbol": "CSY",
+      "source": "citizens",
+      "manager": "Citizens Capital",
+      "name": "Citizens Santulit Yojana",
+      "source_url": "https://www.citizenscapital.com.np/",
+      "history_url": "https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=5",
+      "latest_as_of": "2026-08-28",
+      "last_successful_fetch": "2026-09-09T18:16:42Z",
+      "points": 36
+    },
+    {
+      "symbol": "GBIMESY2",
+      "source": "globalime",
+      "manager": "Global IME Capital",
+      "name": "Global IME Samunnat Yojana-II",
+      "source_url": "https://www.globalimecapital.com/mutual-fund/global-ime-samunnat-yojana-ii",
+      "history_url": "https://globalimecapital.com/api/v1/public/mutual-funds/global-ime-samunnat-yojana-ii",
+      "latest_as_of": "2026-09-03",
+      "last_successful_fetch": "2026-09-09T18:16:26Z",
+      "points": 72
+    },
+    {
       "symbol": "GIBF1",
       "source": "globalime",
       "manager": "Global IME Capital",
@@ -11,6 +33,39 @@
       "latest_as_of": "2026-09-03",
       "last_successful_fetch": "2026-09-09T16:22:43Z",
       "points": 263
+    },
+    {
+      "symbol": "HLICF",
+      "source": "himalayaninvest",
+      "manager": "Himalayan Investment Banker",
+      "name": "Himalayan Large Cap Fund",
+      "source_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
+      "history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T18:16:35Z",
+      "points": 50
+    },
+    {
+      "symbol": "MBLEF",
+      "source": "machhapuchchhre",
+      "manager": "Machhapuchchhre Capital",
+      "name": "MBL Equity Fund",
+      "source_url": "https://mcl.com.np/mutual-funds/close/mbl-equity-fund",
+      "history_url": "https://mcl.com.np/api/v1/public/mutual-funds/mbl-equity-fund",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T18:16:28Z",
+      "points": 93
+    },
+    {
+      "symbol": "NIBLSTF",
+      "source": "nimb",
+      "manager": "NIMB Ace Capital",
+      "name": "NIBL Stable Fund",
+      "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-stable-fund/",
+      "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nav-nibl-stable-fund",
+      "latest_as_of": "2026-09-03",
+      "last_successful_fetch": "2026-09-09T18:18:42Z",
+      "points": 119
     },
     {
       "symbol": "NMBHF2",
@@ -24,6 +79,17 @@
       "points": 96
     },
     {
+      "symbol": "NSY",
+      "source": "nepallife",
+      "manager": "Nepal Life Capital",
+      "name": "Nepal Life Samriddhi Lagani Yojana",
+      "source_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
+      "history_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
+      "latest_as_of": "2026-08-16",
+      "last_successful_fetch": "2026-09-09T18:16:43Z",
+      "points": 31
+    },
+    {
       "symbol": "PSF",
       "source": "prabhu",
       "manager": "Prabhu Capital",
@@ -33,6 +99,28 @@
       "latest_as_of": "2026-09-04",
       "last_successful_fetch": "2026-09-09T16:21:48Z",
       "points": 338
+    },
+    {
+      "symbol": "RBBF40",
+      "source": "rbb",
+      "manager": "RBB Merchant Banking",
+      "name": "RBB Focus 40",
+      "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-focus-40",
+      "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-focus-40",
+      "latest_as_of": "2026-08-28",
+      "last_successful_fetch": "2026-09-09T18:16:30Z",
+      "points": 49
+    },
+    {
+      "symbol": "RSY",
+      "source": "reliable",
+      "manager": "Reliable Investment and Merchant Capital",
+      "name": "Reliable Samriddhi Yojana",
+      "source_url": "https://reliablecapital.com.np/reliable-samridhi-yojana",
+      "history_url": "https://api.reliablecapital.com.np/api/nav-charts",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T18:18:44Z",
+      "points": 72
     },
     {
       "symbol": "SIGS2",

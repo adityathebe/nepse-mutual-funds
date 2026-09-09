@@ -1,0 +1,219 @@
+[
+  {
+    "as_of": "2026-02-06",
+    "nav": 9.95,
+    "date_bs": "2082-10-23",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana , Magh 23, 2082"
+  },
+  {
+    "as_of": "2026-02-13",
+    "nav": 9.93,
+    "date_bs": "2082-11-01",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana , Falgun 01, 2082"
+  },
+  {
+    "as_of": "2026-02-20",
+    "nav": 9.9,
+    "date_bs": "2082-11-08",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana , Falgun 08, 2082"
+  },
+  {
+    "as_of": "2026-02-27",
+    "nav": 9.92,
+    "date_bs": "2082-11-15",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana , Falgun 15, 2082"
+  },
+  {
+    "as_of": "2026-03-05",
+    "nav": 9.99,
+    "date_bs": "2082-11-21",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana , Falgun 21, 2082"
+  },
+  {
+    "as_of": "2026-03-13",
+    "nav": 10.15,
+    "date_bs": "2082-11-29",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana , Falgun 29, 2082"
+  },
+  {
+    "as_of": "2026-03-20",
+    "nav": 10.22,
+    "date_bs": "2082-12-06",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana , Chaitra 06, 2082"
+  },
+  {
+    "as_of": "2026-03-27",
+    "nav": 10.29,
+    "date_bs": "2082-12-13",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Chaitra 13, 2082"
+  },
+  {
+    "as_of": "2026-04-03",
+    "nav": 9.87,
+    "date_bs": "2082-12-20",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Chaitra 20, 2082"
+  },
+  {
+    "as_of": "2026-04-10",
+    "nav": 9.96,
+    "date_bs": "2082-12-27",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Chaitra 27, 2082"
+  },
+  {
+    "as_of": "2026-04-13",
+    "nav": 9.95,
+    "date_bs": "2082-12-30",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Chaitra 30, 2082"
+  },
+  {
+    "as_of": "2026-04-17",
+    "nav": 9.93,
+    "date_bs": "2083-01-04",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Baisakh 04, 2083"
+  },
+  {
+    "as_of": "2026-04-24",
+    "nav": 9.83,
+    "date_bs": "2083-01-11",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Baisakh 11, 2083"
+  },
+  {
+    "as_of": "2026-05-01",
+    "nav": 9.78,
+    "date_bs": "2083-01-18",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Baisakh 18, 2083"
+  },
+  {
+    "as_of": "2026-05-08",
+    "nav": 9.82,
+    "date_bs": "2083-01-25",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Baisakh 25, 2083"
+  },
+  {
+    "as_of": "2026-05-15",
+    "nav": 9.8,
+    "date_bs": "2083-02-01",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Jestha 01, 2083"
+  },
+  {
+    "as_of": "2026-05-22",
+    "nav": 9.87,
+    "date_bs": "2083-02-08",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Jestha 08, 2083"
+  },
+  {
+    "as_of": "2026-05-27",
+    "nav": 9.93,
+    "date_bs": "2083-02-13",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Jestha 13, 2083"
+  },
+  {
+    "as_of": "2026-06-05",
+    "nav": 9.9,
+    "date_bs": "2083-02-22",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Jestha 22, 2083"
+  },
+  {
+    "as_of": "2026-06-12",
+    "nav": 9.83,
+    "date_bs": "2083-02-29",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Jestha 29, 2083"
+  },
+  {
+    "as_of": "2026-06-19",
+    "nav": 9.8,
+    "date_bs": "2083-03-05",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Ashar 05, 2083"
+  },
+  {
+    "as_of": "2026-06-26",
+    "nav": 9.7,
+    "date_bs": "2083-03-12",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Ashar 12, 2083"
+  },
+  {
+    "as_of": "2026-07-03",
+    "nav": 9.75,
+    "date_bs": "2083-03-19",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Ashar 19, 2083"
+  },
+  {
+    "as_of": "2026-07-10",
+    "nav": 9.64,
+    "date_bs": "2083-03-26",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Ashar 26, 2083"
+  },
+  {
+    "as_of": "2026-07-16",
+    "nav": 9.67,
+    "date_bs": "2083-03-32",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Ashar 32, 2083"
+  },
+  {
+    "as_of": "2026-07-17",
+    "nav": 9.85,
+    "date_bs": "2083-04-01",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Shrawan 01, 2083"
+  },
+  {
+    "as_of": "2026-07-24",
+    "nav": 9.98,
+    "date_bs": "2083-04-08",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Shrawan 08, 2083"
+  },
+  {
+    "as_of": "2026-07-31",
+    "nav": 9.86,
+    "date_bs": "2083-04-15",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Shrawan 15, 2083"
+  },
+  {
+    "as_of": "2026-08-07",
+    "nav": 9.77,
+    "date_bs": "2083-04-22",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Shrawan 22, 2083"
+  },
+  {
+    "as_of": "2026-08-14",
+    "nav": 9.8,
+    "date_bs": "2083-04-29",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Shrawan 29, 2083"
+  },
+  {
+    "as_of": "2026-08-16",
+    "nav": 9.79,
+    "date_bs": "2083-04-31",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Shrawan 31, 2083"
+  }
+]

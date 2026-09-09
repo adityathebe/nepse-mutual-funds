@@ -1,0 +1,560 @@
+[
+  {
+    "as_of": "2025-03-28",
+    "nav": 9.98,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-04-04",
+    "nav": 9.98,
+    "frequency": "weekly",
+    "source_label": "Week 2"
+  },
+  {
+    "as_of": "2025-04-11",
+    "nav": 9.96,
+    "frequency": "weekly",
+    "source_label": "Week 3"
+  },
+  {
+    "as_of": "2025-04-13",
+    "nav": 9.96,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav"
+  },
+  {
+    "as_of": "2025-04-18",
+    "nav": 10,
+    "frequency": "weekly",
+    "source_label": "Week 4"
+  },
+  {
+    "as_of": "2025-04-25",
+    "nav": 9.96,
+    "frequency": "weekly",
+    "source_label": "Week 5"
+  },
+  {
+    "as_of": "2025-05-02",
+    "nav": 9.93,
+    "frequency": "weekly",
+    "source_label": "Week 6"
+  },
+  {
+    "as_of": "2025-05-09",
+    "nav": 9.99,
+    "frequency": "weekly",
+    "source_label": "Week 7"
+  },
+  {
+    "as_of": "2025-05-16",
+    "nav": 9.95,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav"
+  },
+  {
+    "as_of": "2025-05-16",
+    "nav": 9.94,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-05-23",
+    "nav": 10.05,
+    "frequency": "weekly",
+    "source_label": "weekly Nav"
+  },
+  {
+    "as_of": "2025-05-30",
+    "nav": 10.05,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-06-06",
+    "nav": 9.95,
+    "frequency": "weekly",
+    "source_label": "WEEKLY NAV"
+  },
+  {
+    "as_of": "2025-06-13",
+    "nav": 9.99,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-06-14",
+    "nav": 9.99,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav Jestha"
+  },
+  {
+    "as_of": "2025-06-20",
+    "nav": 9.94,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-06-27",
+    "nav": 9.86,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-07-04",
+    "nav": 10.18,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-07-11",
+    "nav": 10.24,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-07-16",
+    "nav": 10.44,
+    "frequency": "monthly",
+    "source_label": "monthly Nav"
+  },
+  {
+    "as_of": "2025-07-18",
+    "nav": 10.69,
+    "frequency": "weekly",
+    "source_label": "weekly Nav"
+  },
+  {
+    "as_of": "2025-07-25",
+    "nav": 11.15,
+    "frequency": "weekly",
+    "source_label": "weekly Nav"
+  },
+  {
+    "as_of": "2025-08-01",
+    "nav": 11.01,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-08-08",
+    "nav": 10.78,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-08-15",
+    "nav": 10.6,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-08-16",
+    "nav": 10.6,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav Shrawan"
+  },
+  {
+    "as_of": "2025-08-22",
+    "nav": 10.57,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-08-29",
+    "nav": 10.68,
+    "frequency": "weekly",
+    "source_label": "Weekly nav"
+  },
+  {
+    "as_of": "2025-09-05",
+    "nav": 10.48,
+    "frequency": "weekly",
+    "source_label": "weekly nav"
+  },
+  {
+    "as_of": "2025-09-12",
+    "nav": 10.36,
+    "frequency": "weekly",
+    "source_label": "Weekly nav"
+  },
+  {
+    "as_of": "2025-09-16",
+    "nav": 10.36,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav"
+  },
+  {
+    "as_of": "2025-09-19",
+    "nav": 9.88,
+    "frequency": "weekly",
+    "source_label": "Weekly NAv"
+  },
+  {
+    "as_of": "2025-09-26",
+    "nav": 10.28,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-10-03",
+    "nav": 10.33,
+    "frequency": "weekly",
+    "source_label": "Weekly nav"
+  },
+  {
+    "as_of": "2025-10-10",
+    "nav": 10.11,
+    "frequency": "weekly",
+    "source_label": "weekly nav"
+  },
+  {
+    "as_of": "2025-10-17",
+    "nav": 9.8,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav Ashwin 2082"
+  },
+  {
+    "as_of": "2025-10-17",
+    "nav": 9.8,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-10-24",
+    "nav": 9.85,
+    "frequency": "weekly",
+    "source_label": "weekly nav"
+  },
+  {
+    "as_of": "2025-10-31",
+    "nav": 10.08,
+    "frequency": "weekly",
+    "source_label": "weekly nav"
+  },
+  {
+    "as_of": "2025-11-07",
+    "nav": 10.1,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-11-14",
+    "nav": 10.09,
+    "frequency": "weekly",
+    "source_label": "Weekly nav"
+  },
+  {
+    "as_of": "2025-11-16",
+    "nav": 10.08,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav Kartik 2082"
+  },
+  {
+    "as_of": "2025-11-21",
+    "nav": 10.15,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-11-28",
+    "nav": 10.62,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-12-05",
+    "nav": 10.52,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-12-12",
+    "nav": 10.5,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2025-12-15",
+    "nav": 10.52,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav"
+  },
+  {
+    "as_of": "2025-12-19",
+    "nav": 10.6,
+    "frequency": "weekly",
+    "source_label": "weekly nav"
+  },
+  {
+    "as_of": "2025-12-26",
+    "nav": 10.44,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav"
+  },
+  {
+    "as_of": "2026-01-02",
+    "nav": 10.6,
+    "frequency": "weekly",
+    "source_label": "weekly Nav"
+  },
+  {
+    "as_of": "2026-01-09",
+    "nav": 10.61,
+    "frequency": "weekly",
+    "source_label": "weekly nav"
+  },
+  {
+    "as_of": "2026-01-14",
+    "nav": 10.83,
+    "frequency": "monthly",
+    "source_label": "Monthly NAV"
+  },
+  {
+    "as_of": "2026-01-16",
+    "nav": 10.83,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-01-23",
+    "nav": 11.15,
+    "frequency": "weekly",
+    "source_label": "MBLEF Weekly NAV"
+  },
+  {
+    "as_of": "2026-01-30",
+    "nav": 11.1,
+    "frequency": "weekly",
+    "source_label": "MBLEF Weekly NAV"
+  },
+  {
+    "as_of": "2026-02-06",
+    "nav": 11.08,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav MBLEF"
+  },
+  {
+    "as_of": "2026-02-12",
+    "nav": 10.94,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav Magh"
+  },
+  {
+    "as_of": "2026-02-13",
+    "nav": 10.94,
+    "frequency": "weekly",
+    "source_label": "Weekly Nav MBLEF"
+  },
+  {
+    "as_of": "2026-02-20",
+    "nav": 10.83,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV MBLEF"
+  },
+  {
+    "as_of": "2026-02-27",
+    "nav": 10.96,
+    "frequency": "weekly",
+    "source_label": "Weekly nav"
+  },
+  {
+    "as_of": "2026-03-06",
+    "nav": 11.13,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-03-13",
+    "nav": 11.46,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-03-14",
+    "nav": 11.46,
+    "frequency": "monthly",
+    "source_label": "MBLEF monthly"
+  },
+  {
+    "as_of": "2026-03-20",
+    "nav": 11.57,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-03-27",
+    "nav": 11.72,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-04-03",
+    "nav": 11.26,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-04-10",
+    "nav": 11.35,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-04-13",
+    "nav": 11.34,
+    "frequency": "monthly",
+    "source_label": "MBLEF monthly"
+  },
+  {
+    "as_of": "2026-04-17",
+    "nav": 11.26,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-04-24",
+    "nav": 11.08,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-05-01",
+    "nav": 10.99,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-05-08",
+    "nav": 11.02,
+    "frequency": "weekly",
+    "source_label": "MBLEF weekly"
+  },
+  {
+    "as_of": "2026-05-14",
+    "nav": 11.01,
+    "frequency": "monthly",
+    "source_label": "MBLEF monthly"
+  },
+  {
+    "as_of": "2026-05-15",
+    "nav": 11.01,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-05-22",
+    "nav": 11.07,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-05-29",
+    "nav": 11.15,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-06-05",
+    "nav": 11.09,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-06-12",
+    "nav": 11.02,
+    "frequency": "weekly",
+    "source_label": "MBLEF weekly"
+  },
+  {
+    "as_of": "2026-06-14",
+    "nav": 11.02,
+    "frequency": "monthly",
+    "source_label": "MBLEF monthly"
+  },
+  {
+    "as_of": "2026-06-19",
+    "nav": 10.98,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-06-26",
+    "nav": 10.85,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-07-03",
+    "nav": 10.88,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-07-10",
+    "nav": 10.78,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-07-16",
+    "nav": 10.85,
+    "frequency": "monthly",
+    "source_label": "MBLEF monthly"
+  },
+  {
+    "as_of": "2026-07-17",
+    "nav": 11.01,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-07-24",
+    "nav": 11.1,
+    "frequency": "weekly",
+    "source_label": "MBLEF weekly"
+  },
+  {
+    "as_of": "2026-07-31",
+    "nav": 11.03,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-08-07",
+    "nav": 10.9,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-08-14",
+    "nav": 10.93,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-08-16",
+    "nav": 10.93,
+    "frequency": "monthly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-08-21",
+    "nav": 10.08,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-08-28",
+    "nav": 9.9,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-09-04",
+    "nav": 9.89,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
+  }
+]

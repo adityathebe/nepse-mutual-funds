@@ -42,7 +42,7 @@ func run() error {
 	}
 	flags := flag.NewFlagSet(command, flag.ContinueOnError)
 	dir := flags.String("data", "data", "static data directory")
-	source := flags.String("source", "all", "source: all, nmb, prabhu, siddhartha, globalime (sync only)")
+	source := flags.String("source", "all", "source: all, nmb, prabhu, siddhartha, globalime, machhapuchchhre, rbb, nimb, himalayaninvest, reliable, citizens, nepallife (sync only)")
 	if err := flags.Parse(os.Args[2:]); err != nil {
 		return err
 	}

@@ -1,0 +1,434 @@
+[
+  {
+    "as_of": "2025-07-25",
+    "nav": 10.2,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-08-01",
+    "nav": 10.11,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-08-08",
+    "nav": 9.99,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-08-15",
+    "nav": 9.84,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-08-16",
+    "nav": 9.84,
+    "frequency": "monthly",
+    "source_label": "Monthly NAV-Shrawan 2082"
+  },
+  {
+    "as_of": "2025-08-22",
+    "nav": 9.83,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-08-29",
+    "nav": 9.9,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-09-05",
+    "nav": 9.75,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-09-12",
+    "nav": 9.64,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-09-16",
+    "nav": 9.64,
+    "frequency": "monthly",
+    "source_label": "Monthly NAV-Bhadra 2082"
+  },
+  {
+    "as_of": "2025-09-19",
+    "nav": 9.24,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-09-26",
+    "nav": 9.59,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-10-03",
+    "nav": 9.62,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-10-10",
+    "nav": 9.39,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-10-17",
+    "nav": 9.12,
+    "frequency": "monthly",
+    "source_label": "Monthly NAV-Ashwin 2082"
+  },
+  {
+    "as_of": "2025-10-17",
+    "nav": 9.12,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-10-24",
+    "nav": 9.15,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-10-31",
+    "nav": 9.46,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-11-07",
+    "nav": 9.48,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-11-14",
+    "nav": 9.38,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-11-16",
+    "nav": 9.36,
+    "frequency": "monthly",
+    "source_label": "Monthly NAV-Kartik 2082"
+  },
+  {
+    "as_of": "2025-11-21",
+    "nav": 9.41,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-11-28",
+    "nav": 9.77,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-12-05",
+    "nav": 9.65,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-12-12",
+    "nav": 9.6,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-12-15",
+    "nav": 9.59,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav- Mangsir 2082"
+  },
+  {
+    "as_of": "2025-12-19",
+    "nav": 9.66,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2025-12-26",
+    "nav": 9.59,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-01-02",
+    "nav": 9.71,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-01-09",
+    "nav": 9.83,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-01-14",
+    "nav": 9.82,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav- Poush 2082"
+  },
+  {
+    "as_of": "2026-01-16",
+    "nav": 9.82,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-01-23",
+    "nav": 10.08,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-01-30",
+    "nav": 10.04,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-02-06",
+    "nav": 10.02,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-02-12",
+    "nav": 9.91,
+    "frequency": "monthly",
+    "source_label": "Monthly-NAV-Magh 2082"
+  },
+  {
+    "as_of": "2026-02-13",
+    "nav": 9.91,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-02-20",
+    "nav": 9.81,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-02-27",
+    "nav": 9.88,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-03-06",
+    "nav": 10.06,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-03-13",
+    "nav": 10.4,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-03-14",
+    "nav": 10.4,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav- Falgun 2082"
+  },
+  {
+    "as_of": "2026-03-20",
+    "nav": 10.6,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-03-27",
+    "nav": 10.78,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-04-03",
+    "nav": 10.32,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-04-10",
+    "nav": 10.48,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-04-13",
+    "nav": 10.46,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav- Chaitra 2082"
+  },
+  {
+    "as_of": "2026-04-17",
+    "nav": 10.46,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-04-24",
+    "nav": 10.31,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-05-01",
+    "nav": 10.21,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-05-08",
+    "nav": 10.24,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-05-14",
+    "nav": 10.23,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav- Baisakh 2083"
+  },
+  {
+    "as_of": "2026-05-15",
+    "nav": 10.23,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-05-22",
+    "nav": 10.32,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-05-29",
+    "nav": 10.4,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-06-05",
+    "nav": 10.31,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-06-12",
+    "nav": 10.22,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-06-14",
+    "nav": 10.22,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav- Jestha 2083"
+  },
+  {
+    "as_of": "2026-06-19",
+    "nav": 10.17,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-06-26",
+    "nav": 10.03,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-07-03",
+    "nav": 10.06,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-07-10",
+    "nav": 9.91,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-07-16",
+    "nav": 9.93,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav- Ashad 2083"
+  },
+  {
+    "as_of": "2026-07-17",
+    "nav": 10.17,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-07-24",
+    "nav": 10.33,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-07-31",
+    "nav": 10.19,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-08-07",
+    "nav": 10.08,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-08-14",
+    "nav": 10.08,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-08-16",
+    "nav": 10.07,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav- Shrawan 2083"
+  },
+  {
+    "as_of": "2026-08-21",
+    "nav": 10.01,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-08-28",
+    "nav": 9.82,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-09-03",
+    "nav": 9.79,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  }
+]
