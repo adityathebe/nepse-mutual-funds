@@ -246,24 +246,23 @@ func Sync(dir string, incoming []Series, fetched time.Time) (int, error) {
 	return changed, err
 }
 
-// Export writes a compact symbol -> [latest weekly NAV, latest monthly NAV] lookup.
-// Load validates chronological order; daily points never replace either slot.
-// Missing frequencies remain null rather than implying a zero NAV.
+// Export writes symbol -> [weekly NAV, weekly AD date, monthly NAV, monthly AD date].
+// Load validates chronological order; daily points never replace either pair.
+// Missing frequencies remain [null, null]; dates are as-of dates, not fetch times.
 func Export(dir, path string) (bool, error) {
 	series, err := Load(dir)
 	if err != nil {
 		return false, err
 	}
-	values := make(map[string][2]*float64, len(series))
+	values := make(map[string][4]any, len(series))
 	for _, s := range series {
-		var pair [2]*float64
+		var pair [4]any
 		for _, p := range s.History {
-			nav := p.NAV
 			switch p.Frequency {
 			case "weekly":
-				pair[0] = &nav
+				pair[0], pair[1] = p.NAV, p.AsOf
 			case "monthly":
-				pair[1] = &nav
+				pair[2], pair[3] = p.NAV, p.AsOf
 			}
 		}
 		values[s.Fund.Symbol] = pair
