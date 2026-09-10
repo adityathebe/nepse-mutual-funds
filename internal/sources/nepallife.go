@@ -49,6 +49,12 @@ func fetchNepalLife(ctx context.Context, client *http.Client) ([]history.Series,
 		}
 		s.History = append(s.History, history.Point{AsOf: date, DateBS: fmt.Sprintf("%04d-%02d-%02d", y, m, d), NAV: nav, Frequency: "weekly", SourceLabel: row.Title})
 	}
+	var err error
+	s.History, err = withMonthEndNAVs(s.History)
+	if err != nil {
+		return nil, err
+	}
+	s.Fund.MonthlyNAVBasis = "bs_month_end_observation"
 	if err := history.Normalize(s.History, time.Now()); err != nil {
 		return nil, err
 	}

@@ -34,6 +34,7 @@ type Fund struct {
 	SourceURL           string `json:"source_url"`
 	HistoryURL          string `json:"history_url"`
 	MonthlyHistoryURL   string `json:"monthly_history_url,omitempty"`
+	MonthlyNAVBasis     string `json:"monthly_nav_basis,omitempty"`
 	LatestAsOf          string `json:"latest_as_of"`
 	LastSuccessfulFetch string `json:"last_successful_fetch"`
 	Points              int    `json:"points"`
@@ -91,6 +92,9 @@ func validateSeries(s Series) error {
 	f := s.Fund
 	if !symbolPattern.MatchString(f.Symbol) || f.Source == "" || f.Manager == "" || f.Name == "" || !validURL(f.SourceURL) || !validURL(f.HistoryURL) || (f.MonthlyHistoryURL != "" && !validURL(f.MonthlyHistoryURL)) {
 		return fmt.Errorf("invalid metadata for %q", f.Symbol)
+	}
+	if f.MonthlyNAVBasis != "" && f.MonthlyNAVBasis != "bs_month_end_observation" {
+		return fmt.Errorf("invalid monthly NAV basis for %s", f.Symbol)
 	}
 	fetched, err := time.Parse(time.RFC3339, f.LastSuccessfulFetch)
 	if err != nil || fetched.After(time.Now().Add(5*time.Minute)) {

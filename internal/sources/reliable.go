@@ -45,6 +45,12 @@ func fetchReliable(ctx context.Context, client *http.Client) ([]history.Series, 
 			}
 			break
 		}
+		var err error
+		s.History, err = withMonthEndNAVs(s.History)
+		if err != nil {
+			return nil, err
+		}
+		s.Fund.MonthlyNAVBasis = "bs_month_end_observation"
 		if err := history.Normalize(s.History, time.Now()); err != nil {
 			return nil, err
 		}

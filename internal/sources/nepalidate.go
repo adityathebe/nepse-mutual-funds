@@ -6,6 +6,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/adityathebe/nepse-mutual-funds/internal/history"
 )
 
 var bsLabel = regexp.MustCompile(`(?i)^(\d{1,2})(?:st|nd|rd|th)?[ /]+([a-z]+)[ /,]+(\d{4})$`)
@@ -36,20 +38,21 @@ func parseBS(label string) (year, month, day int, err error) {
 
 // Calendar facts from medic/bikram-sambat, pinned and attributed in THIRD_PARTY.md.
 // Only verified years are supported; never extrapolate a BS calendar into future years.
+var bsMonths = map[int][12]int{
+	2074: {31, 31, 31, 32, 31, 31, 30, 29, 30, 29, 30, 30},
+	2075: {31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30},
+	2076: {31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 30},
+	2077: {31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31},
+	2078: {31, 31, 31, 32, 31, 31, 30, 29, 30, 29, 30, 30},
+	2079: {31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30},
+	2080: {31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 30},
+	2081: {31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31},
+	2082: {31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30},
+	2083: {31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30},
+}
+
 func bsToAD(year, month, day int) (string, error) {
-	months := map[int][12]int{
-		2074: {31, 31, 31, 32, 31, 31, 30, 29, 30, 29, 30, 30},
-		2075: {31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30},
-		2076: {31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 30},
-		2077: {31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31},
-		2078: {31, 31, 31, 32, 31, 31, 30, 29, 30, 29, 30, 30},
-		2079: {31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30},
-		2080: {31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 30},
-		2081: {31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31},
-		2082: {31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30},
-		2083: {31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30},
-	}
-	lengths, ok := months[year]
+	lengths, ok := bsMonths[year]
 	if !ok {
 		return "", fmt.Errorf("unsupported BS calendar year %d; update verified calendar data", year)
 	}
@@ -58,12 +61,12 @@ func bsToAD(year, month, day int) (string, error) {
 	}
 	days := day - 1
 	for y := 2082; y < year; y++ {
-		for _, n := range months[y] {
+		for _, n := range bsMonths[y] {
 			days += n
 		}
 	}
 	for y := year; y < 2082; y++ {
-		for _, n := range months[y] {
+		for _, n := range bsMonths[y] {
 			days -= n
 		}
 	}
@@ -71,4 +74,45 @@ func bsToAD(year, month, day int) (string, error) {
 		days += lengths[m]
 	}
 	return time.Date(2025, 4, 14, 0, 0, 0, 0, time.UTC).AddDate(0, 0, days).Format(time.DateOnly), nil
+}
+
+// withMonthEndNAVs supplements untyped NAV feeds with exact BS month-end observations.
+// Keep the existing weekly series, and mark this classification in the fund metadata:
+// these are observed month-end NAVs, not independently published monthly reports.
+// Never substitute the nearest weekly date, average values, or extrapolate the calendar.
+func withMonthEndNAVs(points []history.Point) ([]history.Point, error) {
+	ends := map[string]bool{}
+	first, last := "", ""
+	for year, months := range bsMonths {
+		start, err := bsToAD(year, 1, 1)
+		if err != nil {
+			return nil, err
+		}
+		if first == "" || start < first {
+			first = start
+		}
+		for month, days := range months {
+			end, err := bsToAD(year, month+1, days)
+			if err != nil {
+				return nil, err
+			}
+			ends[end] = true
+			if end > last {
+				last = end
+			}
+		}
+	}
+	for _, p := range points {
+		if _, err := time.Parse(time.DateOnly, p.AsOf); err != nil {
+			return nil, err
+		}
+		if p.AsOf < first || p.AsOf > last {
+			return nil, fmt.Errorf("month-end NAV: %s is outside the verified BS calendar", p.AsOf)
+		}
+		if ends[p.AsOf] {
+			p.Frequency = "monthly"
+			points = append(points, p)
+		}
+	}
+	return points, nil
 }

@@ -73,6 +73,13 @@
     "as_of": "2026-04-13",
     "nav": 9.95,
     "date_bs": "2082-12-30",
+    "frequency": "monthly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Chaitra 30, 2082"
+  },
+  {
+    "as_of": "2026-04-13",
+    "nav": 9.95,
+    "date_bs": "2082-12-30",
     "frequency": "weekly",
     "source_label": "Nepal Life Samriddhi Lagani Yojana, Chaitra 30, 2082"
   },
@@ -171,6 +178,13 @@
     "as_of": "2026-07-16",
     "nav": 9.67,
     "date_bs": "2083-03-32",
+    "frequency": "monthly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Ashar 32, 2083"
+  },
+  {
+    "as_of": "2026-07-16",
+    "nav": 9.67,
+    "date_bs": "2083-03-32",
     "frequency": "weekly",
     "source_label": "Nepal Life Samriddhi Lagani Yojana, Ashar 32, 2083"
   },
@@ -208,6 +222,13 @@
     "date_bs": "2083-04-29",
     "frequency": "weekly",
     "source_label": "Nepal Life Samriddhi Lagani Yojana, Shrawan 29, 2083"
+  },
+  {
+    "as_of": "2026-08-16",
+    "nav": 9.79,
+    "date_bs": "2083-04-31",
+    "frequency": "monthly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Shrawan 31, 2083"
   },
   {
     "as_of": "2026-08-16",
