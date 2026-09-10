@@ -13,6 +13,28 @@
       "points": 205
     },
     {
+      "symbol": "CMF1",
+      "source": "citizens",
+      "manager": "Citizens Capital",
+      "name": "Citizens Mutual Fund-I",
+      "source_url": "https://www.citizenscapital.com.np/",
+      "history_url": "https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=1",
+      "latest_as_of": "2025-03-03",
+      "last_successful_fetch": "2026-09-10T04:00:52Z",
+      "points": 293
+    },
+    {
+      "symbol": "CMF2",
+      "source": "citizens",
+      "manager": "Citizens Capital",
+      "name": "Citizens Mutual Fund-II",
+      "source_url": "https://www.citizenscapital.com.np/",
+      "history_url": "https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=2",
+      "latest_as_of": "2026-07-05",
+      "last_successful_fetch": "2026-09-10T04:00:52Z",
+      "points": 373
+    },
+    {
       "symbol": "CSY",
       "source": "citizens",
       "manager": "Citizens Capital",
@@ -112,6 +134,28 @@
       "points": 162
     },
     {
+      "symbol": "LSH12",
+      "source": "lscapital",
+      "manager": "LS Capital",
+      "name": "LS Horizon 12",
+      "source_url": "https://lscapital.com.np/",
+      "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=8",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T04:02:35Z",
+      "points": 10
+    },
+    {
+      "symbol": "LUK",
+      "source": "lscapital",
+      "manager": "LS Capital",
+      "name": "Laxmi Unnati Kosh",
+      "source_url": "https://lscapital.com.np/",
+      "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=6",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T04:02:35Z",
+      "points": 144
+    },
+    {
       "symbol": "LVF2",
       "source": "lscapital",
       "manager": "LS Capital",
@@ -134,6 +178,17 @@
       "points": 93
     },
     {
+      "symbol": "MMF1",
+      "source": "nimb",
+      "manager": "NIMB Ace Capital",
+      "name": "Mega Mutual Fund 1",
+      "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-mega-mutual-fund/",
+      "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=mega-mutual-fund-nav",
+      "latest_as_of": "2026-09-03",
+      "last_successful_fetch": "2026-09-10T03:48:18Z",
+      "points": 122
+    },
+    {
       "symbol": "MNMF1",
       "source": "muktinath",
       "manager": "Muktinath Capital",
@@ -143,6 +198,28 @@
       "latest_as_of": "2026-09-04",
       "last_successful_fetch": "2026-09-09T21:19:06Z",
       "points": 109
+    },
+    {
+      "symbol": "NBF2",
+      "source": "nabil",
+      "manager": "Nabil Investment Banking",
+      "name": "Nabil Balanced Fund II",
+      "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
+      "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=3",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T03:50:28Z",
+      "points": 465
+    },
+    {
+      "symbol": "NBF3",
+      "source": "nabil",
+      "manager": "Nabil Investment Banking",
+      "name": "Nabil Balanced Fund III",
+      "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
+      "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T03:50:28Z",
+      "points": 318
     },
     {
       "symbol": "NIBLGF",
@@ -165,6 +242,83 @@
       "latest_as_of": "2026-09-03",
       "last_successful_fetch": "2026-09-09T18:18:42Z",
       "points": 119
+    },
+    {
+      "symbol": "NIBSF2",
+      "source": "nimb",
+      "manager": "NIMB Ace Capital",
+      "name": "NIBL Samriddhi Fund II",
+      "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-samriddhi-fund-ii/",
+      "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nibl-samriddhi-fund-2-nav",
+      "latest_as_of": "2026-09-03",
+      "last_successful_fetch": "2026-09-10T03:48:18Z",
+      "points": 120
+    },
+    {
+      "symbol": "NICBF",
+      "source": "nicasia",
+      "manager": "NIC ASIA Capital",
+      "name": "NIC ASIA Balanced Fund",
+      "source_url": "https://www.nicasiacapital.com/nav-details",
+      "history_url": "https://www.nicasiacapital.com/nav-details?category=2",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T03:46:07Z",
+      "points": 340
+    },
+    {
+      "symbol": "NICFC",
+      "source": "nicasia",
+      "manager": "NIC ASIA Capital",
+      "name": "NIC ASIA Flexi Cap Fund",
+      "source_url": "https://www.nicasiacapital.com/nav-details",
+      "history_url": "https://www.nicasiacapital.com/nav-details?category=7",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T03:46:07Z",
+      "points": 265
+    },
+    {
+      "symbol": "NICGF",
+      "source": "nicasia",
+      "manager": "NIC ASIA Capital",
+      "name": "NIC ASIA Growth Fund",
+      "source_url": "https://www.nicasiacapital.com/nav-details",
+      "history_url": "https://www.nicasiacapital.com/nav-details?category=1",
+      "latest_as_of": "2025-03-13",
+      "last_successful_fetch": "2026-09-10T04:03:15Z",
+      "points": 278
+    },
+    {
+      "symbol": "NICGF2",
+      "source": "nicasia",
+      "manager": "NIC ASIA Capital",
+      "name": "NIC ASIA Growth Fund 2",
+      "source_url": "https://www.nicasiacapital.com/nav-details",
+      "history_url": "https://www.nicasiacapital.com/nav-details?category=8",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T03:46:07Z",
+      "points": 173
+    },
+    {
+      "symbol": "NICSF",
+      "source": "nicasia",
+      "manager": "NIC ASIA Capital",
+      "name": "NIC ASIA Select 30 (Index Fund)",
+      "source_url": "https://www.nicasiacapital.com/nav-details",
+      "history_url": "https://www.nicasiacapital.com/nav-details?category=6",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T03:46:07Z",
+      "points": 318
+    },
+    {
+      "symbol": "NMB50",
+      "source": "nmb",
+      "manager": "NMB Capital",
+      "name": "NMB 50",
+      "source_url": "https://www.nmbcl.com.np/navhistory",
+      "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=3",
+      "latest_as_of": "2026-08-31",
+      "last_successful_fetch": "2026-09-10T04:00:02Z",
+      "points": 350
     },
     {
       "symbol": "NMBHF2",
@@ -233,6 +387,17 @@
       "points": 49
     },
     {
+      "symbol": "RMF1",
+      "source": "rbb",
+      "manager": "RBB Merchant Banking",
+      "name": "RBB Mutual Fund 1",
+      "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-1",
+      "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-1",
+      "latest_as_of": "2026-08-28",
+      "last_successful_fetch": "2026-09-10T03:44:16Z",
+      "points": 262
+    },
+    {
       "symbol": "RMF2",
       "source": "rbb",
       "manager": "RBB Merchant Banking",
@@ -255,6 +420,28 @@
       "points": 72
     },
     {
+      "symbol": "RSY2",
+      "source": "reliable",
+      "manager": "Reliable Investment and Merchant Capital",
+      "name": "Reliable Samriddhi Yojana 2",
+      "source_url": "https://reliablecapital.com.np/reliable-samridhi-yojana-two",
+      "history_url": "https://api.reliablecapital.com.np/api/nav-chart-2",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T04:00:47Z",
+      "points": 13
+    },
+    {
+      "symbol": "SAEF2",
+      "source": "sanima",
+      "manager": "Sanima Capital",
+      "name": "Sanima Equity Fund-2",
+      "source_url": "https://www.sanimacapital.com/",
+      "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=5",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T04:01:12Z",
+      "points": 14
+    },
+    {
       "symbol": "SAGF",
       "source": "sanima",
       "manager": "Sanima Capital",
@@ -264,6 +451,61 @@
       "latest_as_of": "2026-09-04",
       "last_successful_fetch": "2026-09-09T21:14:42Z",
       "points": 242
+    },
+    {
+      "symbol": "SBCF",
+      "source": "lscapital",
+      "manager": "LS Capital",
+      "name": "Sunrise Blue Chip Fund",
+      "source_url": "https://lscapital.com.np/",
+      "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=1",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T03:51:33Z",
+      "points": 318
+    },
+    {
+      "symbol": "SEF",
+      "source": "siddhartha",
+      "manager": "Siddhartha Capital",
+      "name": "Siddhartha Equity Fund",
+      "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
+      "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=1",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T04:00:11Z",
+      "points": 575
+    },
+    {
+      "symbol": "SEF2",
+      "source": "siddhartha",
+      "manager": "Siddhartha Capital",
+      "name": "Siddhartha Equity Fund 2",
+      "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
+      "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=5",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T04:00:11Z",
+      "points": 13
+    },
+    {
+      "symbol": "SFEF",
+      "source": "lscapital",
+      "manager": "LS Capital",
+      "name": "Sunrise Focused Equity Fund",
+      "source_url": "https://lscapital.com.np/",
+      "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=3",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T03:51:33Z",
+      "points": 197
+    },
+    {
+      "symbol": "SFMF",
+      "source": "lscapital",
+      "manager": "LS Capital",
+      "name": "Sunrise First Mutual Fund",
+      "source_url": "https://lscapital.com.np/",
+      "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=2",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T03:51:33Z",
+      "points": 406
     },
     {
       "symbol": "SIGS2",
@@ -286,6 +528,17 @@
       "latest_as_of": "2026-09-04",
       "last_successful_fetch": "2026-09-09T16:21:51Z",
       "points": 219
+    },
+    {
+      "symbol": "SLCF",
+      "source": "sanima",
+      "manager": "Sanima Capital",
+      "name": "Sanima Large Cap Fund",
+      "source_url": "https://www.sanimacapital.com/",
+      "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=2",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T04:01:12Z",
+      "points": 357
     }
   ]
 }

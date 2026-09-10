@@ -1,0 +1,734 @@
+[
+  {
+    "as_of": "2024-10-16",
+    "nav": 11.25,
+    "date_bs": "2081-06-30",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2024-10-18",
+    "nav": 11.25,
+    "date_bs": "2081-07-02",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2024-10-25",
+    "nav": 10.82,
+    "date_bs": "2081-07-09",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2024-11-01",
+    "nav": 10.94,
+    "date_bs": "2081-07-16",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2024-11-08",
+    "nav": 10.91,
+    "date_bs": "2081-07-23",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2024-11-15",
+    "nav": 11.14,
+    "date_bs": "2081-07-30",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2024-11-15",
+    "nav": 11.14,
+    "date_bs": "2081-07-30",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2024-11-22",
+    "nav": 10.91,
+    "date_bs": "2081-08-07",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2024-11-29",
+    "nav": 11.02,
+    "date_bs": "2081-08-14",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2024-12-06",
+    "nav": 10.89,
+    "date_bs": "2081-08-21",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2024-12-13",
+    "nav": 10.75,
+    "date_bs": "2081-08-28",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2024-12-15",
+    "nav": 10.75,
+    "date_bs": "2081-08-30",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2024-12-20",
+    "nav": 10.51,
+    "date_bs": "2081-09-05",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2024-12-27",
+    "nav": 10.58,
+    "date_bs": "2081-09-12",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-01-03",
+    "nav": 10.34,
+    "date_bs": "2081-09-19",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-01-10",
+    "nav": 10.47,
+    "date_bs": "2081-09-26",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-01-13",
+    "nav": 10.44,
+    "date_bs": "2081-09-29",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2025-01-17",
+    "nav": 10.37,
+    "date_bs": "2081-10-04",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-01-24",
+    "nav": 10.51,
+    "date_bs": "2081-10-11",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-01-31",
+    "nav": 10.57,
+    "date_bs": "2081-10-18",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-02-07",
+    "nav": 10.65,
+    "date_bs": "2081-10-25",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-02-12",
+    "nav": 10.62,
+    "date_bs": "2081-10-30",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2025-02-14",
+    "nav": 10.59,
+    "date_bs": "2081-11-02",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-02-21",
+    "nav": 10.74,
+    "date_bs": "2081-11-09",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-02-28",
+    "nav": 10.92,
+    "date_bs": "2081-11-16",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-03-07",
+    "nav": 10.98,
+    "date_bs": "2081-11-23",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-03-13",
+    "nav": 10.82,
+    "date_bs": "2081-11-29",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2025-03-14",
+    "nav": 10.82,
+    "date_bs": "2081-12-01",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-03-21",
+    "nav": 10.58,
+    "date_bs": "2081-12-08",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-03-28",
+    "nav": 10.55,
+    "date_bs": "2081-12-15",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-04-04",
+    "nav": 10.64,
+    "date_bs": "2081-12-22",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-04-11",
+    "nav": 10.54,
+    "date_bs": "2081-12-29",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-04-13",
+    "nav": 10.54,
+    "date_bs": "2081-12-31",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2025-04-18",
+    "nav": 10.7,
+    "date_bs": "2082-01-05",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-04-25",
+    "nav": 10.47,
+    "date_bs": "2082-01-12",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-05-02",
+    "nav": 10.3,
+    "date_bs": "2082-01-19",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-05-09",
+    "nav": 10.45,
+    "date_bs": "2082-01-26",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-05-14",
+    "nav": 10.38,
+    "date_bs": "2082-01-31",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2025-05-16",
+    "nav": 10.33,
+    "date_bs": "2082-02-02",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-05-23",
+    "nav": 10.72,
+    "date_bs": "2082-02-09",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-05-30",
+    "nav": 10.71,
+    "date_bs": "2082-02-16",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-06-06",
+    "nav": 10.45,
+    "date_bs": "2082-02-23",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-06-13",
+    "nav": 10.49,
+    "date_bs": "2082-02-30",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-06-14",
+    "nav": 10.49,
+    "date_bs": "2082-02-31",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2025-06-20",
+    "nav": 10.4,
+    "date_bs": "2082-03-06",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-06-27",
+    "nav": 10.33,
+    "date_bs": "2082-03-13",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-07-04",
+    "nav": 10.77,
+    "date_bs": "2082-03-20",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-07-11",
+    "nav": 10.94,
+    "date_bs": "2082-03-27",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-07-16",
+    "nav": 11.18,
+    "date_bs": "2082-03-32",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2025-07-18",
+    "nav": 11.3,
+    "date_bs": "2082-04-02",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-07-25",
+    "nav": 11.84,
+    "date_bs": "2082-04-09",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-08-01",
+    "nav": 11.65,
+    "date_bs": "2082-04-16",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-08-08",
+    "nav": 11.43,
+    "date_bs": "2082-04-23",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-08-15",
+    "nav": 11.18,
+    "date_bs": "2082-04-30",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-08-16",
+    "nav": 11.18,
+    "date_bs": "2082-04-31",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2025-08-22",
+    "nav": 11.1,
+    "date_bs": "2082-05-06",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-08-29",
+    "nav": 11.22,
+    "date_bs": "2082-05-13",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-09-05",
+    "nav": 11.02,
+    "date_bs": "2082-05-20",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-09-12",
+    "nav": 9.7,
+    "date_bs": "2082-05-27",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-09-16",
+    "nav": 9.7,
+    "date_bs": "2082-05-31",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2025-09-19",
+    "nav": 9.16,
+    "date_bs": "2082-06-03",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-09-26",
+    "nav": 9.55,
+    "date_bs": "2082-06-10",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-10-03",
+    "nav": 9.59,
+    "date_bs": "2082-06-17",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-10-10",
+    "nav": 9.34,
+    "date_bs": "2082-06-24",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-10-17",
+    "nav": 9,
+    "date_bs": "2082-06-31",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2025-10-17",
+    "nav": 9,
+    "date_bs": "2082-06-31",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-10-24",
+    "nav": 9.06,
+    "date_bs": "2082-07-07",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-10-31",
+    "nav": 9.33,
+    "date_bs": "2082-07-14",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-11-07",
+    "nav": 9.57,
+    "date_bs": "2082-07-21",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-11-14",
+    "nav": 9.1,
+    "date_bs": "2082-07-28",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-11-16",
+    "nav": 9.11,
+    "date_bs": "2082-07-30",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2025-11-21",
+    "nav": 9.12,
+    "date_bs": "2082-08-05",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-11-28",
+    "nav": 9.53,
+    "date_bs": "2082-08-12",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-12-05",
+    "nav": 9.3,
+    "date_bs": "2082-08-19",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-12-12",
+    "nav": 9.24,
+    "date_bs": "2082-08-26",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-12-15",
+    "nav": 9.32,
+    "date_bs": "2082-08-29",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2025-12-19",
+    "nav": 9.36,
+    "date_bs": "2082-09-04",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2025-12-26",
+    "nav": 9.27,
+    "date_bs": "2082-09-11",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-01-02",
+    "nav": 9.37,
+    "date_bs": "2082-09-18",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-01-09",
+    "nav": 9.43,
+    "date_bs": "2082-09-25",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-01-14",
+    "nav": 9.55,
+    "date_bs": "2082-09-30",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2026-01-16",
+    "nav": 9.55,
+    "date_bs": "2082-10-02",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-01-23",
+    "nav": 9.79,
+    "date_bs": "2082-10-09",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-01-30",
+    "nav": 9.74,
+    "date_bs": "2082-10-16",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-02-06",
+    "nav": 9.71,
+    "date_bs": "2082-10-23",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-02-12",
+    "nav": 9.58,
+    "date_bs": "2082-10-29",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2026-02-13",
+    "nav": 9.58,
+    "date_bs": "2082-11-01",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-02-20",
+    "nav": 9.48,
+    "date_bs": "2082-11-08",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-02-27",
+    "nav": 9.56,
+    "date_bs": "2082-11-15",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-03-06",
+    "nav": 9.79,
+    "date_bs": "2082-11-22",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-03-13",
+    "nav": 10.15,
+    "date_bs": "2082-11-29",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-03-14",
+    "nav": 10.15,
+    "date_bs": "2082-11-30",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2026-03-20",
+    "nav": 10.31,
+    "date_bs": "2082-12-06",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-03-27",
+    "nav": 10.46,
+    "date_bs": "2082-12-13",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-04-03",
+    "nav": 9.96,
+    "date_bs": "2082-12-20",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-04-10",
+    "nav": 10.02,
+    "date_bs": "2082-12-27",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-04-13",
+    "nav": 9.98,
+    "date_bs": "2082-12-30",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2026-04-17",
+    "nav": 9.97,
+    "date_bs": "2083-01-04",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-04-24",
+    "nav": 9.81,
+    "date_bs": "2083-01-11",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-05-01",
+    "nav": 9.71,
+    "date_bs": "2083-01-18",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-05-08",
+    "nav": 9.76,
+    "date_bs": "2083-01-25",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-05-14",
+    "nav": 9.7,
+    "date_bs": "2083-01-31",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2026-05-15",
+    "nav": 9.7,
+    "date_bs": "2083-02-01",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-05-22",
+    "nav": 9.78,
+    "date_bs": "2083-02-08",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-05-29",
+    "nav": 9.85,
+    "date_bs": "2083-02-15",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-06-05",
+    "nav": 9.89,
+    "date_bs": "2083-02-22",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-06-12",
+    "nav": 9.78,
+    "date_bs": "2083-02-29",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-06-14",
+    "nav": 9.78,
+    "date_bs": "2083-02-31",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2026-06-19",
+    "nav": 9.69,
+    "date_bs": "2083-03-05",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-06-26",
+    "nav": 9.55,
+    "date_bs": "2083-03-12",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-07-03",
+    "nav": 9.56,
+    "date_bs": "2083-03-19",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-07-10",
+    "nav": 9.42,
+    "date_bs": "2083-03-26",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-07-16",
+    "nav": 9.48,
+    "date_bs": "2083-03-32",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2026-07-17",
+    "nav": 9.67,
+    "date_bs": "2083-04-01",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-07-24",
+    "nav": 9.81,
+    "date_bs": "2083-04-08",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-07-31",
+    "nav": 9.7,
+    "date_bs": "2083-04-15",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-08-07",
+    "nav": 9.57,
+    "date_bs": "2083-04-22",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-08-16",
+    "nav": 9.56,
+    "date_bs": "2083-04-31",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2026-08-16",
+    "nav": 9.56,
+    "date_bs": "2083-04-31",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-08-21",
+    "nav": 9.49,
+    "date_bs": "2083-05-05",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-08-28",
+    "nav": 9.32,
+    "date_bs": "2083-05-12",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-09-03",
+    "nav": 9.27,
+    "date_bs": "2083-05-18",
+    "frequency": "weekly"
+  }
+]

@@ -246,13 +246,49 @@ func Sync(dir string, incoming []Series, fetched time.Time) (int, error) {
 	return changed, err
 }
 
+// Export writes a compact symbol -> [latest weekly NAV, latest monthly NAV] lookup.
+// Load validates chronological order; daily points never replace either slot.
+// Missing frequencies remain null rather than implying a zero NAV.
+func Export(dir, path string) (bool, error) {
+	series, err := Load(dir)
+	if err != nil {
+		return false, err
+	}
+	values := make(map[string][2]*float64, len(series))
+	for _, s := range series {
+		var pair [2]*float64
+		for _, p := range s.History {
+			nav := p.NAV
+			switch p.Frequency {
+			case "weekly":
+				pair[0] = &nav
+			case "monthly":
+				pair[1] = &nav
+			}
+		}
+		values[s.Fund.Symbol] = pair
+	}
+	b, err := json.Marshal(values)
+	if err != nil {
+		return false, err
+	}
+	if err := os.MkdirAll(filepath.Dir(path), 0755); err != nil {
+		return false, err
+	}
+	return writeBytes(path, b)
+}
+
 // writeJSON compares bytes before atomic replacement. The manifest is written last.
 func writeJSON(path string, v any) (bool, error) {
 	b, err := json.MarshalIndent(v, "", "  ")
 	if err != nil {
 		return false, err
 	}
-	b = append(b, '\n')
+	return writeBytes(path, append(b, '\n'))
+}
+
+// All static outputs use byte comparison and atomic replacement, including compact exports.
+func writeBytes(path string, b []byte) (bool, error) {
 	old, err := os.ReadFile(path)
 	if err != nil && !errors.Is(err, os.ErrNotExist) {
 		return false, err

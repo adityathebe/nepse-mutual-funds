@@ -1,0 +1,68 @@
+name: Export and publish NAV API
+
+on:
+  workflow_run:
+    workflows: ['Collect and publish NAV history']
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nav-static-data
+  cancel-in-progress: false
+
+jobs:
+  export:
+    if: >-
+      (github.event_name == 'workflow_dispatch' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)) ||
+      (github.event_name == 'workflow_run' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      github.event.workflow_run.head_branch == github.event.repository.default_branch &&
+      (github.event.workflow_run.event == 'schedule' || github.event.workflow_run.event == 'workflow_dispatch') &&
+      (github.event.workflow_run.conclusion == 'success' || github.event.workflow_run.conclusion == 'failure'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: false
+      - name: Generate compact weekly/monthly NAV lookup from validated histories
+        run: go run ./cmd/navcollector export
+      - name: Commit changed export only
+        run: |
+          git add -- exports/nav.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'data: export latest weekly and monthly NAVs'
+            git push origin "HEAD:${{ github.event.repository.default_branch }}"
+          fi
+      - name: Assemble histories and aggregate from the same snapshot
+        run: |
+          mkdir -p "$RUNNER_TEMP/site/data" "$RUNNER_TEMP/site/exports"
+          cp data/*.json "$RUNNER_TEMP/site/data/"
+          cp exports/nav.json "$RUNNER_TEMP/site/exports/"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/site
+
+  publish:
+    needs: export
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

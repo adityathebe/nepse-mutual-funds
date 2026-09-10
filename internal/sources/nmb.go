@@ -3,6 +3,7 @@ package sources
 import (
 	"context"
 	"fmt"
+	"log"
 	"net/http"
 	"sort"
 	"strconv"
@@ -42,10 +43,11 @@ func fetchNMB(ctx context.Context, client *http.Client) ([]history.Series, error
 	for _, fund := range []struct {
 		id     int
 		symbol string
-	}{{6, "NMBHF2"}, {5, "NSIF2"}} {
+		name   string
+	}{{6, "NMBHF2", "NMB Hybrid Fund L II"}, {5, "NSIF2", "NMB Sulav Investment Fund II"}, {3, "NMB50", "NMB 50"}} {
 		name := ""
 		for _, scheme := range registry.Scheme {
-			if scheme.ID == fund.id && scheme.Symbol == fund.symbol {
+			if scheme.ID == fund.id && (scheme.Symbol == fund.symbol || (scheme.Symbol == "" && scheme.Name == fund.name)) {
 				name = scheme.Name
 			}
 		}
@@ -84,12 +86,27 @@ func fetchLSCapital(ctx context.Context, client *http.Client) ([]history.Series,
 		return nil, fmt.Errorf("LS Capital: missing history years")
 	}
 	sort.Strings(years)
-	for _, fund := range registry.Scheme {
-		if fund.ID == 7 && fund.Slug == "laxmi-value-fund-ii" {
-			return fetchNAVTable(ctx, client, history.Fund{Symbol: "LVF2", Name: fund.Name, Source: "lscapital", Manager: "LS Capital", SourceURL: "https://lscapital.com.np/", HistoryURL: "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=7"}, 7, []string{"weekly", "monthly"}, years...)
+	var result []history.Series
+	for _, wanted := range []struct {
+		id           int
+		symbol, slug string
+	}{{7, "LVF2", "laxmi-value-fund-ii"}, {1, "SBCF", "sunrise-blue-chip-fund"}, {2, "SFMF", "sunrise-first-mutual-fund"}, {3, "SFEF", "sunrise-focused-equity-fund"}, {6, "LUK", "laxmi-unnati-kosh"}, {8, "LSH12", "ls-horizon-12"}} {
+		name := ""
+		for _, fund := range registry.Scheme {
+			if fund.ID == wanted.id && fund.Slug == wanted.slug {
+				name = fund.Name
+			}
 		}
+		if name == "" {
+			return nil, fmt.Errorf("LS Capital: %s scheme identity changed", wanted.symbol)
+		}
+		series, err := fetchNAVTable(ctx, client, history.Fund{Symbol: wanted.symbol, Name: name, Source: "lscapital", Manager: "LS Capital", SourceURL: "https://lscapital.com.np/", HistoryURL: fmt.Sprintf("https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=%d", wanted.id)}, wanted.id, []string{"weekly", "monthly"}, years...)
+		if err != nil {
+			return nil, err
+		}
+		result = append(result, series...)
 	}
-	return nil, fmt.Errorf("LS Capital: LVF2 scheme identity changed")
+	return result, nil
 }
 
 // NMB and LS Capital use the same paginated NAV table, with explicit AD and BS fields.
@@ -143,6 +160,13 @@ func fetchNAVTable(ctx context.Context, client *http.Client, fund history.Fund, 
 					case "monthly":
 						p.AsOf, p.DateBS = r.MonthlyEN, r.MonthlyNP
 					}
+					if p.DateBS != "" {
+						y, m, d, err := parseBS(p.DateBS)
+						if err != nil {
+							return nil, err
+						}
+						p.DateBS = fmt.Sprintf("%04d-%02d-%02d", y, m, d)
+					}
 					if !observations[p] {
 						s.History = append(s.History, p)
 						observations[p] = true
@@ -153,6 +177,24 @@ func fetchNAVTable(ctx context.Context, client *http.Client, fund history.Fund, 
 				return nil, fmt.Errorf("NMB: incomplete %s history", frequency)
 			}
 		}
+	}
+	// LS Capital has conflicting historical rows without a reliable correction marker.
+	// Exclude every version of ambiguous date/frequency pairs rather than choosing one.
+	if fund.Source == "lscapital" {
+		counts := map[string]int{}
+		for _, p := range s.History {
+			counts[p.AsOf+"/"+p.Frequency]++
+		}
+		points := s.History[:0]
+		for _, p := range s.History {
+			key := p.AsOf + "/" + p.Frequency
+			if counts[key] > 1 {
+				log.Printf("%s: excluding conflicting observation %s", fund.Symbol, key)
+				continue
+			}
+			points = append(points, p)
+		}
+		s.History = points
 	}
 	if err := history.Normalize(s.History, time.Now()); err != nil {
 		return nil, err

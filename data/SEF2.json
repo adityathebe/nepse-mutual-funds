@@ -1,0 +1,80 @@
+[
+  {
+    "as_of": "2026-07-03",
+    "nav": 9.92,
+    "date_bs": "2083-03-19",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-07-10",
+    "nav": 9.89,
+    "date_bs": "2083-03-26",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-07-16",
+    "nav": 9.88,
+    "date_bs": "2083-03-32",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2026-07-16",
+    "nav": 9.88,
+    "date_bs": "2083-03-32",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-07-17",
+    "nav": 9.96,
+    "date_bs": "2083-04-01",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-07-24",
+    "nav": 9.99,
+    "date_bs": "2083-04-08",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-07-31",
+    "nav": 9.97,
+    "date_bs": "2083-04-15",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-08-07",
+    "nav": 9.93,
+    "date_bs": "2083-04-22",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-08-14",
+    "nav": 9.95,
+    "date_bs": "2083-04-29",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-08-16",
+    "nav": 9.95,
+    "date_bs": "2083-04-31",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2026-08-21",
+    "nav": 10,
+    "date_bs": "2083-05-05",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-08-28",
+    "nav": 9.95,
+    "date_bs": "2083-05-12",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-09-04",
+    "nav": 9.97,
+    "date_bs": "2083-05-19",
+    "frequency": "weekly"
+  }
+]

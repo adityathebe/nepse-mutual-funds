@@ -18,7 +18,7 @@ var navRows = regexp.MustCompile(`(?is)<tr\b[^>]*>(.*?)</tr>`)
 var navCells = regexp.MustCompile(`(?is)<td\b[^>]*>(.*?)</td>`)
 var markup = regexp.MustCompile(`<[^>]*>`)
 
-// These two official tables have fixed AD/BS/NAV columns; reject any changed row shape.
+// Official NAV tables have fixed AD/BS/NAV columns; reject any changed row shape.
 func tablePoints(fragment, layout, frequency string, columns int) ([]history.Point, error) {
 	var points []history.Point
 	rows := navRows.FindAllStringSubmatch(fragment, -1)
@@ -75,8 +75,8 @@ func fetchHLI(ctx context.Context, client *http.Client) ([]history.Series, error
 // The WordPress nonce expires; discover it on every run and verify total_items across pages.
 func fetchNIMB(ctx context.Context, client *http.Client) ([]history.Series, error) {
 	var result []history.Series
-	for _, fund := range []struct{ symbol, name, slug string }{{"NIBLSTF", "NIBL Stable Fund", "nav-nibl-stable-fund"}, {"NIBLGF", "NIBL Growth Fund", "nav-nibl-growth-fund"}} {
-		series, err := fetchNIMBScheme(ctx, client, history.Fund{Symbol: fund.symbol, Name: fund.name, Source: "nimb", Manager: "NIMB Ace Capital", SourceURL: "https://nimbacecapital.com/services/mutual-funds/" + fund.slug + "/", HistoryURL: "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table&mutual_fund=" + fund.slug}, fund.slug)
+	for _, fund := range []struct{ symbol, name, slug, apiSlug string }{{"NIBLSTF", "NIBL Stable Fund", "nav-nibl-stable-fund", "nav-nibl-stable-fund"}, {"NIBLGF", "NIBL Growth Fund", "nav-nibl-growth-fund", "nav-nibl-growth-fund"}, {"MMF1", "Mega Mutual Fund 1", "nav-nibl-mega-mutual-fund", "mega-mutual-fund-nav"}, {"NIBSF2", "NIBL Samriddhi Fund II", "nav-samriddhi-fund-ii", "nibl-samriddhi-fund-2-nav"}} {
+		series, err := fetchNIMBScheme(ctx, client, history.Fund{Symbol: fund.symbol, Name: fund.name, Source: "nimb", Manager: "NIMB Ace Capital", SourceURL: "https://nimbacecapital.com/services/mutual-funds/" + fund.slug + "/", HistoryURL: "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table&mutual_fund=" + fund.apiSlug}, fund.apiSlug)
 		if err != nil {
 			return nil, err
 		}

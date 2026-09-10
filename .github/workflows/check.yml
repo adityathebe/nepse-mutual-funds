@@ -2,7 +2,7 @@ name: Validate collector
 
 on:
   push:
-    paths: ['**.go', go.mod, 'data/**', 'scripts/**', '.github/workflows/**']
+    paths: ['**.go', go.mod, 'data/**', 'exports/**', 'scripts/**', '.github/workflows/**']
   pull_request:
 
 permissions:
@@ -23,4 +23,6 @@ jobs:
           go build ./...
           go vet ./...
           go run ./cmd/navcollector validate
+          go run ./cmd/navcollector export -output "$RUNNER_TEMP/nav.json"
+          cmp exports/nav.json "$RUNNER_TEMP/nav.json"
           bash -n scripts/globalime-ca-bundle.sh

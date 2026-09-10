@@ -13,7 +13,7 @@ import (
 // RBB's chart truncates history. Read every NAV-table page and use date, not publication time.
 func fetchRBB(ctx context.Context, client *http.Client) ([]history.Series, error) {
 	var result []history.Series
-	for _, fund := range []struct{ symbol, name, slug string }{{"RBBF40", "RBB Focus 40", "rbb-focus-40"}, {"RMF2", "RBB Mutual Fund 2", "rbb-mutual-fund-2"}} {
+	for _, fund := range []struct{ symbol, name, slug string }{{"RBBF40", "RBB Focus 40", "rbb-focus-40"}, {"RMF2", "RBB Mutual Fund 2", "rbb-mutual-fund-2"}, {"RMF1", "RBB Mutual Fund 1", "rbb-mutual-fund-1"}} {
 		series, err := fetchRBBScheme(ctx, client, history.Fund{Symbol: fund.symbol, Name: fund.name, Source: "rbb", Manager: "RBB Merchant Banking", SourceURL: "https://www.rbbmbl.com.np/mutual-fund/" + fund.slug, HistoryURL: "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=" + fund.slug})
 		if err != nil {
 			return nil, err

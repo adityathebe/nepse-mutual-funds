@@ -16,7 +16,7 @@ func fetchCitizens(ctx context.Context, client *http.Client) ([]history.Series, 
 	for _, fund := range []struct {
 		symbol, name  string
 		id, firstYear int
-	}{{"CSY", "Citizens Santulit Yojana", 5, 2082}, {"C30MF", "Citizens Super 30 Mutual Fund", 3, 2080}} {
+	}{{"CSY", "Citizens Santulit Yojana", 5, 2082}, {"C30MF", "Citizens Super 30 Mutual Fund", 3, 2080}, {"CMF1", "Citizens Mutual Fund-I", 1, 2074}, {"CMF2", "Citizens Mutual Fund-II", 2, 2076}} {
 		series, err := fetchCitizensScheme(ctx, client, history.Fund{Symbol: fund.symbol, Name: fund.name, Source: "citizens", Manager: "Citizens Capital", SourceURL: "https://www.citizenscapital.com.np/", HistoryURL: fmt.Sprintf("https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=%d", fund.id)}, fund.id, fund.firstYear)
 		if err != nil {
 			return nil, err

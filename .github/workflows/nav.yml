@@ -60,33 +60,13 @@ jobs:
             git commit -m 'data: sync official NAV histories'
             git push origin "HEAD:${{ github.event.repository.default_branch }}"
           fi
-      - name: Assemble static API
-        run: |
-          mkdir -p "$RUNNER_TEMP/site/data"
-          cp data/*.json "$RUNNER_TEMP/site/data/"
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: ${{ runner.temp }}/site
-
-  publish:
-    needs: collect
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/deploy-pages@v4
-        id: deployment
 
   source-status:
-    needs: [collect, publish]
+    needs: collect
     if: always() && needs.collect.outputs.source_failure == 'true'
     runs-on: ubuntu-latest
     steps:
-      - name: Report failed source after publishing healthy snapshots
+      - name: Report failed source after saving healthy snapshots
         run: |
           echo 'One or more sources failed. Prior snapshots were retained; inspect the collector log.'
           exit 1

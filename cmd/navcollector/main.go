@@ -34,20 +34,29 @@ func main() {
 
 func run() error {
 	if len(os.Args) < 2 {
-		return errors.New("usage: navcollector <sync|validate> [-data data] [-source all]")
+		return errors.New("usage: navcollector <sync|validate|export> [-data data] [-source all] [-output exports/nav.json]")
 	}
 	command := os.Args[1]
-	if command != "sync" && command != "validate" {
+	if command != "sync" && command != "validate" && command != "export" {
 		return fmt.Errorf("unknown command %q", command)
 	}
 	flags := flag.NewFlagSet(command, flag.ContinueOnError)
 	dir := flags.String("data", "data", "static data directory")
-	source := flags.String("source", "all", "source: all, nmb, prabhu, siddhartha, globalime, machhapuchchhre, rbb, nimb, himalayaninvest, reliable, citizens, nepallife, garima, muktinath, kumari, sanima, lscapital, himalayan (sync only)")
+	output := flags.String("output", "exports/nav.json", "compact weekly/monthly NAV export path (export only)")
+	source := flags.String("source", "all", "source: all, nmb, prabhu, siddhartha, globalime, machhapuchchhre, rbb, nimb, himalayaninvest, reliable, citizens, nepallife, garima, muktinath, kumari, sanima, lscapital, himalayan, nabil, nicasia (sync only)")
 	if err := flags.Parse(os.Args[2:]); err != nil {
 		return err
 	}
 	if flags.NArg() != 0 {
 		return errors.New("unexpected positional arguments")
+	}
+	if command == "export" {
+		changed, err := history.Export(*dir, *output)
+		if err != nil {
+			return err
+		}
+		log.Printf("export: %s; changed=%t", *output, changed)
+		return nil
 	}
 	if command == "validate" {
 		data, err := history.Load(*dir)
