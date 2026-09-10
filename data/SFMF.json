@@ -2418,6 +2418,13 @@
     "frequency": "weekly"
   },
   {
+    "as_of": "2026-08-16",
+    "nav": 10.21,
+    "date_bs": "2083-04-31",
+    "frequency": "monthly",
+    "source_label": "SFMF MONTHLY NAV SHRAWAN 2083"
+  },
+  {
     "as_of": "2026-08-21",
     "nav": 10.05,
     "date_bs": "2083-05-05",

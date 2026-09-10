@@ -53,18 +53,25 @@ func tablePoints(fragment, layout, frequency string, columns int) ([]history.Poi
 func fetchHLI(ctx context.Context, client *http.Client) ([]history.Series, error) {
 	const endpoint = "https://himalayaninvest.com/himalayan-large-cap-fund-nav"
 	s := history.Series{Fund: history.Fund{Symbol: "HLICF", Name: "Himalayan Large Cap Fund", Source: "himalayaninvest", Manager: "Himalayan Investment Banker", SourceURL: endpoint, HistoryURL: endpoint}}
-	var page string
-	if err := request(ctx, client, endpoint, nil, &page); err != nil {
-		return nil, err
-	}
-	table := regexp.MustCompile(`(?is)<table\b[^>]*id="joomlaNavDataTable"[^>]*>.*?<tbody>(.*?)</tbody>`).FindStringSubmatch(page)
-	if table == nil {
-		return nil, fmt.Errorf("Himalayan: missing NAV table")
-	}
-	var err error
-	s.History, err = tablePoints(table[1], time.DateOnly, "weekly", 4)
-	if err != nil {
-		return nil, err
+	s.Fund.MonthlyHistoryURL = endpoint + "-monthly"
+	for _, frequency := range []string{"weekly", "monthly"} {
+		pageURL := endpoint
+		if frequency == "monthly" {
+			pageURL = s.Fund.MonthlyHistoryURL
+		}
+		var page string
+		if err := request(ctx, client, pageURL, nil, &page); err != nil {
+			return nil, err
+		}
+		table := regexp.MustCompile(`(?is)<table\b[^>]*id="joomlaNavDataTable"[^>]*>.*?<tbody>(.*?)</tbody>`).FindStringSubmatch(page)
+		if table == nil {
+			return nil, fmt.Errorf("Himalayan: missing %s NAV table", frequency)
+		}
+		points, err := tablePoints(table[1], time.DateOnly, frequency, 4)
+		if err != nil {
+			return nil, err
+		}
+		s.History = append(s.History, points...)
 	}
 	if err := history.Normalize(s.History, time.Now()); err != nil {
 		return nil, err

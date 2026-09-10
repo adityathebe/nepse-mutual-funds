@@ -33,6 +33,10 @@ jobs:
         run: |
           go build -o "$RUNNER_TEMP/navcollector" ./cmd/navcollector
           go vet ./...
+      - name: Install PDF text extraction for official monthly reports
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends poppler-utils
       - name: Supply Global IME's missing intermediate certificate
         id: ca
         continue-on-error: true

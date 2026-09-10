@@ -106,6 +106,9 @@ func fetchLSCapital(ctx context.Context, client *http.Client) ([]history.Series,
 		}
 		result = append(result, series...)
 	}
+	if err := supplementLSReports(ctx, client, result); err != nil {
+		return nil, err
+	}
 	return result, nil
 }
 

@@ -846,6 +846,13 @@
     "frequency": "weekly"
   },
   {
+    "as_of": "2026-08-16",
+    "nav": 10.02,
+    "date_bs": "2083-04-31",
+    "frequency": "monthly",
+    "source_label": "LVF 2 MONTHLY NAV SHRAWAN 2083"
+  },
+  {
     "as_of": "2026-08-21",
     "nav": 9.94,
     "date_bs": "2083-05-05",

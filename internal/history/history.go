@@ -33,6 +33,7 @@ type Fund struct {
 	Name                string `json:"name"`
 	SourceURL           string `json:"source_url"`
 	HistoryURL          string `json:"history_url"`
+	MonthlyHistoryURL   string `json:"monthly_history_url,omitempty"`
 	LatestAsOf          string `json:"latest_as_of"`
 	LastSuccessfulFetch string `json:"last_successful_fetch"`
 	Points              int    `json:"points"`
@@ -88,7 +89,7 @@ func validURL(s string) bool {
 
 func validateSeries(s Series) error {
 	f := s.Fund
-	if !symbolPattern.MatchString(f.Symbol) || f.Source == "" || f.Manager == "" || f.Name == "" || !validURL(f.SourceURL) || !validURL(f.HistoryURL) {
+	if !symbolPattern.MatchString(f.Symbol) || f.Source == "" || f.Manager == "" || f.Name == "" || !validURL(f.SourceURL) || !validURL(f.HistoryURL) || (f.MonthlyHistoryURL != "" && !validURL(f.MonthlyHistoryURL)) {
 		return fmt.Errorf("invalid metadata for %q", f.Symbol)
 	}
 	fetched, err := time.Parse(time.RFC3339, f.LastSuccessfulFetch)

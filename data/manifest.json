@@ -96,9 +96,10 @@
       "name": "Himalayan Large Cap Fund",
       "source_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
       "history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
+      "monthly_history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav-monthly",
       "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-09T18:16:35Z",
-      "points": 50
+      "last_successful_fetch": "2026-09-10T05:18:01Z",
+      "points": 61
     },
     {
       "symbol": "KDBY",
@@ -140,9 +141,10 @@
       "name": "LS Horizon 12",
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=8",
+      "monthly_history_url": "https://lscapital.com.np/site_uploads/ls-horizon-1252233830.pdf",
       "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T04:02:35Z",
-      "points": 10
+      "last_successful_fetch": "2026-09-10T05:26:06Z",
+      "points": 11
     },
     {
       "symbol": "LUK",
@@ -151,9 +153,10 @@
       "name": "Laxmi Unnati Kosh",
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=6",
+      "monthly_history_url": "https://lscapital.com.np/site_uploads/laxmi-unna-2038944174.pdf",
       "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T04:02:35Z",
-      "points": 144
+      "last_successful_fetch": "2026-09-10T05:26:06Z",
+      "points": 145
     },
     {
       "symbol": "LVF2",
@@ -162,9 +165,10 @@
       "name": "Laxmi Value Fund II",
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=7",
+      "monthly_history_url": "https://lscapital.com.np/site_uploads/laxmi-valu-1323409177.pdf",
       "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-09T21:22:43Z",
-      "points": 144
+      "last_successful_fetch": "2026-09-10T05:26:06Z",
+      "points": 145
     },
     {
       "symbol": "MBLEF",
@@ -459,9 +463,10 @@
       "name": "Sunrise Blue Chip Fund",
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=1",
+      "monthly_history_url": "https://lscapital.com.np/site_uploads/sbcf-shraw-847704763.pdf",
       "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T03:51:33Z",
-      "points": 318
+      "last_successful_fetch": "2026-09-10T05:26:06Z",
+      "points": 319
     },
     {
       "symbol": "SEF",
@@ -492,9 +497,10 @@
       "name": "Sunrise Focused Equity Fund",
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=3",
+      "monthly_history_url": "https://lscapital.com.np/site_uploads/sfef-shraw-1638122344.pdf",
       "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T03:51:33Z",
-      "points": 197
+      "last_successful_fetch": "2026-09-10T05:26:06Z",
+      "points": 198
     },
     {
       "symbol": "SFMF",
@@ -503,9 +509,10 @@
       "name": "Sunrise First Mutual Fund",
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=2",
+      "monthly_history_url": "https://lscapital.com.np/site_uploads/sfmf-shraw-1604323343.pdf",
       "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T03:51:33Z",
-      "points": 406
+      "last_successful_fetch": "2026-09-10T05:26:06Z",
+      "points": 407
     },
     {
       "symbol": "SIGS2",
