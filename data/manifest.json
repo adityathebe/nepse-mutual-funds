@@ -331,9 +331,9 @@
       "name": "NMB Hybrid Fund L II",
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=6",
-      "latest_as_of": "2026-08-31",
-      "last_successful_fetch": "2026-09-09T16:19:16Z",
-      "points": 96
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T17:07:46Z",
+      "points": 97
     },
     {
       "symbol": "NSIF2",
@@ -342,9 +342,9 @@
       "name": "NMB Sulav Investment Fund II",
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=5",
-      "latest_as_of": "2026-08-31",
-      "last_successful_fetch": "2026-09-09T21:18:27Z",
-      "points": 257
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T17:07:46Z",
+      "points": 258
     },
     {
       "symbol": "NSY",
@@ -387,9 +387,9 @@
       "name": "RBB Focus 40",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-focus-40",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-focus-40",
-      "latest_as_of": "2026-08-28",
-      "last_successful_fetch": "2026-09-09T18:16:30Z",
-      "points": 49
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T17:08:07Z",
+      "points": 50
     },
     {
       "symbol": "RMF1",
@@ -398,9 +398,9 @@
       "name": "RBB Mutual Fund 1",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-1",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-1",
-      "latest_as_of": "2026-08-28",
-      "last_successful_fetch": "2026-09-10T03:44:16Z",
-      "points": 262
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T17:08:07Z",
+      "points": 263
     },
     {
       "symbol": "RMF2",
@@ -409,9 +409,9 @@
       "name": "RBB Mutual Fund 2",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-2",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-2",
-      "latest_as_of": "2026-08-28",
-      "last_successful_fetch": "2026-09-09T21:14:06Z",
-      "points": 209
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-10T17:08:07Z",
+      "points": 210
     },
     {
       "symbol": "RSY",
