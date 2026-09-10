@@ -1,0 +1,1437 @@
+[
+  {
+    "as_of": "2023-05-14",
+    "nav": 9.94,
+    "date_bs": "2080-01-31",
+    "frequency": "monthly",
+    "source_label": "31 Baisakh 2080"
+  },
+  {
+    "as_of": "2023-05-19",
+    "nav": 9.94,
+    "date_bs": "2080-02-05",
+    "frequency": "weekly",
+    "source_label": "05 Jestha 2080"
+  },
+  {
+    "as_of": "2023-05-26",
+    "nav": 9.94,
+    "date_bs": "2080-02-12",
+    "frequency": "weekly",
+    "source_label": "12 Jestha 2080"
+  },
+  {
+    "as_of": "2023-06-02",
+    "nav": 9.91,
+    "date_bs": "2080-02-19",
+    "frequency": "weekly",
+    "source_label": "19 Jestha 2080"
+  },
+  {
+    "as_of": "2023-06-09",
+    "nav": 9.97,
+    "date_bs": "2080-02-26",
+    "frequency": "weekly",
+    "source_label": "26 Jestha 2080"
+  },
+  {
+    "as_of": "2023-06-15",
+    "nav": 10.08,
+    "date_bs": "2080-02-32",
+    "frequency": "monthly",
+    "source_label": "32 Jestha 2080"
+  },
+  {
+    "as_of": "2023-06-16",
+    "nav": 10.08,
+    "date_bs": "2080-03-01",
+    "frequency": "weekly",
+    "source_label": "1 Ashad 2080"
+  },
+  {
+    "as_of": "2023-06-23",
+    "nav": 10.12,
+    "date_bs": "2080-03-08",
+    "frequency": "weekly",
+    "source_label": "8 Ashad 2080"
+  },
+  {
+    "as_of": "2023-06-30",
+    "nav": 10.2,
+    "date_bs": "2080-03-15",
+    "frequency": "weekly",
+    "source_label": "15 Ashad 2080"
+  },
+  {
+    "as_of": "2023-07-07",
+    "nav": 10.07,
+    "date_bs": "2080-03-22",
+    "frequency": "weekly",
+    "source_label": "22 Ashad 2080"
+  },
+  {
+    "as_of": "2023-07-14",
+    "nav": 10.13,
+    "date_bs": "2080-03-29",
+    "frequency": "weekly",
+    "source_label": "29 Ashad 2080"
+  },
+  {
+    "as_of": "2023-07-16",
+    "nav": 10.23,
+    "date_bs": "2080-03-31",
+    "frequency": "monthly",
+    "source_label": "31 Ashad 2080"
+  },
+  {
+    "as_of": "2023-07-21",
+    "nav": 10.32,
+    "date_bs": "2080-04-05",
+    "frequency": "weekly",
+    "source_label": "5 Shrawan 2080"
+  },
+  {
+    "as_of": "2023-07-28",
+    "nav": 10.26,
+    "date_bs": "2080-04-12",
+    "frequency": "weekly",
+    "source_label": "12 Shrawan 2080"
+  },
+  {
+    "as_of": "2023-08-04",
+    "nav": 10.19,
+    "date_bs": "2080-04-19",
+    "frequency": "weekly",
+    "source_label": "19 Shrawan 2080"
+  },
+  {
+    "as_of": "2023-08-11",
+    "nav": 10.21,
+    "date_bs": "2080-04-26",
+    "frequency": "weekly",
+    "source_label": "26 Shrawan 2080"
+  },
+  {
+    "as_of": "2023-08-17",
+    "nav": 10.46,
+    "date_bs": "2080-04-32",
+    "frequency": "monthly",
+    "source_label": "32 Shrawan 2080"
+  },
+  {
+    "as_of": "2023-08-18",
+    "nav": 10.46,
+    "date_bs": "2080-05-01",
+    "frequency": "weekly",
+    "source_label": "01 Bhadra 2080"
+  },
+  {
+    "as_of": "2023-08-25",
+    "nav": 10.45,
+    "date_bs": "2080-05-08",
+    "frequency": "weekly",
+    "source_label": "08 Bhadra 2080"
+  },
+  {
+    "as_of": "2023-09-01",
+    "nav": 10.41,
+    "date_bs": "2080-05-15",
+    "frequency": "weekly",
+    "source_label": "15 Bhadra 2080"
+  },
+  {
+    "as_of": "2023-09-08",
+    "nav": 10.27,
+    "date_bs": "2080-05-22",
+    "frequency": "weekly",
+    "source_label": "22 Bhadra 2080"
+  },
+  {
+    "as_of": "2023-09-15",
+    "nav": 10.45,
+    "date_bs": "2080-05-29",
+    "frequency": "weekly",
+    "source_label": "29 Bhadra 2080"
+  },
+  {
+    "as_of": "2023-09-17",
+    "nav": 10.25,
+    "date_bs": "2080-05-31",
+    "frequency": "monthly",
+    "source_label": "31 Bhadra 2080"
+  },
+  {
+    "as_of": "2023-09-22",
+    "nav": 10.38,
+    "date_bs": "2080-06-05",
+    "frequency": "weekly",
+    "source_label": "5 Ashwin 2080"
+  },
+  {
+    "as_of": "2023-09-29",
+    "nav": 10.35,
+    "date_bs": "2080-06-12",
+    "frequency": "weekly",
+    "source_label": "12 Ashwin 2080"
+  },
+  {
+    "as_of": "2023-10-06",
+    "nav": 10.22,
+    "date_bs": "2080-06-19",
+    "frequency": "weekly",
+    "source_label": "19 Ashwin 2080"
+  },
+  {
+    "as_of": "2023-10-13",
+    "nav": 10.05,
+    "date_bs": "2080-06-26",
+    "frequency": "weekly",
+    "source_label": "26 Ashwin 2080"
+  },
+  {
+    "as_of": "2023-10-17",
+    "nav": 10.02,
+    "date_bs": "2080-06-30",
+    "frequency": "monthly",
+    "source_label": "30 Aswin 2080"
+  },
+  {
+    "as_of": "2023-10-20",
+    "nav": 10.1,
+    "date_bs": "2080-07-03",
+    "frequency": "weekly",
+    "source_label": "3 Karthik 2080"
+  },
+  {
+    "as_of": "2023-10-27",
+    "nav": 10.11,
+    "date_bs": "2080-07-10",
+    "frequency": "weekly",
+    "source_label": "10 Karthik 2080"
+  },
+  {
+    "as_of": "2023-11-03",
+    "nav": 10.02,
+    "date_bs": "2080-07-17",
+    "frequency": "weekly",
+    "source_label": "17 Karthik 2080"
+  },
+  {
+    "as_of": "2023-11-10",
+    "nav": 10.04,
+    "date_bs": "2080-07-24",
+    "frequency": "weekly",
+    "source_label": "24 Kartik 2080"
+  },
+  {
+    "as_of": "2023-11-16",
+    "nav": 10.04,
+    "date_bs": "2080-07-30",
+    "frequency": "monthly",
+    "source_label": "30 Kartik 2080"
+  },
+  {
+    "as_of": "2023-11-17",
+    "nav": 10.04,
+    "date_bs": "2080-08-01",
+    "frequency": "weekly",
+    "source_label": "01 Mangsir 2080"
+  },
+  {
+    "as_of": "2023-11-24",
+    "nav": 10.13,
+    "date_bs": "2080-08-08",
+    "frequency": "weekly",
+    "source_label": "08 Mangsir 2080"
+  },
+  {
+    "as_of": "2023-12-01",
+    "nav": 10.14,
+    "date_bs": "2080-08-15",
+    "frequency": "weekly",
+    "source_label": "15 Mangsir 2080"
+  },
+  {
+    "as_of": "2023-12-08",
+    "nav": 10.18,
+    "date_bs": "2080-08-22",
+    "frequency": "weekly",
+    "source_label": "22 Mangsir 2080"
+  },
+  {
+    "as_of": "2023-12-15",
+    "nav": 10.44,
+    "date_bs": "2080-08-29",
+    "frequency": "weekly",
+    "source_label": "29 Mangsir 2080"
+  },
+  {
+    "as_of": "2023-12-16",
+    "nav": 10.4,
+    "date_bs": "2080-08-30",
+    "frequency": "monthly",
+    "source_label": "30 Mangsir 2080"
+  },
+  {
+    "as_of": "2023-12-22",
+    "nav": 10.55,
+    "date_bs": "2080-09-06",
+    "frequency": "weekly",
+    "source_label": "06 Poush 2080"
+  },
+  {
+    "as_of": "2023-12-29",
+    "nav": 10.52,
+    "date_bs": "2080-09-13",
+    "frequency": "weekly",
+    "source_label": "13 Poush 2080"
+  },
+  {
+    "as_of": "2024-01-05",
+    "nav": 10.49,
+    "date_bs": "2080-09-20",
+    "frequency": "weekly",
+    "source_label": "20 Poush 2080"
+  },
+  {
+    "as_of": "2024-01-12",
+    "nav": 10.69,
+    "date_bs": "2080-09-27",
+    "frequency": "weekly",
+    "source_label": "27 Poush 2080"
+  },
+  {
+    "as_of": "2024-01-14",
+    "nav": 10.77,
+    "date_bs": "2080-09-29",
+    "frequency": "monthly",
+    "source_label": "29 Poush 2080"
+  },
+  {
+    "as_of": "2024-01-19",
+    "nav": 10.91,
+    "date_bs": "2080-10-05",
+    "frequency": "weekly",
+    "source_label": "05 Magh 2080"
+  },
+  {
+    "as_of": "2024-01-26",
+    "nav": 10.82,
+    "date_bs": "2080-10-12",
+    "frequency": "weekly",
+    "source_label": "12 Magh 2080"
+  },
+  {
+    "as_of": "2024-02-02",
+    "nav": 10.78,
+    "date_bs": "2080-10-19",
+    "frequency": "weekly",
+    "source_label": "19 Magh 2080"
+  },
+  {
+    "as_of": "2024-02-09",
+    "nav": 10.81,
+    "date_bs": "2080-10-26",
+    "frequency": "weekly",
+    "source_label": "26 Magh 2080"
+  },
+  {
+    "as_of": "2024-02-12",
+    "nav": 10.78,
+    "date_bs": "2080-10-29",
+    "frequency": "monthly",
+    "source_label": "29 Magh 2080"
+  },
+  {
+    "as_of": "2024-02-16",
+    "nav": 10.66,
+    "date_bs": "2080-11-04",
+    "frequency": "weekly",
+    "source_label": "04 Falgun 2080"
+  },
+  {
+    "as_of": "2024-02-23",
+    "nav": 10.51,
+    "date_bs": "2080-11-11",
+    "frequency": "weekly",
+    "source_label": "11 Falgun 2080"
+  },
+  {
+    "as_of": "2024-03-01",
+    "nav": 10.38,
+    "date_bs": "2080-11-18",
+    "frequency": "weekly",
+    "source_label": "18 Falgun,2080"
+  },
+  {
+    "as_of": "2024-03-08",
+    "nav": 10.56,
+    "date_bs": "2080-11-25",
+    "frequency": "weekly",
+    "source_label": "25 Falgun 2080"
+  },
+  {
+    "as_of": "2024-03-15",
+    "nav": 10.66,
+    "date_bs": "2080-12-02",
+    "frequency": "weekly",
+    "source_label": "2 Chaitra 2080"
+  },
+  {
+    "as_of": "2024-03-22",
+    "nav": 10.59,
+    "date_bs": "2080-12-09",
+    "frequency": "weekly",
+    "source_label": "09 Chaitra 2080"
+  },
+  {
+    "as_of": "2024-03-29",
+    "nav": 10.53,
+    "date_bs": "2080-12-16",
+    "frequency": "weekly",
+    "source_label": "16 Chaitra 2080"
+  },
+  {
+    "as_of": "2024-04-05",
+    "nav": 10.43,
+    "date_bs": "2080-12-23",
+    "frequency": "weekly",
+    "source_label": "23 Chaitra 2080"
+  },
+  {
+    "as_of": "2024-04-12",
+    "nav": 10.51,
+    "date_bs": "2080-12-30",
+    "frequency": "weekly",
+    "source_label": "30 Chaitra 2080"
+  },
+  {
+    "as_of": "2024-04-19",
+    "nav": 10.36,
+    "date_bs": "2081-01-07",
+    "frequency": "weekly",
+    "source_label": "7 Baisakh 2081"
+  },
+  {
+    "as_of": "2024-04-26",
+    "nav": 10.34,
+    "date_bs": "2081-01-14",
+    "frequency": "weekly",
+    "source_label": "14 Baisakh 2081"
+  },
+  {
+    "as_of": "2024-05-03",
+    "nav": 10.42,
+    "date_bs": "2081-01-21",
+    "frequency": "weekly",
+    "source_label": "21 Baisakh 2081"
+  },
+  {
+    "as_of": "2024-05-10",
+    "nav": 10.3,
+    "date_bs": "2081-01-28",
+    "frequency": "weekly",
+    "source_label": "28 Baisakh 2081"
+  },
+  {
+    "as_of": "2024-05-17",
+    "nav": 10.54,
+    "date_bs": "2081-02-04",
+    "frequency": "weekly",
+    "source_label": "4 Jestha 2081"
+  },
+  {
+    "as_of": "2024-05-24",
+    "nav": 10.82,
+    "date_bs": "2081-02-11",
+    "frequency": "weekly",
+    "source_label": "11 Jestha 2081"
+  },
+  {
+    "as_of": "2024-05-31",
+    "nav": 10.65,
+    "date_bs": "2081-02-18",
+    "frequency": "weekly",
+    "source_label": "18 Jestha 2081"
+  },
+  {
+    "as_of": "2024-06-07",
+    "nav": 10.56,
+    "date_bs": "2081-02-25",
+    "frequency": "weekly",
+    "source_label": "25 Jestha 2081"
+  },
+  {
+    "as_of": "2024-06-14",
+    "nav": 10.67,
+    "date_bs": "2081-02-32",
+    "frequency": "weekly",
+    "source_label": "32 Jestha 2081"
+  },
+  {
+    "as_of": "2024-06-21",
+    "nav": 10.55,
+    "date_bs": "2081-03-07",
+    "frequency": "weekly",
+    "source_label": "7 Ashad 2081"
+  },
+  {
+    "as_of": "2024-06-28",
+    "nav": 10.49,
+    "date_bs": "2081-03-14",
+    "frequency": "weekly",
+    "source_label": "14 Ashad 2081"
+  },
+  {
+    "as_of": "2024-07-05",
+    "nav": 10.71,
+    "date_bs": "2081-03-21",
+    "frequency": "weekly",
+    "source_label": "21 Ashad 2081"
+  },
+  {
+    "as_of": "2024-07-12",
+    "nav": 10.95,
+    "date_bs": "2081-03-28",
+    "frequency": "weekly",
+    "source_label": "28 Ashad 2081"
+  },
+  {
+    "as_of": "2024-07-15",
+    "nav": 11.04,
+    "date_bs": "2081-03-31",
+    "frequency": "monthly",
+    "source_label": "31 Ashad 2081"
+  },
+  {
+    "as_of": "2024-07-19",
+    "nav": 11.41,
+    "date_bs": "2081-04-04",
+    "frequency": "weekly",
+    "source_label": "4 Shrawan 2081"
+  },
+  {
+    "as_of": "2024-07-26",
+    "nav": 11.79,
+    "date_bs": "2081-04-11",
+    "frequency": "weekly",
+    "source_label": "11 Shrawan 2081"
+  },
+  {
+    "as_of": "2024-08-02",
+    "nav": 12.36,
+    "date_bs": "2081-04-18",
+    "frequency": "weekly",
+    "source_label": "18 Shrawan 2081"
+  },
+  {
+    "as_of": "2024-08-09",
+    "nav": 12.55,
+    "date_bs": "2081-04-25",
+    "frequency": "weekly",
+    "source_label": "25 Shrawan 2081"
+  },
+  {
+    "as_of": "2024-08-16",
+    "nav": 13.21,
+    "date_bs": "2081-04-32",
+    "frequency": "monthly",
+    "source_label": "32 Sharwan 2081"
+  },
+  {
+    "as_of": "2024-08-16",
+    "nav": 13.21,
+    "date_bs": "2081-04-32",
+    "frequency": "weekly",
+    "source_label": "32 Shrawan 2081"
+  },
+  {
+    "as_of": "2024-08-23",
+    "nav": 13,
+    "date_bs": "2081-05-07",
+    "frequency": "weekly",
+    "source_label": "7 Bhadra 2081"
+  },
+  {
+    "as_of": "2024-08-30",
+    "nav": 12.23,
+    "date_bs": "2081-05-14",
+    "frequency": "weekly",
+    "source_label": "14 Bhadra 2081"
+  },
+  {
+    "as_of": "2024-09-06",
+    "nav": 12.23,
+    "date_bs": "2081-05-21",
+    "frequency": "weekly",
+    "source_label": "21 Bhadra 2081"
+  },
+  {
+    "as_of": "2024-09-13",
+    "nav": 12.09,
+    "date_bs": "2081-05-28",
+    "frequency": "weekly",
+    "source_label": "28 Bhadra 2081"
+  },
+  {
+    "as_of": "2024-09-16",
+    "nav": 11.8,
+    "date_bs": "2081-05-31",
+    "frequency": "monthly",
+    "source_label": "31 Bhadra 2081"
+  },
+  {
+    "as_of": "2024-09-20",
+    "nav": 11.79,
+    "date_bs": "2081-06-04",
+    "frequency": "weekly",
+    "source_label": "4 Ashwin 2081"
+  },
+  {
+    "as_of": "2024-09-27",
+    "nav": 11.56,
+    "date_bs": "2081-06-11",
+    "frequency": "weekly",
+    "source_label": "11 Ashwin 2081"
+  },
+  {
+    "as_of": "2024-10-04",
+    "nav": 11.83,
+    "date_bs": "2081-06-18",
+    "frequency": "weekly",
+    "source_label": "18 Ashwin 2081"
+  },
+  {
+    "as_of": "2024-10-11",
+    "nav": 10.95,
+    "date_bs": "2081-06-25",
+    "frequency": "weekly",
+    "source_label": "25 Ashwin 2081"
+  },
+  {
+    "as_of": "2024-10-16",
+    "nav": 11.16,
+    "date_bs": "2081-06-30",
+    "frequency": "monthly",
+    "source_label": "30 Aswin 2081"
+  },
+  {
+    "as_of": "2024-10-18",
+    "nav": 11.17,
+    "date_bs": "2081-07-02",
+    "frequency": "weekly",
+    "source_label": "2 Kartik 2081"
+  },
+  {
+    "as_of": "2024-10-25",
+    "nav": 10.88,
+    "date_bs": "2081-07-09",
+    "frequency": "weekly",
+    "source_label": "9 Kartik 2081"
+  },
+  {
+    "as_of": "2024-11-01",
+    "nav": 11.12,
+    "date_bs": "2081-07-16",
+    "frequency": "weekly",
+    "source_label": "16 Kartik 2081"
+  },
+  {
+    "as_of": "2024-11-08",
+    "nav": 11.11,
+    "date_bs": "2081-07-23",
+    "frequency": "weekly",
+    "source_label": "23 Kartik 2081"
+  },
+  {
+    "as_of": "2024-11-15",
+    "nav": 11.25,
+    "date_bs": "2081-07-30",
+    "frequency": "weekly",
+    "source_label": "30 Kartik 2081"
+  },
+  {
+    "as_of": "2024-11-22",
+    "nav": 11.04,
+    "date_bs": "2081-08-07",
+    "frequency": "weekly",
+    "source_label": "7 Mangsir 2081"
+  },
+  {
+    "as_of": "2024-11-29",
+    "nav": 11.15,
+    "date_bs": "2081-08-14",
+    "frequency": "weekly",
+    "source_label": "14 Mangsir 2081"
+  },
+  {
+    "as_of": "2024-12-06",
+    "nav": 11,
+    "date_bs": "2081-08-21",
+    "frequency": "weekly",
+    "source_label": "21 Mangsir 2081"
+  },
+  {
+    "as_of": "2024-12-13",
+    "nav": 10.86,
+    "date_bs": "2081-08-28",
+    "frequency": "weekly",
+    "source_label": "28 Mangsir 2081"
+  },
+  {
+    "as_of": "2024-12-15",
+    "nav": 10.86,
+    "date_bs": "2081-08-30",
+    "frequency": "monthly",
+    "source_label": "30 Mangsir 2081"
+  },
+  {
+    "as_of": "2024-12-20",
+    "nav": 10.67,
+    "date_bs": "2081-09-05",
+    "frequency": "weekly",
+    "source_label": "05 Poush 2081"
+  },
+  {
+    "as_of": "2024-12-27",
+    "nav": 10.71,
+    "date_bs": "2081-09-12",
+    "frequency": "weekly",
+    "source_label": "12 Poush 2081"
+  },
+  {
+    "as_of": "2025-01-03",
+    "nav": 10.62,
+    "date_bs": "2081-09-19",
+    "frequency": "weekly",
+    "source_label": "19 Poush 2081"
+  },
+  {
+    "as_of": "2025-01-10",
+    "nav": 10.75,
+    "date_bs": "2081-09-26",
+    "frequency": "weekly",
+    "source_label": "26 Poush 2081"
+  },
+  {
+    "as_of": "2025-01-13",
+    "nav": 10.63,
+    "date_bs": "2081-09-29",
+    "frequency": "monthly",
+    "source_label": "29 Poush 2081"
+  },
+  {
+    "as_of": "2025-01-17",
+    "nav": 10.59,
+    "date_bs": "2081-10-04",
+    "frequency": "weekly",
+    "source_label": "04 Magh 2081"
+  },
+  {
+    "as_of": "2025-01-24",
+    "nav": 10.78,
+    "date_bs": "2081-10-11",
+    "frequency": "weekly",
+    "source_label": "11 Magh 2081"
+  },
+  {
+    "as_of": "2025-01-31",
+    "nav": 10.74,
+    "date_bs": "2081-10-18",
+    "frequency": "weekly",
+    "source_label": "18 Magh 2081"
+  },
+  {
+    "as_of": "2025-02-07",
+    "nav": 10.89,
+    "date_bs": "2081-10-25",
+    "frequency": "weekly",
+    "source_label": "25 Magh 2081"
+  },
+  {
+    "as_of": "2025-02-12",
+    "nav": 10.82,
+    "date_bs": "2081-10-30",
+    "frequency": "monthly",
+    "source_label": "30 Magh 2081"
+  },
+  {
+    "as_of": "2025-02-14",
+    "nav": 10.8,
+    "date_bs": "2081-11-02",
+    "frequency": "weekly",
+    "source_label": "2 Falgun 2081"
+  },
+  {
+    "as_of": "2025-02-21",
+    "nav": 10.95,
+    "date_bs": "2081-11-09",
+    "frequency": "weekly",
+    "source_label": "09 Falgun 2081"
+  },
+  {
+    "as_of": "2025-02-28",
+    "nav": 11.1,
+    "date_bs": "2081-11-16",
+    "frequency": "weekly",
+    "source_label": "16 Falgun 2081"
+  },
+  {
+    "as_of": "2025-03-07",
+    "nav": 11.23,
+    "date_bs": "2081-11-23",
+    "frequency": "weekly",
+    "source_label": "23rd Falgun 2081"
+  },
+  {
+    "as_of": "2025-03-13",
+    "nav": 11.03,
+    "date_bs": "2081-11-29",
+    "frequency": "monthly",
+    "source_label": "29 Falgun 2081"
+  },
+  {
+    "as_of": "2025-03-14",
+    "nav": 11.02,
+    "date_bs": "2081-12-01",
+    "frequency": "weekly",
+    "source_label": "1st Chaitra 2081"
+  },
+  {
+    "as_of": "2025-03-21",
+    "nav": 10.85,
+    "date_bs": "2081-12-08",
+    "frequency": "weekly",
+    "source_label": "08 Chaitra 2081"
+  },
+  {
+    "as_of": "2025-03-28",
+    "nav": 10.83,
+    "date_bs": "2081-12-15",
+    "frequency": "weekly",
+    "source_label": "15 Chaitra 2081"
+  },
+  {
+    "as_of": "2025-04-04",
+    "nav": 10.88,
+    "date_bs": "2081-12-22",
+    "frequency": "weekly",
+    "source_label": "22 Chaitra 2081"
+  },
+  {
+    "as_of": "2025-04-11",
+    "nav": 10.83,
+    "date_bs": "2081-12-29",
+    "frequency": "weekly",
+    "source_label": "29 Chaitra 2081"
+  },
+  {
+    "as_of": "2025-04-13",
+    "nav": 10.83,
+    "date_bs": "2081-12-31",
+    "frequency": "monthly",
+    "source_label": "31 Chaitra 2081"
+  },
+  {
+    "as_of": "2025-04-18",
+    "nav": 11,
+    "date_bs": "2082-01-05",
+    "frequency": "weekly",
+    "source_label": "05 Baisakh 2082"
+  },
+  {
+    "as_of": "2025-04-25",
+    "nav": 10.86,
+    "date_bs": "2082-01-12",
+    "frequency": "weekly",
+    "source_label": "12 Baisakh 2082"
+  },
+  {
+    "as_of": "2025-05-02",
+    "nav": 10.86,
+    "date_bs": "2082-01-19",
+    "frequency": "weekly",
+    "source_label": "19 Baisakh 2082"
+  },
+  {
+    "as_of": "2025-05-09",
+    "nav": 11.05,
+    "date_bs": "2082-01-26",
+    "frequency": "weekly",
+    "source_label": "26th Baisakh 2082"
+  },
+  {
+    "as_of": "2025-05-14",
+    "nav": 10.95,
+    "date_bs": "2082-01-31",
+    "frequency": "monthly",
+    "source_label": "31 Baisakh 2082"
+  },
+  {
+    "as_of": "2025-05-16",
+    "nav": 10.98,
+    "date_bs": "2082-02-02",
+    "frequency": "weekly",
+    "source_label": "02 Jestha 2082"
+  },
+  {
+    "as_of": "2025-05-23",
+    "nav": 11.16,
+    "date_bs": "2082-02-09",
+    "frequency": "weekly",
+    "source_label": "09 Jestha 2082"
+  },
+  {
+    "as_of": "2025-05-30",
+    "nav": 11.16,
+    "date_bs": "2082-02-16",
+    "frequency": "weekly",
+    "source_label": "16 Jestha 2082"
+  },
+  {
+    "as_of": "2025-06-06",
+    "nav": 11.08,
+    "date_bs": "2082-02-23",
+    "frequency": "weekly",
+    "source_label": "23 Jestha 2082"
+  },
+  {
+    "as_of": "2025-06-13",
+    "nav": 11.2,
+    "date_bs": "2082-02-30",
+    "frequency": "weekly",
+    "source_label": "30 Jestha 2082"
+  },
+  {
+    "as_of": "2025-06-14",
+    "nav": 11.19,
+    "date_bs": "2082-02-31",
+    "frequency": "monthly",
+    "source_label": "31 Jestha 2082"
+  },
+  {
+    "as_of": "2025-06-20",
+    "nav": 11.14,
+    "date_bs": "2082-03-06",
+    "frequency": "weekly",
+    "source_label": "06 Asar 2082"
+  },
+  {
+    "as_of": "2025-06-27",
+    "nav": 11.07,
+    "date_bs": "2082-03-13",
+    "frequency": "weekly",
+    "source_label": "13 Asar 2082"
+  },
+  {
+    "as_of": "2025-07-04",
+    "nav": 11.45,
+    "date_bs": "2082-03-20",
+    "frequency": "weekly",
+    "source_label": "20 Asar 2082"
+  },
+  {
+    "as_of": "2025-07-11",
+    "nav": 11.55,
+    "date_bs": "2082-03-27",
+    "frequency": "weekly",
+    "source_label": "27 Asar 2082"
+  },
+  {
+    "as_of": "2025-07-16",
+    "nav": 11.79,
+    "date_bs": "2082-03-32",
+    "frequency": "monthly",
+    "source_label": "32 Ashad 2082"
+  },
+  {
+    "as_of": "2025-07-18",
+    "nav": 11.99,
+    "date_bs": "2082-04-02",
+    "frequency": "weekly",
+    "source_label": "02 Shrawan 2082"
+  },
+  {
+    "as_of": "2025-07-25",
+    "nav": 12.35,
+    "date_bs": "2082-04-09",
+    "frequency": "weekly",
+    "source_label": "09 Shrawan 2082"
+  },
+  {
+    "as_of": "2025-08-01",
+    "nav": 12.19,
+    "date_bs": "2082-04-16",
+    "frequency": "weekly",
+    "source_label": "16 Shrawan 2082"
+  },
+  {
+    "as_of": "2025-08-08",
+    "nav": 12.02,
+    "date_bs": "2082-04-23",
+    "frequency": "weekly",
+    "source_label": "23 Shrawan 2082"
+  },
+  {
+    "as_of": "2025-08-15",
+    "nav": 11.89,
+    "date_bs": "2082-04-30",
+    "frequency": "weekly",
+    "source_label": "30th Shrawan 2082"
+  },
+  {
+    "as_of": "2025-08-16",
+    "nav": 11.89,
+    "date_bs": "2082-04-31",
+    "frequency": "monthly",
+    "source_label": "31 Sharwan 2082"
+  },
+  {
+    "as_of": "2025-08-22",
+    "nav": 11.83,
+    "date_bs": "2082-05-06",
+    "frequency": "weekly",
+    "source_label": "06 Bhadra 2082"
+  },
+  {
+    "as_of": "2025-08-29",
+    "nav": 10.66,
+    "date_bs": "2082-05-13",
+    "frequency": "weekly",
+    "source_label": "13 Bhadra 2082"
+  },
+  {
+    "as_of": "2025-09-05",
+    "nav": 10.5,
+    "date_bs": "2082-05-20",
+    "frequency": "weekly",
+    "source_label": "20 Bhadra 2082"
+  },
+  {
+    "as_of": "2025-09-12",
+    "nav": 10.37,
+    "date_bs": "2082-05-27",
+    "frequency": "weekly",
+    "source_label": "27 Bhadra 2082"
+  },
+  {
+    "as_of": "2025-09-16",
+    "nav": 10.36,
+    "date_bs": "2082-05-31",
+    "frequency": "monthly",
+    "source_label": "31 Bhadra 2082"
+  },
+  {
+    "as_of": "2025-09-19",
+    "nav": 9.93,
+    "date_bs": "2082-06-03",
+    "frequency": "weekly",
+    "source_label": "03 Ashoj 2082"
+  },
+  {
+    "as_of": "2025-09-26",
+    "nav": 10.15,
+    "date_bs": "2082-06-10",
+    "frequency": "weekly",
+    "source_label": "10 Ashoj 2082"
+  },
+  {
+    "as_of": "2025-10-03",
+    "nav": 10.18,
+    "date_bs": "2082-06-17",
+    "frequency": "weekly",
+    "source_label": "17 Ashoj 2082"
+  },
+  {
+    "as_of": "2025-10-10",
+    "nav": 9.95,
+    "date_bs": "2082-06-24",
+    "frequency": "weekly",
+    "source_label": "24 Ashoj 2082"
+  },
+  {
+    "as_of": "2025-10-17",
+    "nav": 9.68,
+    "date_bs": "2082-06-31",
+    "frequency": "monthly",
+    "source_label": "31 Aswin 2082"
+  },
+  {
+    "as_of": "2025-10-17",
+    "nav": 9.68,
+    "date_bs": "2082-06-31",
+    "frequency": "weekly",
+    "source_label": "31 Ashoj 2082"
+  },
+  {
+    "as_of": "2025-10-24",
+    "nav": 9.71,
+    "date_bs": "2082-07-07",
+    "frequency": "weekly",
+    "source_label": "07 Kartik 2082"
+  },
+  {
+    "as_of": "2025-10-31",
+    "nav": 9.99,
+    "date_bs": "2082-07-14",
+    "frequency": "weekly",
+    "source_label": "14 Kartik 2082"
+  },
+  {
+    "as_of": "2025-11-07",
+    "nav": 9.95,
+    "date_bs": "2082-07-21",
+    "frequency": "weekly",
+    "source_label": "21 Kartik 2082"
+  },
+  {
+    "as_of": "2025-11-14",
+    "nav": 9.91,
+    "date_bs": "2082-07-28",
+    "frequency": "weekly",
+    "source_label": "28 Kartik 2082"
+  },
+  {
+    "as_of": "2025-11-16",
+    "nav": 9.9,
+    "date_bs": "2082-07-30",
+    "frequency": "monthly",
+    "source_label": "30 Kartik 2082"
+  },
+  {
+    "as_of": "2025-11-21",
+    "nav": 9.95,
+    "date_bs": "2082-08-05",
+    "frequency": "weekly",
+    "source_label": "05 Mangsir 2082"
+  },
+  {
+    "as_of": "2025-11-28",
+    "nav": 10.37,
+    "date_bs": "2082-08-12",
+    "frequency": "weekly",
+    "source_label": "12 Mangsir 2082"
+  },
+  {
+    "as_of": "2025-12-05",
+    "nav": 10.3,
+    "date_bs": "2082-08-19",
+    "frequency": "weekly",
+    "source_label": "19 Mangisr 2082"
+  },
+  {
+    "as_of": "2025-12-12",
+    "nav": 10.23,
+    "date_bs": "2082-08-26",
+    "frequency": "weekly",
+    "source_label": "26 Mangsir 2082"
+  },
+  {
+    "as_of": "2025-12-15",
+    "nav": 10.21,
+    "date_bs": "2082-08-29",
+    "frequency": "monthly",
+    "source_label": "29 Mangsir 2082"
+  },
+  {
+    "as_of": "2025-12-19",
+    "nav": 10.27,
+    "date_bs": "2082-09-04",
+    "frequency": "weekly",
+    "source_label": "04 Poush 2082"
+  },
+  {
+    "as_of": "2025-12-26",
+    "nav": 10.25,
+    "date_bs": "2082-09-11",
+    "frequency": "weekly",
+    "source_label": "11 Poush 2082"
+  },
+  {
+    "as_of": "2026-01-02",
+    "nav": 10.38,
+    "date_bs": "2082-09-18",
+    "frequency": "weekly",
+    "source_label": "18 Poush 2082"
+  },
+  {
+    "as_of": "2026-01-09",
+    "nav": 10.46,
+    "date_bs": "2082-09-25",
+    "frequency": "weekly",
+    "source_label": "25 Poush 2082"
+  },
+  {
+    "as_of": "2026-01-14",
+    "nav": 10.47,
+    "date_bs": "2082-09-30",
+    "frequency": "monthly",
+    "source_label": "30 Poush 2082"
+  },
+  {
+    "as_of": "2026-01-16",
+    "nav": 10.46,
+    "date_bs": "2082-10-02",
+    "frequency": "weekly",
+    "source_label": "02 Magh 2082"
+  },
+  {
+    "as_of": "2026-01-30",
+    "nav": 10.79,
+    "date_bs": "2082-10-16",
+    "frequency": "weekly",
+    "source_label": "16 Magh 2082"
+  },
+  {
+    "as_of": "2026-02-06",
+    "nav": 10.76,
+    "date_bs": "2082-10-23",
+    "frequency": "weekly",
+    "source_label": "23 Magh 2082"
+  },
+  {
+    "as_of": "2026-02-12",
+    "nav": 10.6,
+    "date_bs": "2082-10-29",
+    "frequency": "monthly",
+    "source_label": "29 Magh 2082"
+  },
+  {
+    "as_of": "2026-02-13",
+    "nav": 10.06,
+    "date_bs": "2082-11-01",
+    "frequency": "weekly",
+    "source_label": "01 Falgun 2082"
+  },
+  {
+    "as_of": "2026-02-20",
+    "nav": 10.55,
+    "date_bs": "2082-11-08",
+    "frequency": "weekly",
+    "source_label": "08 Falgun 2082"
+  },
+  {
+    "as_of": "2026-02-27",
+    "nav": 10.62,
+    "date_bs": "2082-11-15",
+    "frequency": "weekly",
+    "source_label": "15 Falgun 2082"
+  },
+  {
+    "as_of": "2026-03-06",
+    "nav": 10.76,
+    "date_bs": "2082-11-22",
+    "frequency": "weekly",
+    "source_label": "22 Falgun 2082"
+  },
+  {
+    "as_of": "2026-03-13",
+    "nav": 11,
+    "date_bs": "2082-11-29",
+    "frequency": "weekly",
+    "source_label": "29 Falgun 2082"
+  },
+  {
+    "as_of": "2026-03-14",
+    "nav": 11,
+    "date_bs": "2082-11-30",
+    "frequency": "monthly",
+    "source_label": "30 Falgun 2082"
+  },
+  {
+    "as_of": "2026-03-20",
+    "nav": 11.14,
+    "date_bs": "2082-12-06",
+    "frequency": "weekly",
+    "source_label": "6 Chaitra 2082"
+  },
+  {
+    "as_of": "2026-03-27",
+    "nav": 11.3,
+    "date_bs": "2082-12-13",
+    "frequency": "weekly",
+    "source_label": "13 Chaitra 2082"
+  },
+  {
+    "as_of": "2026-04-03",
+    "nav": 10.85,
+    "date_bs": "2082-12-20",
+    "frequency": "weekly",
+    "source_label": "20 Chaitra 2082"
+  },
+  {
+    "as_of": "2026-04-10",
+    "nav": 10.94,
+    "date_bs": "2082-12-27",
+    "frequency": "weekly",
+    "source_label": "27 Chaitra 2082"
+  },
+  {
+    "as_of": "2026-04-13",
+    "nav": 10.99,
+    "date_bs": "2082-12-30",
+    "frequency": "monthly",
+    "source_label": "30 Chaitra 2082"
+  },
+  {
+    "as_of": "2026-04-17",
+    "nav": 11,
+    "date_bs": "2083-01-04",
+    "frequency": "weekly",
+    "source_label": "04 Baishak 2083"
+  },
+  {
+    "as_of": "2026-04-24",
+    "nav": 10.85,
+    "date_bs": "2083-01-11",
+    "frequency": "weekly",
+    "source_label": "11 Baishak 2083"
+  },
+  {
+    "as_of": "2026-05-01",
+    "nav": 10.77,
+    "date_bs": "2083-01-18",
+    "frequency": "weekly",
+    "source_label": "18 Baishak 2083"
+  },
+  {
+    "as_of": "2026-05-08",
+    "nav": 10.8,
+    "date_bs": "2083-01-25",
+    "frequency": "weekly",
+    "source_label": "25 Baishak 2083"
+  },
+  {
+    "as_of": "2026-05-14",
+    "nav": 10.76,
+    "date_bs": "2083-01-31",
+    "frequency": "monthly",
+    "source_label": "31 Baishak 2083"
+  },
+  {
+    "as_of": "2026-05-15",
+    "nav": 10.76,
+    "date_bs": "2083-02-01",
+    "frequency": "weekly",
+    "source_label": "01 Jestha 2083"
+  },
+  {
+    "as_of": "2026-05-22",
+    "nav": 10.86,
+    "date_bs": "2083-02-08",
+    "frequency": "weekly",
+    "source_label": "08 Jestha 2083"
+  },
+  {
+    "as_of": "2026-05-29",
+    "nav": 10.95,
+    "date_bs": "2083-02-15",
+    "frequency": "weekly",
+    "source_label": "15 Jestha 2083"
+  },
+  {
+    "as_of": "2026-06-05",
+    "nav": 10.92,
+    "date_bs": "2083-02-22",
+    "frequency": "weekly",
+    "source_label": "22 Jestha 2083"
+  },
+  {
+    "as_of": "2026-06-12",
+    "nav": 10.8,
+    "date_bs": "2083-02-29",
+    "frequency": "weekly",
+    "source_label": "29 Jestha 2083"
+  },
+  {
+    "as_of": "2026-06-14",
+    "nav": 10.81,
+    "date_bs": "2083-02-31",
+    "frequency": "monthly",
+    "source_label": "31 Jestha 2083"
+  },
+  {
+    "as_of": "2026-06-19",
+    "nav": 10.75,
+    "date_bs": "2083-03-05",
+    "frequency": "weekly",
+    "source_label": "05 Ashad 2083"
+  },
+  {
+    "as_of": "2026-06-26",
+    "nav": 10.59,
+    "date_bs": "2083-03-12",
+    "frequency": "weekly",
+    "source_label": "12 Ashad 2083"
+  },
+  {
+    "as_of": "2026-07-03",
+    "nav": 10.61,
+    "date_bs": "2083-03-19",
+    "frequency": "weekly",
+    "source_label": "19 Ashad 2083"
+  },
+  {
+    "as_of": "2026-07-10",
+    "nav": 10.43,
+    "date_bs": "2083-03-26",
+    "frequency": "weekly",
+    "source_label": "26 Ashad 2083"
+  },
+  {
+    "as_of": "2026-07-16",
+    "nav": 10.53,
+    "date_bs": "2083-03-32",
+    "frequency": "monthly",
+    "source_label": "32 Ashad 2083"
+  },
+  {
+    "as_of": "2026-07-17",
+    "nav": 10.7,
+    "date_bs": "2083-04-01",
+    "frequency": "weekly",
+    "source_label": "1 Shrawan 2083"
+  },
+  {
+    "as_of": "2026-07-24",
+    "nav": 10.76,
+    "date_bs": "2083-04-08",
+    "frequency": "weekly",
+    "source_label": "8 Shrawan 2083"
+  },
+  {
+    "as_of": "2026-07-31",
+    "nav": 10.64,
+    "date_bs": "2083-04-15",
+    "frequency": "weekly",
+    "source_label": "15 Shrawan 2083"
+  },
+  {
+    "as_of": "2026-08-07",
+    "nav": 10.56,
+    "date_bs": "2083-04-22",
+    "frequency": "weekly",
+    "source_label": "22 Shrawan 2083"
+  },
+  {
+    "as_of": "2026-08-14",
+    "nav": 10.6,
+    "date_bs": "2083-04-29",
+    "frequency": "weekly",
+    "source_label": "29 Shrawan 2083"
+  },
+  {
+    "as_of": "2026-08-21",
+    "nav": 10.53,
+    "date_bs": "2083-05-05",
+    "frequency": "weekly",
+    "source_label": "05 Bhadra 2083"
+  },
+  {
+    "as_of": "2026-08-28",
+    "nav": 10.32,
+    "date_bs": "2083-05-12",
+    "frequency": "weekly",
+    "source_label": "12 Bhadra 2083"
+  }
+]

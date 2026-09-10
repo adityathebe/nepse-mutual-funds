@@ -12,7 +12,24 @@ import (
 
 // fetchPrabhu decodes the complete chart arrays, including monthly period labels.
 func fetchPrabhu(ctx context.Context, client *http.Client) ([]history.Series, error) {
-	s := history.Series{Fund: history.Fund{Symbol: "PSF", Name: "Prabhu Select Fund", Source: "prabhu", Manager: "Prabhu Capital", SourceURL: "https://www.prabhucapital.com/mutual-fund?tabKey=PSF", HistoryURL: "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PSF"}}
+	var result []history.Series
+	for _, fund := range []struct{ symbol, name string }{{"PSF", "Prabhu Select Fund"}, {"PRSF", "Prabhu Smart Fund"}} {
+		series, err := fetchFlowvity(ctx, client, history.Fund{Symbol: fund.symbol, Name: fund.name, Source: "prabhu", Manager: "Prabhu Capital", SourceURL: "https://www.prabhucapital.com/mutual-fund?tabKey=" + fund.symbol, HistoryURL: "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=" + fund.symbol})
+		if err != nil {
+			return nil, err
+		}
+		result = append(result, series...)
+	}
+	return result, nil
+}
+
+func fetchHimalayan(ctx context.Context, client *http.Client) ([]history.Series, error) {
+	return fetchFlowvity(ctx, client, history.Fund{Symbol: "H8020", Name: "Himalayan 80-20", Source: "himalayan", Manager: "Himalayan Capital", SourceURL: "https://himalayancapital.com/nav-details", HistoryURL: "https://flowvity.himalayancapital.com/adminapi/v1/public/hist-nav?ticker=H8020"})
+}
+
+// Prabhu and Himalayan publish the same Flowvity chart contract.
+func fetchFlowvity(ctx context.Context, client *http.Client, fund history.Fund) ([]history.Series, error) {
+	s := history.Series{Fund: fund}
 	var response struct {
 		Status int                        `json:"status"`
 		Data   map[string]json.RawMessage `json:"data"`

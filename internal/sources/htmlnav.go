@@ -74,7 +74,19 @@ func fetchHLI(ctx context.Context, client *http.Client) ([]history.Series, error
 
 // The WordPress nonce expires; discover it on every run and verify total_items across pages.
 func fetchNIMB(ctx context.Context, client *http.Client) ([]history.Series, error) {
-	s := history.Series{Fund: history.Fund{Symbol: "NIBLSTF", Name: "NIBL Stable Fund", Source: "nimb", Manager: "NIMB Ace Capital", SourceURL: "https://nimbacecapital.com/services/mutual-funds/nav-nibl-stable-fund/", HistoryURL: "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table&mutual_fund=nav-nibl-stable-fund"}}
+	var result []history.Series
+	for _, fund := range []struct{ symbol, name, slug string }{{"NIBLSTF", "NIBL Stable Fund", "nav-nibl-stable-fund"}, {"NIBLGF", "NIBL Growth Fund", "nav-nibl-growth-fund"}} {
+		series, err := fetchNIMBScheme(ctx, client, history.Fund{Symbol: fund.symbol, Name: fund.name, Source: "nimb", Manager: "NIMB Ace Capital", SourceURL: "https://nimbacecapital.com/services/mutual-funds/" + fund.slug + "/", HistoryURL: "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table&mutual_fund=" + fund.slug}, fund.slug)
+		if err != nil {
+			return nil, err
+		}
+		result = append(result, series...)
+	}
+	return result, nil
+}
+
+func fetchNIMBScheme(ctx context.Context, client *http.Client, fund history.Fund, slug string) ([]history.Series, error) {
+	s := history.Series{Fund: fund}
 	var pageHTML string
 	if err := request(ctx, client, s.Fund.SourceURL, nil, &pageHTML); err != nil {
 		return nil, err
@@ -91,7 +103,7 @@ func fetchNIMB(ctx context.Context, client *http.Client) ([]history.Series, erro
 		}
 		count, total := 0, -1
 		for page := 1; ; page++ {
-			form := url.Values{"action": {"load_mutual_fund_table"}, "nonce": {nonce[1]}, "mutual_fund": {"nav-nibl-stable-fund"}, "type": {frequency}, "page": {strconv.Itoa(page)}, "search": {""}, "entries": {"50"}}
+			form := url.Values{"action": {"load_mutual_fund_table"}, "nonce": {nonce[1]}, "mutual_fund": {slug}, "type": {frequency}, "page": {strconv.Itoa(page)}, "search": {""}, "entries": {"50"}}
 			var response struct {
 				Success bool
 				Data    struct {

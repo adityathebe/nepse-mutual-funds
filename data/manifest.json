@@ -2,6 +2,17 @@
   "schema_version": 1,
   "funds": [
     {
+      "symbol": "C30MF",
+      "source": "citizens",
+      "manager": "Citizens Capital",
+      "name": "Citizens Super 30 Mutual Fund",
+      "source_url": "https://www.citizenscapital.com.np/",
+      "history_url": "https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=3",
+      "latest_as_of": "2026-08-28",
+      "last_successful_fetch": "2026-09-09T21:18:56Z",
+      "points": 205
+    },
+    {
       "symbol": "CSY",
       "source": "citizens",
       "manager": "Citizens Capital",
@@ -35,6 +46,28 @@
       "points": 263
     },
     {
+      "symbol": "GSY",
+      "source": "garima",
+      "manager": "Garima Capital",
+      "name": "Garima Samriddhi Yojana",
+      "source_url": "https://garimacapital.com/nav-details",
+      "history_url": "https://garimacapital.com/nav/category-data/3",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T21:19:04Z",
+      "points": 107
+    },
+    {
+      "symbol": "H8020",
+      "source": "himalayan",
+      "manager": "Himalayan Capital",
+      "name": "Himalayan 80-20",
+      "source_url": "https://himalayancapital.com/nav-details",
+      "history_url": "https://flowvity.himalayancapital.com/adminapi/v1/public/hist-nav?ticker=H8020",
+      "latest_as_of": "2026-08-28",
+      "last_successful_fetch": "2026-09-09T21:14:45Z",
+      "points": 187
+    },
+    {
       "symbol": "HLICF",
       "source": "himalayaninvest",
       "manager": "Himalayan Investment Banker",
@@ -46,6 +79,50 @@
       "points": 50
     },
     {
+      "symbol": "KDBY",
+      "source": "kumari",
+      "manager": "Kumari Capital",
+      "name": "Kumari Dhanabriddhi Yojana",
+      "source_url": "https://kumaricapital.com/floorsheet/kdby",
+      "history_url": "https://api-web.kumaricapital.com/items/navs?filter[scheme][_eq]=4",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T21:19:12Z",
+      "points": 271
+    },
+    {
+      "symbol": "KEF",
+      "source": "kumari",
+      "manager": "Kumari Capital",
+      "name": "Kumari Equity Fund",
+      "source_url": "https://kumaricapital.com/floorsheet/kef",
+      "history_url": "https://api-web.kumaricapital.com/items/navs?filter[scheme][_eq]=3",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T21:19:12Z",
+      "points": 350
+    },
+    {
+      "symbol": "KSY",
+      "source": "kumari",
+      "manager": "Kumari Capital",
+      "name": "Kumari Sabal Yojana",
+      "source_url": "https://kumaricapital.com/floorsheet/ksy",
+      "history_url": "https://api-web.kumaricapital.com/items/navs?filter[scheme][_eq]=2",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T21:19:12Z",
+      "points": 162
+    },
+    {
+      "symbol": "LVF2",
+      "source": "lscapital",
+      "manager": "LS Capital",
+      "name": "Laxmi Value Fund II",
+      "source_url": "https://lscapital.com.np/",
+      "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=7",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T21:22:43Z",
+      "points": 144
+    },
+    {
       "symbol": "MBLEF",
       "source": "machhapuchchhre",
       "manager": "Machhapuchchhre Capital",
@@ -55,6 +132,28 @@
       "latest_as_of": "2026-09-04",
       "last_successful_fetch": "2026-09-09T18:16:28Z",
       "points": 93
+    },
+    {
+      "symbol": "MNMF1",
+      "source": "muktinath",
+      "manager": "Muktinath Capital",
+      "name": "Muktinath Mutual Fund 1",
+      "source_url": "https://muktinathcapital.com/services/mutual-fund/muktinath-mutual-fund-1",
+      "history_url": "https://muktinathcapital.com/frontapi/en/mutualfund?slug=muktinath-mutual-fund-1",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T21:19:06Z",
+      "points": 109
+    },
+    {
+      "symbol": "NIBLGF",
+      "source": "nimb",
+      "manager": "NIMB Ace Capital",
+      "name": "NIBL Growth Fund",
+      "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-growth-fund/",
+      "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nav-nibl-growth-fund",
+      "latest_as_of": "2026-09-03",
+      "last_successful_fetch": "2026-09-09T21:14:16Z",
+      "points": 120
     },
     {
       "symbol": "NIBLSTF",
@@ -79,6 +178,17 @@
       "points": 96
     },
     {
+      "symbol": "NSIF2",
+      "source": "nmb",
+      "manager": "NMB Capital",
+      "name": "NMB Sulav Investment Fund II",
+      "source_url": "https://www.nmbcl.com.np/navhistory",
+      "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=5",
+      "latest_as_of": "2026-08-31",
+      "last_successful_fetch": "2026-09-09T21:18:27Z",
+      "points": 257
+    },
+    {
       "symbol": "NSY",
       "source": "nepallife",
       "manager": "Nepal Life Capital",
@@ -88,6 +198,17 @@
       "latest_as_of": "2026-08-16",
       "last_successful_fetch": "2026-09-09T18:16:43Z",
       "points": 31
+    },
+    {
+      "symbol": "PRSF",
+      "source": "prabhu",
+      "manager": "Prabhu Capital",
+      "name": "Prabhu Smart Fund",
+      "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PRSF",
+      "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PRSF",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T21:13:55Z",
+      "points": 224
     },
     {
       "symbol": "PSF",
@@ -112,6 +233,17 @@
       "points": 49
     },
     {
+      "symbol": "RMF2",
+      "source": "rbb",
+      "manager": "RBB Merchant Banking",
+      "name": "RBB Mutual Fund 2",
+      "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-2",
+      "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-2",
+      "latest_as_of": "2026-08-28",
+      "last_successful_fetch": "2026-09-09T21:14:06Z",
+      "points": 209
+    },
+    {
       "symbol": "RSY",
       "source": "reliable",
       "manager": "Reliable Investment and Merchant Capital",
@@ -121,6 +253,17 @@
       "latest_as_of": "2026-09-04",
       "last_successful_fetch": "2026-09-09T18:18:44Z",
       "points": 72
+    },
+    {
+      "symbol": "SAGF",
+      "source": "sanima",
+      "manager": "Sanima Capital",
+      "name": "Sanima Growth Fund",
+      "source_url": "https://www.sanimacapital.com/",
+      "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=3",
+      "latest_as_of": "2026-09-04",
+      "last_successful_fetch": "2026-09-09T21:14:42Z",
+      "points": 242
     },
     {
       "symbol": "SIGS2",

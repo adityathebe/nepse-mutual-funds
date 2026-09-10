@@ -22,7 +22,7 @@ type Adapter struct {
 
 // All lists the contributor-maintained sources in a stable execution order.
 func All() []Adapter {
-	return []Adapter{{"nmb", fetchNMB}, {"prabhu", fetchPrabhu}, {"siddhartha", fetchSiddhartha}, {"globalime", fetchGlobalIME}, {"machhapuchchhre", fetchMBL}, {"rbb", fetchRBB}, {"nimb", fetchNIMB}, {"himalayaninvest", fetchHLI}, {"reliable", fetchReliable}, {"citizens", fetchCitizens}, {"nepallife", fetchNepalLife}}
+	return []Adapter{{"nmb", fetchNMB}, {"prabhu", fetchPrabhu}, {"siddhartha", fetchSiddhartha}, {"globalime", fetchGlobalIME}, {"machhapuchchhre", fetchMBL}, {"rbb", fetchRBB}, {"nimb", fetchNIMB}, {"himalayaninvest", fetchHLI}, {"reliable", fetchReliable}, {"citizens", fetchCitizens}, {"nepallife", fetchNepalLife}, {"garima", fetchGarima}, {"muktinath", fetchMuktinath}, {"kumari", fetchKumari}, {"sanima", fetchSanima}, {"lscapital", fetchLSCapital}, {"himalayan", fetchHimalayan}}
 }
 
 // request bounds response size and request rate; normal TLS verification stays enabled.
