@@ -421,9 +421,9 @@
       "source_url": "https://reliablecapital.com.np/reliable-samridhi-yojana",
       "history_url": "https://api.reliablecapital.com.np/api/nav-charts",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T05:41:24Z",
-      "points": 75
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-11T17:08:42Z",
+      "points": 76
     },
     {
       "symbol": "RSY2",
@@ -433,9 +433,9 @@
       "source_url": "https://reliablecapital.com.np/reliable-samridhi-yojana-two",
       "history_url": "https://api.reliablecapital.com.np/api/nav-chart-2",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T05:41:24Z",
-      "points": 14
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-11T17:08:42Z",
+      "points": 15
     },
     {
       "symbol": "SAEF2",
