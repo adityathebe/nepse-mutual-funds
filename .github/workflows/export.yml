@@ -2,7 +2,7 @@ name: Export and publish NAV API
 
 on:
   workflow_run:
-    workflows: ['Collect and publish NAV history']
+    workflows: ['Collect and publish NAV history', 'Collect banking ratios']
     types: [completed]
   workflow_dispatch:
 
@@ -49,7 +49,7 @@ jobs:
         run: |
           mkdir -p "$RUNNER_TEMP/site/data" "$RUNNER_TEMP/site/exports"
           cp data/*.json "$RUNNER_TEMP/site/data/"
-          cp exports/nav.json "$RUNNER_TEMP/site/exports/"
+          cp exports/*.json "$RUNNER_TEMP/site/exports/"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ${{ runner.temp }}/site

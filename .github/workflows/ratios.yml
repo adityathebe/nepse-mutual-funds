@@ -1,0 +1,44 @@
+name: Collect banking ratios
+
+on:
+  schedule:
+    - cron: '12 13 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nav-static-data
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: false
+      - name: Install PDF extraction and OCR
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends poppler-utils tesseract-ocr
+      - name: Scrape official banking ratios
+        run: go run ./cmd/ratiocollector
+      - name: Commit changed ratios
+        run: |
+          git add -- exports/ratios.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'data: sync official banking ratios'
+            git push origin "HEAD:${{ github.event.repository.default_branch }}"
+          fi
