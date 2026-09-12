@@ -17,6 +17,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"sync"
 	"time"
 
 	nepse "github.com/voidarchive/go-nepse"
@@ -25,9 +26,10 @@ import (
 const rootURL = "https://www.nepalstock.com"
 
 type output struct {
-	SchemaVersion int     `json:"schema_version"`
-	AsOf          string  `json:"as_of"`
-	Companies     []ratio `json:"companies"`
+	SchemaVersion int       `json:"schema_version"`
+	AsOf          string    `json:"as_of"`
+	Companies     []ratio   `json:"companies"`
+	Failures      []failure `json:"failures,omitempty"`
 }
 
 type ratio struct {
@@ -50,6 +52,12 @@ type ratio struct {
 	DividendURL         string   `json:"dividend_url"`
 }
 
+type failure struct {
+	Symbol string `json:"symbol"`
+	Sector string `json:"sector"`
+	Error  string `json:"error"`
+}
+
 type statement struct {
 	totalAssets    float64
 	assetsPerShare float64
@@ -68,29 +76,136 @@ type sectorConfig struct {
 	scaleAgainstBookValue bool
 }
 
+type scrapeJob struct {
+	company nepse.Company
+	sector  sectorConfig
+}
+
+type scrapeResult struct {
+	company nepse.Company
+	ratio   ratio
+	err     error
+}
+
+var financialRevenueLabels = []string{
+	"totaloperatingincome",
+	"totaioperatingincame",
+	"totaicoperatingincame",
+	"totaicperatingincame",
+	"totaloperetingincome",
+}
+
+var operatingRevenueLabels = []string{
+	"revenuefromoperations",
+	"revenuefromoperation",
+	"incomefromoperations",
+	"incomefromoperation",
+	"revenuefromsaleofelectricity",
+	"revenuefromsaleofenergy",
+	"revenuefromsales",
+	"salesrevenue",
+	"netinsurancepremium",
+	"netpremiumincome",
+	"grosspremium",
+	"netrevenue",
+	"netsales",
+	"notsales",
+	"totalrevenue",
+	"totalincome",
+	"revenue",
+}
+
 var sectors = []sectorConfig{
 	{
 		name:          "Commercial Banks",
-		revenueLabels: []string{"totaloperatingincome", "totaioperatingincame", "totaicoperatingincame", "totaicperatingincame", "totaloperetingincome"},
+		revenueLabels: financialRevenueLabels,
 		assetRatioMin: 5,
 		assetRatioMax: 100,
 		bookValueMax:  1000,
 	},
 	{
-		name: "Manufacturing And Processing",
-		revenueLabels: []string{
-			"revenuefromoperations",
-			"revenuefromoperation",
-			"incomefromoperations",
-			"incomefromoperation",
-			"revenuefromsales",
-			"salesrevenue",
-			"netrevenue",
-			"netsales",
-			"notsales",
-			"totalrevenue",
-			"revenue",
-		},
+		name:                  "Development Banks",
+		revenueLabels:         financialRevenueLabels,
+		assetRatioMin:         1,
+		assetRatioMax:         1000,
+		bookValueMax:          1000,
+		scaleAgainstBookValue: true,
+	},
+	{
+		name:                  "Finance",
+		revenueLabels:         financialRevenueLabels,
+		assetRatioMin:         1,
+		assetRatioMax:         1000,
+		bookValueMax:          1000,
+		scaleAgainstBookValue: true,
+	},
+	{
+		name:                  "Hotels And Tourism",
+		revenueLabels:         operatingRevenueLabels,
+		assetRatioMin:         1,
+		assetRatioMax:         1000,
+		bookValueMax:          1000000,
+		scaleAgainstBookValue: true,
+	},
+	{
+		name:                  "Hydro Power",
+		revenueLabels:         operatingRevenueLabels,
+		assetRatioMin:         1,
+		assetRatioMax:         1000,
+		bookValueMax:          1000000,
+		scaleAgainstBookValue: true,
+	},
+	{
+		name:                  "Investment",
+		revenueLabels:         operatingRevenueLabels,
+		assetRatioMin:         1,
+		assetRatioMax:         1000,
+		bookValueMax:          1000000,
+		scaleAgainstBookValue: true,
+	},
+	{
+		name:                  "Life Insurance",
+		revenueLabels:         operatingRevenueLabels,
+		assetRatioMin:         1,
+		assetRatioMax:         1000,
+		bookValueMax:          1000000,
+		scaleAgainstBookValue: true,
+	},
+	{
+		name:                  "Manufacturing And Processing",
+		revenueLabels:         operatingRevenueLabels,
+		assetRatioMin:         1,
+		assetRatioMax:         1000,
+		bookValueMax:          1000000,
+		scaleAgainstBookValue: true,
+	},
+	{
+		name:                  "Microfinance",
+		revenueLabels:         financialRevenueLabels,
+		assetRatioMin:         1,
+		assetRatioMax:         1000,
+		bookValueMax:          1000,
+		scaleAgainstBookValue: true,
+	},
+	{
+		name:                  "Non Life Insurance",
+		revenueLabels:         operatingRevenueLabels,
+		assetRatioMin:         1,
+		assetRatioMax:         1000,
+		bookValueMax:          1000000,
+		scaleAgainstBookValue: true,
+	},
+	{
+		name:                  "Others",
+		revenueLabels:         operatingRevenueLabels,
+		assetRatioMin:         1,
+		assetRatioMax:         1000,
+		bookValueMax:          1000000,
+		scaleAgainstBookValue: true,
+	},
+	{
+		name:                  "Tradings",
+		revenueLabels:         operatingRevenueLabels,
 		assetRatioMin:         1,
 		assetRatioMax:         1000,
 		bookValueMax:          1000000,
@@ -108,7 +223,7 @@ func main() {
 }
 
 func run(outputPath string) error {
-	ctx, cancel := context.WithTimeout(context.Background(), 25*time.Minute)
+	ctx, cancel := context.WithTimeout(context.Background(), 50*time.Minute)
 	defer cancel()
 
 	client, err := nepse.NewClient(nil)
@@ -123,6 +238,7 @@ func run(outputPath string) error {
 	}
 	httpClient := &http.Client{Timeout: 90 * time.Second}
 	result := output{SchemaVersion: 1}
+	var jobs []scrapeJob
 	for _, sector := range sectors {
 		var companiesInSector []nepse.Company
 		for _, company := range companies {
@@ -134,18 +250,53 @@ func run(outputPath string) error {
 			return fmt.Errorf("NEPSE returned no active %s companies", strings.ToLower(sector.name))
 		}
 		for _, company := range companiesInSector {
-			item, err := scrapeCompany(ctx, client, httpClient, company, sector)
-			if err != nil {
-				return fmt.Errorf("%s: %w", company.Symbol, err)
-			}
-			if item.PriceAsOf > result.AsOf {
-				result.AsOf = item.PriceAsOf
-			}
-			result.Companies = append(result.Companies, item)
-			fmt.Printf("%s: %s %s\n", item.Symbol, item.FiscalYear, item.Quarter)
+			jobs = append(jobs, scrapeJob{company: company, sector: sector})
 		}
 	}
+
+	results := make(chan scrapeResult, len(jobs))
+	jobsToScrape := make(chan scrapeJob)
+	var workers sync.WaitGroup
+	for range min(4, len(jobs)) {
+		workers.Add(1)
+		go func() {
+			defer workers.Done()
+			for job := range jobsToScrape {
+				item, err := scrapeCompany(ctx, client, httpClient, job.company, job.sector)
+				results <- scrapeResult{company: job.company, ratio: item, err: err}
+			}
+		}()
+	}
+	go func() {
+		for _, job := range jobs {
+			jobsToScrape <- job
+		}
+		close(jobsToScrape)
+		workers.Wait()
+		close(results)
+	}()
+
+	for scraped := range results {
+		if scraped.err != nil {
+			result.Failures = append(result.Failures, failure{
+				Symbol: scraped.company.Symbol,
+				Sector: scraped.company.SectorName,
+				Error:  scraped.err.Error(),
+			})
+			fmt.Fprintf(os.Stderr, "%s: %v\n", scraped.company.Symbol, scraped.err)
+			continue
+		}
+		if scraped.ratio.PriceAsOf > result.AsOf {
+			result.AsOf = scraped.ratio.PriceAsOf
+		}
+		result.Companies = append(result.Companies, scraped.ratio)
+		fmt.Printf("%s: %s %s\n", scraped.ratio.Symbol, scraped.ratio.FiscalYear, scraped.ratio.Quarter)
+	}
+	if len(result.Companies) == 0 {
+		return errors.New("could not collect ratios for any active equity")
+	}
 	sort.Slice(result.Companies, func(i, j int) bool { return result.Companies[i].Symbol < result.Companies[j].Symbol })
+	sort.Slice(result.Failures, func(i, j int) bool { return result.Failures[i].Symbol < result.Failures[j].Symbol })
 
 	data, err := json.MarshalIndent(result, "", "  ")
 	if err != nil {
@@ -341,7 +492,9 @@ func latestCashDividend(dividends []nepse.Dividend) float64 {
 }
 
 func fetchReportText(ctx context.Context, client *http.Client, reportURL string, revenueLabels []string) (string, error) {
-	req, err := http.NewRequestWithContext(ctx, http.MethodGet, reportURL, nil)
+	reportCtx, cancel := context.WithTimeout(ctx, 2*time.Minute)
+	defer cancel()
+	req, err := http.NewRequestWithContext(reportCtx, http.MethodGet, reportURL, nil)
 	if err != nil {
 		return "", err
 	}
@@ -360,7 +513,7 @@ func fetchReportText(ctx context.Context, client *http.Client, reportURL string,
 		return "", err
 	}
 
-	command := exec.CommandContext(ctx, "pdftotext", "-layout", "-", "-")
+	command := exec.CommandContext(reportCtx, "pdftotext", "-layout", "-", "-")
 	command.Stdin = bytes.NewReader(pdf.Bytes())
 	extracted, err := command.Output()
 	if err == nil {
@@ -368,7 +521,7 @@ func fetchReportText(ctx context.Context, client *http.Client, reportURL string,
 			return string(extracted), nil
 		}
 	}
-	return ocrPDF(ctx, pdf.Bytes(), revenueLabels)
+	return ocrPDF(reportCtx, pdf.Bytes(), revenueLabels)
 }
 
 func ocrPDF(ctx context.Context, pdf []byte, revenueLabels []string) (string, error) {
@@ -429,11 +582,6 @@ func parseStatement(text string, revenueLabels []string) (statement, error) {
 	currentEquity := 0.0
 	if len(equity) > 0 {
 		currentEquity = equity[0]
-		if len(equity) >= 4 {
-			currentEquity = equity[2]
-		} else if len(equity) == 3 {
-			currentEquity = equity[1]
-		}
 	}
 	parsed := statement{equity: currentEquity, revenue: revenue}
 	if assetsFound {

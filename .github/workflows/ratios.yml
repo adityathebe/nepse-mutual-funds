@@ -2,7 +2,7 @@ name: Collect sector ratios
 
 on:
   schedule:
-    - cron: '12 13 * * *'
+    - cron: '12 13 * * 0'
   workflow_dispatch:
 
 permissions:
@@ -10,6 +10,7 @@ permissions:
 
 concurrency:
   group: nav-static-data
+  queue: max
   cancel-in-progress: false
 
 jobs:
