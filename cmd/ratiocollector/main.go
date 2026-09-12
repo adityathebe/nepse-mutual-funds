@@ -26,7 +26,6 @@ const rootURL = "https://www.nepalstock.com"
 
 type output struct {
 	SchemaVersion int     `json:"schema_version"`
-	Sector        string  `json:"sector"`
 	AsOf          string  `json:"as_of"`
 	Companies     []ratio `json:"companies"`
 }
@@ -34,6 +33,7 @@ type output struct {
 type ratio struct {
 	Symbol              string   `json:"symbol"`
 	Name                string   `json:"name"`
+	Sector              string   `json:"sector"`
 	FiscalYear          string   `json:"fiscal_year"`
 	Quarter             string   `json:"quarter"`
 	ReportSubmittedDate string   `json:"report_submitted_date"`
@@ -51,12 +51,52 @@ type ratio struct {
 }
 
 type statement struct {
-	totalAssets     float64
-	equity          float64
-	operatingIncome []float64
+	totalAssets    float64
+	assetsPerShare float64
+	equity         float64
+	revenue        []float64
 }
 
 var numberPattern = regexp.MustCompile(`\(?-?[0-9][0-9,.]*\)?%?`)
+
+type sectorConfig struct {
+	name                  string
+	revenueLabels         []string
+	assetRatioMin         float64
+	assetRatioMax         float64
+	bookValueMax          float64
+	scaleAgainstBookValue bool
+}
+
+var sectors = []sectorConfig{
+	{
+		name:          "Commercial Banks",
+		revenueLabels: []string{"totaloperatingincome", "totaioperatingincame", "totaicoperatingincame", "totaicperatingincame", "totaloperetingincome"},
+		assetRatioMin: 5,
+		assetRatioMax: 100,
+		bookValueMax:  1000,
+	},
+	{
+		name: "Manufacturing And Processing",
+		revenueLabels: []string{
+			"revenuefromoperations",
+			"revenuefromoperation",
+			"incomefromoperations",
+			"incomefromoperation",
+			"revenuefromsales",
+			"salesrevenue",
+			"netrevenue",
+			"netsales",
+			"notsales",
+			"totalrevenue",
+			"revenue",
+		},
+		assetRatioMin:         1,
+		assetRatioMax:         1000,
+		bookValueMax:          1000000,
+		scaleAgainstBookValue: true,
+	},
+}
 
 func main() {
 	outputPath := flag.String("output", "exports/ratios.json", "output JSON path")
@@ -81,28 +121,29 @@ func run(outputPath string) error {
 	if err != nil {
 		return err
 	}
-	var banks []nepse.Company
-	for _, company := range companies {
-		if company.SectorName == "Commercial Banks" && company.Status == "A" && company.InstrumentType == "Equity" {
-			banks = append(banks, company)
-		}
-	}
-	if len(banks) == 0 {
-		return errors.New("NEPSE returned no active commercial banks")
-	}
-
 	httpClient := &http.Client{Timeout: 90 * time.Second}
-	result := output{SchemaVersion: 1, Sector: "Commercial Banks"}
-	for _, bank := range banks {
-		item, err := scrapeBank(ctx, client, httpClient, bank)
-		if err != nil {
-			return fmt.Errorf("%s: %w", bank.Symbol, err)
+	result := output{SchemaVersion: 1}
+	for _, sector := range sectors {
+		var companiesInSector []nepse.Company
+		for _, company := range companies {
+			if company.SectorName == sector.name && company.Status == "A" && company.InstrumentType == "Equity" {
+				companiesInSector = append(companiesInSector, company)
+			}
 		}
-		if item.PriceAsOf > result.AsOf {
-			result.AsOf = item.PriceAsOf
+		if len(companiesInSector) == 0 {
+			return fmt.Errorf("NEPSE returned no active %s companies", strings.ToLower(sector.name))
 		}
-		result.Companies = append(result.Companies, item)
-		fmt.Printf("%s: %s %s\n", item.Symbol, item.FiscalYear, item.Quarter)
+		for _, company := range companiesInSector {
+			item, err := scrapeCompany(ctx, client, httpClient, company, sector)
+			if err != nil {
+				return fmt.Errorf("%s: %w", company.Symbol, err)
+			}
+			if item.PriceAsOf > result.AsOf {
+				result.AsOf = item.PriceAsOf
+			}
+			result.Companies = append(result.Companies, item)
+			fmt.Printf("%s: %s %s\n", item.Symbol, item.FiscalYear, item.Quarter)
+		}
 	}
 	sort.Slice(result.Companies, func(i, j int) bool { return result.Companies[i].Symbol < result.Companies[j].Symbol })
 
@@ -121,8 +162,8 @@ func run(outputPath string) error {
 	return os.Rename(temporary, outputPath)
 }
 
-func scrapeBank(ctx context.Context, client *nepse.Client, httpClient *http.Client, bank nepse.Company) (ratio, error) {
-	reports, err := client.Reports(ctx, bank.ID)
+func scrapeCompany(ctx context.Context, client *nepse.Client, httpClient *http.Client, company nepse.Company, sector sectorConfig) (ratio, error) {
+	reports, err := client.Reports(ctx, company.ID)
 	if err != nil {
 		return ratio{}, err
 	}
@@ -143,12 +184,12 @@ func scrapeBank(ctx context.Context, client *nepse.Client, httpClient *http.Clie
 	var documentErrors []error
 	for _, candidate := range documents {
 		candidateURL := rootURL + "/api/nots/security/fetchFiles?" + url.Values{"fileLocation": {candidate.FilePath}}.Encode()
-		text, fetchErr := fetchReportText(ctx, httpClient, candidateURL)
+		text, fetchErr := fetchReportText(ctx, httpClient, candidateURL, sector.revenueLabels)
 		if fetchErr != nil {
 			documentErrors = append(documentErrors, fetchErr)
 			continue
 		}
-		parsed, parseErr := parseStatement(text)
+		parsed, parseErr := parseStatement(text, sector.revenueLabels)
 		if parseErr != nil {
 			documentErrors = append(documentErrors, parseErr)
 			continue
@@ -160,7 +201,7 @@ func scrapeBank(ctx context.Context, client *nepse.Client, httpClient *http.Clie
 		return ratio{}, fmt.Errorf("no attached document contains financial statements: %w", errors.Join(documentErrors...))
 	}
 
-	detail, err := client.SecurityDetail(ctx, bank.ID)
+	detail, err := client.SecurityDetail(ctx, company.ID)
 	if err != nil {
 		return ratio{}, err
 	}
@@ -174,20 +215,33 @@ func scrapeBank(ctx context.Context, client *nepse.Client, httpClient *http.Clie
 	if price <= 0 {
 		return ratio{}, errors.New("current market price is missing")
 	}
-
-	fiscal := report.FiscalReport
-	scale, err := assetScale(financials.totalAssets, fiscal.PaidUpCapital)
-	if err != nil {
-		return ratio{}, err
-	}
-	financials.totalAssets *= scale
 	if detail.ListedShares <= 0 {
 		return ratio{}, errors.New("listed share count is missing")
 	}
 
+	fiscal := report.FiscalReport
 	bookValue := fiscal.NetWorthPerShare
 	currentEquity := bookValue * float64(detail.ListedShares)
-	if bookValue < 25 || bookValue > 1000 {
+	minimumAssets := 0.0
+	if sector.scaleAgainstBookValue && bookValue >= 25 && bookValue <= sector.bookValueMax {
+		minimumAssets = currentEquity
+	}
+	scale := 1.0
+	revenueScale := scale
+	if financials.totalAssets <= 0 && financials.assetsPerShare > 0 {
+		financials.totalAssets = financials.assetsPerShare * float64(detail.ListedShares)
+		revenueScale = 1000
+	} else {
+		var err error
+		scale, err = assetScale(financials.totalAssets, fiscal.PaidUpCapital, sector.assetRatioMin, sector.assetRatioMax, minimumAssets)
+		if err != nil {
+			return ratio{}, err
+		}
+		financials.totalAssets *= scale
+		revenueScale = scale
+	}
+
+	if bookValue < 25 || bookValue > sector.bookValueMax {
 		if bookValue > 1000000 {
 			currentEquity = bookValue
 		} else {
@@ -201,28 +255,29 @@ func scrapeBank(ctx context.Context, client *nepse.Client, httpClient *http.Clie
 
 	annualProfit := fiscal.EPSValue * float64(detail.ListedShares)
 	ytdProfit := annualProfit * float64(fiscal.QuarterMaster.ID) / 4
-	operatingIncome, err := pickOperatingIncome(financials.operatingIncome, scale, ytdProfit)
+	revenue, err := pickRevenue(financials.revenue, revenueScale, ytdProfit)
 	if err != nil {
 		return ratio{}, err
 	}
 
-	dividends, err := client.Dividends(ctx, bank.ID)
+	dividends, err := client.Dividends(ctx, company.ID)
 	if err != nil {
 		return ratio{}, err
 	}
 	cashDividend := latestCashDividend(dividends)
 
 	item := ratio{
-		Symbol:              bank.Symbol,
-		Name:                bank.SecurityName,
+		Symbol:              company.Symbol,
+		Name:                company.SecurityName,
+		Sector:              sector.name,
 		FiscalYear:          fiscal.FinancialYear.FYNameNepali,
 		Quarter:             fiscal.QuarterMaster.QuarterName,
 		ReportSubmittedDate: document.SubmittedDate,
 		PriceAsOf:           detail.BusinessDate,
 		MarketPrice:         round(price),
 		ReportURL:           reportURL,
-		PriceURL:            fmt.Sprintf("%s/company/detail/%d", rootURL, bank.ID),
-		DividendURL:         fmt.Sprintf("%s/api/nots/application/dividend/%d", rootURL, bank.ID),
+		PriceURL:            fmt.Sprintf("%s/company/detail/%d", rootURL, company.ID),
+		DividendURL:         fmt.Sprintf("%s/api/nots/application/dividend/%d", rootURL, company.ID),
 	}
 	if fiscal.EPSValue > 0 {
 		item.PE = value(price / fiscal.EPSValue)
@@ -231,7 +286,7 @@ func scrapeBank(ctx context.Context, client *nepse.Client, httpClient *http.Clie
 		item.PB = value(price / bookValue)
 		item.ROE = value(fiscal.EPSValue / bookValue * 100)
 	}
-	item.NetMargin = value(ytdProfit / operatingIncome * 100)
+	item.NetMargin = value(ytdProfit / revenue * 100)
 	item.DebtToEquity = value((financials.totalAssets - currentEquity) / currentEquity)
 	if cashDividend >= 0 && detail.FaceValue > 0 {
 		item.DividendYield = value(cashDividend * detail.FaceValue / price)
@@ -285,7 +340,7 @@ func latestCashDividend(dividends []nepse.Dividend) float64 {
 	return cash
 }
 
-func fetchReportText(ctx context.Context, client *http.Client, reportURL string) (string, error) {
+func fetchReportText(ctx context.Context, client *http.Client, reportURL string, revenueLabels []string) (string, error) {
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, reportURL, nil)
 	if err != nil {
 		return "", err
@@ -309,15 +364,15 @@ func fetchReportText(ctx context.Context, client *http.Client, reportURL string)
 	command.Stdin = bytes.NewReader(pdf.Bytes())
 	extracted, err := command.Output()
 	if err == nil {
-		if _, parseErr := parseStatement(string(extracted)); parseErr == nil {
+		if _, parseErr := parseStatement(string(extracted), revenueLabels); parseErr == nil {
 			return string(extracted), nil
 		}
 	}
-	return ocrPDF(ctx, pdf.Bytes())
+	return ocrPDF(ctx, pdf.Bytes(), revenueLabels)
 }
 
-func ocrPDF(ctx context.Context, pdf []byte) (string, error) {
-	dir, err := os.MkdirTemp("", "bank-report-")
+func ocrPDF(ctx context.Context, pdf []byte, revenueLabels []string) (string, error) {
+	dir, err := os.MkdirTemp("", "sector-report-")
 	if err != nil {
 		return "", err
 	}
@@ -335,34 +390,40 @@ func ocrPDF(ctx context.Context, pdf []byte) (string, error) {
 		return "", errors.New("PDF produced no images for OCR")
 	}
 	sort.Strings(pages)
-	var text strings.Builder
-	for _, page := range pages {
-		command := exec.CommandContext(ctx, "tesseract", page, "stdout", "-l", "eng", "--psm", "6")
-		output, err := command.CombinedOutput()
-		if err != nil {
-			return "", fmt.Errorf("tesseract failed: %w: %s", err, output)
-		}
-		text.Write(output)
-		text.WriteByte('\n')
-		if _, err := parseStatement(text.String()); err == nil {
-			return text.String(), nil
+	for _, pageSegmentationMode := range []string{"6", "4", "3"} {
+		var text strings.Builder
+		for _, page := range pages {
+			command := exec.CommandContext(ctx, "tesseract", page, "stdout", "-l", "eng", "--psm", pageSegmentationMode)
+			output, err := command.CombinedOutput()
+			if err != nil {
+				return "", fmt.Errorf("tesseract failed: %w: %s", err, output)
+			}
+			text.Write(output)
+			text.WriteByte('\n')
+			if _, err := parseStatement(text.String(), revenueLabels); err == nil {
+				return text.String(), nil
+			}
 		}
 	}
 	return "", errors.New("required financial statement rows were not found after OCR")
 }
 
-func parseStatement(text string) (statement, error) {
-	assets, ok := findRow(text, "totalassets", "totalassots", "totalantots")
-	if !ok {
+func parseStatement(text string, revenueLabels []string) (statement, error) {
+	assets, assetsFound := findRow(text, "totalassets", "totalassots", "totalantots")
+	if balanceTotal, found := findRow(text, "totalequityandliabilities", "totalliabilitiesandequity", "totallichilitiesondequity"); found {
+		assets, assetsFound = balanceTotal, true
+	}
+	assetsPerShare, assetsPerShareFound := findRow(text, "totalassetspershare", "totalassetsper")
+	if !assetsFound && !assetsPerShareFound {
 		return statement{}, errors.New("total assets row not found")
 	}
-	equity, ok := findRow(text, "totalequity", "totalequlty", "totalquity")
-	if !ok {
-		equity, ok = findRowIncludingAttributable(text, "totalequity", "totalequlty", "totalquity")
+	equity, equityFound := findRow(text, "totalequity", "totalequlty", "totalquity")
+	if !equityFound {
+		equity, equityFound = findRowIncludingAttributable(text, "totalequity", "totalequlty", "totalquity")
 	}
-	operatingIncome, ok := findRow(text, "totaloperatingincome", "totaicperatingincame", "totaloperetingincome")
+	revenue, ok := findRow(text, revenueLabels...)
 	if !ok {
-		return statement{}, errors.New("total operating income row not found")
+		return statement{}, errors.New("revenue row not found")
 	}
 
 	currentEquity := 0.0
@@ -374,7 +435,14 @@ func parseStatement(text string) (statement, error) {
 			currentEquity = equity[1]
 		}
 	}
-	return statement{totalAssets: assets[0], equity: currentEquity, operatingIncome: operatingIncome}, nil
+	parsed := statement{equity: currentEquity, revenue: revenue}
+	if assetsFound {
+		parsed.totalAssets = assets[0]
+	}
+	if assetsPerShareFound {
+		parsed.assetsPerShare = assetsPerShare[0]
+	}
+	return parsed, nil
 }
 
 func findRowIncludingAttributable(text string, labels ...string) ([]float64, bool) {
@@ -391,12 +459,18 @@ func findRowMatching(text string, includeAttributable bool, labels ...string) ([
 		compact := compactText(line)
 		matched := ""
 		for _, label := range labels {
+			if label == "revenue" && compact != label {
+				continue
+			}
 			if strings.Contains(compact, label) {
 				matched = label
 				break
 			}
 		}
 		if matched == "" || (!includeAttributable && (strings.Contains(compact, "attribut") || strings.Contains(compact, "atribut"))) {
+			continue
+		}
+		if matched == "totalassets" && (strings.Contains(compact, "returnon") || strings.Contains(compact, "pershar")) {
 			continue
 		}
 		values := numbers(afterLabel(line, matched))
@@ -452,17 +526,17 @@ func numbers(line string) []float64 {
 	return result
 }
 
-func assetScale(totalAssets, paidUpCapital float64) (float64, error) {
+func assetScale(totalAssets, paidUpCapital, minimumRatio, maximumRatio, minimumAssets float64) (float64, error) {
 	for _, scale := range []float64{1, 1000, 1000000} {
 		ratio := totalAssets * scale / paidUpCapital
-		if ratio >= 5 && ratio <= 100 {
+		if ratio >= minimumRatio && ratio <= maximumRatio && totalAssets*scale > minimumAssets {
 			return scale, nil
 		}
 	}
 	return 0, fmt.Errorf("cannot reconcile statement asset units with paid-up capital")
 }
 
-func pickOperatingIncome(candidates []float64, scale, profit float64) (float64, error) {
+func pickRevenue(candidates []float64, scale, profit float64) (float64, error) {
 	minimum := math.Abs(profit)
 	indices := []int{5, 1}
 	for index := range candidates {
@@ -479,7 +553,7 @@ func pickOperatingIncome(candidates []float64, scale, profit float64) (float64, 
 			return candidate, nil
 		}
 	}
-	return 0, errors.New("cannot identify year-to-date total operating income")
+	return 0, errors.New("cannot identify year-to-date revenue")
 }
 
 func value(number float64) *float64 {

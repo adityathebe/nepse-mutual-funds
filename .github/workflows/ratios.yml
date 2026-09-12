@@ -1,4 +1,4 @@
-name: Collect banking ratios
+name: Collect sector ratios
 
 on:
   schedule:
@@ -16,7 +16,7 @@ jobs:
   collect:
     if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     permissions:
       contents: write
     steps:
@@ -31,7 +31,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends poppler-utils tesseract-ocr
-      - name: Scrape official banking ratios
+      - name: Scrape official sector ratios
         run: go run ./cmd/ratiocollector
       - name: Commit changed ratios
         run: |
@@ -39,6 +39,6 @@ jobs:
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git commit -m 'data: sync official banking ratios'
+            git commit -m 'data: sync official sector ratios'
             git push origin "HEAD:${{ github.event.repository.default_branch }}"
           fi

@@ -2,7 +2,7 @@ name: Export and publish NAV API
 
 on:
   workflow_run:
-    workflows: ['Collect and publish NAV history', 'Collect banking ratios']
+    workflows: ['Collect and publish NAV history', 'Collect sector ratios']
     types: [completed]
   workflow_dispatch:
 
