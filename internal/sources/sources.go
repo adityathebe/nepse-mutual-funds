@@ -5,6 +5,7 @@ package sources
 import (
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
@@ -18,6 +19,15 @@ import (
 type Adapter struct {
 	Name  string
 	Fetch func(context.Context, *http.Client) ([]history.Series, error)
+}
+
+type httpStatusError struct {
+	endpoint string
+	status   int
+}
+
+func (err *httpStatusError) Error() string {
+	return fmt.Sprintf("%s: HTTP %d", err.endpoint, err.status)
 }
 
 // All lists the contributor-maintained sources in a stable execution order.
@@ -54,7 +64,7 @@ func request(ctx context.Context, client *http.Client, endpoint string, form url
 	}
 	defer resp.Body.Close()
 	if resp.StatusCode != http.StatusOK {
-		return fmt.Errorf("%s: HTTP %d", endpoint, resp.StatusCode)
+		return &httpStatusError{endpoint: endpoint, status: resp.StatusCode}
 	}
 	const limit = 16 << 20
 	b, err := io.ReadAll(io.LimitReader(resp.Body, limit+1))
@@ -70,6 +80,25 @@ func request(ctx context.Context, client *http.Client, endpoint string, form url
 	}
 	if err := json.Unmarshal(b, result); err != nil {
 		return fmt.Errorf("%s: invalid JSON: %w", endpoint, err)
+	}
+	return nil
+}
+
+// requestNabil retries the WordPress endpoint when it transiently responds 202
+// before returning the requested NAV payload.
+func requestNabil(ctx context.Context, client *http.Client, endpoint string, form url.Values, result any) error {
+	const attempts = 3
+	for attempt := 0; attempt < attempts; attempt++ {
+		err := request(ctx, client, endpoint, form, result)
+		var statusErr *httpStatusError
+		if !errors.As(err, &statusErr) || statusErr.status != http.StatusAccepted || attempt == attempts-1 {
+			return err
+		}
+		select {
+		case <-ctx.Done():
+			return ctx.Err()
+		case <-time.After(time.Second):
+		}
 	}
 	return nil
 }
