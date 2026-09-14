@@ -430,5 +430,11 @@
     "nav": 9.79,
     "frequency": "weekly",
     "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-09-11",
+    "nav": 9.84,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
   }
 ]

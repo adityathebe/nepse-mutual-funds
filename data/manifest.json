@@ -52,9 +52,9 @@
       "name": "Global IME Samunnat Yojana-II",
       "source_url": "https://www.globalimecapital.com/mutual-fund/global-ime-samunnat-yojana-ii",
       "history_url": "https://globalimecapital.com/api/v1/public/mutual-funds/global-ime-samunnat-yojana-ii",
-      "latest_as_of": "2026-09-03",
-      "last_successful_fetch": "2026-09-09T18:16:26Z",
-      "points": 72
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:51:04Z",
+      "points": 73
     },
     {
       "symbol": "GIBF1",
@@ -63,9 +63,9 @@
       "name": "Global IME Balance Fund-I",
       "source_url": "https://www.globalimecapital.com/mutual-fund/global-ime-balance-fund",
       "history_url": "https://globalimecapital.com/api/v1/public/mutual-funds/global-ime-balance-fund",
-      "latest_as_of": "2026-09-03",
-      "last_successful_fetch": "2026-09-09T16:22:43Z",
-      "points": 263
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:51:04Z",
+      "points": 264
     },
     {
       "symbol": "GSY",
@@ -97,9 +97,9 @@
       "source_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
       "history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
       "monthly_history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav-monthly",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T05:18:01Z",
-      "points": 61
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:51:31Z",
+      "points": 62
     },
     {
       "symbol": "KDBY",
@@ -108,9 +108,9 @@
       "name": "Kumari Dhanabriddhi Yojana",
       "source_url": "https://kumaricapital.com/floorsheet/kdby",
       "history_url": "https://api-web.kumaricapital.com/items/navs?filter[scheme][_eq]=4",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-09T21:19:12Z",
-      "points": 271
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:51:58Z",
+      "points": 272
     },
     {
       "symbol": "KEF",
@@ -119,9 +119,9 @@
       "name": "Kumari Equity Fund",
       "source_url": "https://kumaricapital.com/floorsheet/kef",
       "history_url": "https://api-web.kumaricapital.com/items/navs?filter[scheme][_eq]=3",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-09T21:19:12Z",
-      "points": 350
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:51:58Z",
+      "points": 351
     },
     {
       "symbol": "KSY",
@@ -130,9 +130,9 @@
       "name": "Kumari Sabal Yojana",
       "source_url": "https://kumaricapital.com/floorsheet/ksy",
       "history_url": "https://api-web.kumaricapital.com/items/navs?filter[scheme][_eq]=2",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-09T21:19:12Z",
-      "points": 162
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:51:58Z",
+      "points": 163
     },
     {
       "symbol": "LSH12",
@@ -177,9 +177,9 @@
       "name": "MBL Equity Fund",
       "source_url": "https://mcl.com.np/mutual-funds/close/mbl-equity-fund",
       "history_url": "https://mcl.com.np/api/v1/public/mutual-funds/mbl-equity-fund",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-09T18:16:28Z",
-      "points": 93
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:51:06Z",
+      "points": 94
     },
     {
       "symbol": "MMF1",
@@ -200,7 +200,7 @@
       "source_url": "https://muktinathcapital.com/services/mutual-fund/muktinath-mutual-fund-1",
       "history_url": "https://muktinathcapital.com/frontapi/en/mutualfund?slug=muktinath-mutual-fund-1",
       "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-09T21:19:06Z",
+      "last_successful_fetch": "2026-09-14T18:51:52Z",
       "points": 109
     },
     {
@@ -210,9 +210,9 @@
       "name": "Nabil Balanced Fund II",
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=3",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T03:50:28Z",
-      "points": 465
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:53:47Z",
+      "points": 466
     },
     {
       "symbol": "NBF3",
@@ -221,9 +221,9 @@
       "name": "Nabil Balanced Fund III",
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T03:50:28Z",
-      "points": 318
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:53:47Z",
+      "points": 319
     },
     {
       "symbol": "NIBLGF",
@@ -365,9 +365,9 @@
       "name": "Prabhu Smart Fund",
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PRSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PRSF",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-09T21:13:55Z",
-      "points": 224
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:50:55Z",
+      "points": 225
     },
     {
       "symbol": "PSF",
@@ -376,9 +376,9 @@
       "name": "Prabhu Select Fund",
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PSF",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-09T16:21:48Z",
-      "points": 338
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:50:55Z",
+      "points": 339
     },
     {
       "symbol": "RBBF40",
@@ -444,9 +444,9 @@
       "name": "Sanima Equity Fund-2",
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=5",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T04:01:12Z",
-      "points": 14
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:52:00Z",
+      "points": 15
     },
     {
       "symbol": "SAGF",
@@ -455,9 +455,9 @@
       "name": "Sanima Growth Fund",
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=3",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-09T21:14:42Z",
-      "points": 242
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:52:00Z",
+      "points": 243
     },
     {
       "symbol": "SBCF",
@@ -546,9 +546,9 @@
       "name": "Sanima Large Cap Fund",
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=2",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T04:01:12Z",
-      "points": 357
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-14T18:52:00Z",
+      "points": 358
     }
   ]
 }
