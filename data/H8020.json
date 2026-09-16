@@ -949,6 +949,12 @@
     "frequency": "weekly"
   },
   {
+    "as_of": "2026-08-16",
+    "nav": 12.54,
+    "frequency": "monthly",
+    "source_label": "Shrawan"
+  },
+  {
     "as_of": "2026-08-21",
     "nav": 12.49,
     "frequency": "weekly"

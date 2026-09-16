@@ -74,9 +74,9 @@
       "name": "Garima Samriddhi Yojana",
       "source_url": "https://garimacapital.com/nav-details",
       "history_url": "https://garimacapital.com/nav/category-data/3",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-09T21:19:04Z",
-      "points": 107
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-16T17:44:05Z",
+      "points": 108
     },
     {
       "symbol": "H8020",
@@ -86,8 +86,8 @@
       "source_url": "https://himalayancapital.com/nav-details",
       "history_url": "https://flowvity.himalayancapital.com/adminapi/v1/public/hist-nav?ticker=H8020",
       "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-15T17:49:26Z",
-      "points": 188
+      "last_successful_fetch": "2026-09-16T17:46:08Z",
+      "points": 189
     },
     {
       "symbol": "HLICF",
@@ -143,7 +143,7 @@
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=8",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/ls-horizon-1252233830.pdf",
       "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-15T17:49:25Z",
+      "last_successful_fetch": "2026-09-16T17:46:07Z",
       "points": 12
     },
     {
@@ -265,9 +265,9 @@
       "name": "NIC ASIA Balanced Fund",
       "source_url": "https://www.nicasiacapital.com/nav-details",
       "history_url": "https://www.nicasiacapital.com/nav-details?category=2",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T03:46:07Z",
-      "points": 340
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-16T17:46:46Z",
+      "points": 341
     },
     {
       "symbol": "NICFC",
@@ -331,9 +331,9 @@
       "name": "NMB Hybrid Fund L II",
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=6",
-      "latest_as_of": "2026-09-04",
-      "last_successful_fetch": "2026-09-10T17:07:46Z",
-      "points": 97
+      "latest_as_of": "2026-09-11",
+      "last_successful_fetch": "2026-09-16T17:43:05Z",
+      "points": 98
     },
     {
       "symbol": "NSIF2",
