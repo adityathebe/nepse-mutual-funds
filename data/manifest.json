@@ -155,7 +155,7 @@
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=6",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/laxmi-unna-2038944174.pdf",
       "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-15T17:49:25Z",
+      "last_successful_fetch": "2026-09-18T17:14:06Z",
       "points": 146
     },
     {
@@ -421,9 +421,9 @@
       "source_url": "https://reliablecapital.com.np/reliable-samridhi-yojana",
       "history_url": "https://api.reliablecapital.com.np/api/nav-charts",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-11T17:08:42Z",
-      "points": 76
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-18T17:11:48Z",
+      "points": 77
     },
     {
       "symbol": "RSY2",
@@ -433,9 +433,9 @@
       "source_url": "https://reliablecapital.com.np/reliable-samridhi-yojana-two",
       "history_url": "https://api.reliablecapital.com.np/api/nav-chart-2",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-11T17:08:42Z",
-      "points": 15
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-18T17:11:48Z",
+      "points": 16
     },
     {
       "symbol": "SAEF2",
@@ -468,7 +468,7 @@
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=1",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/sbcf-shraw-847704763.pdf",
       "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-15T17:49:25Z",
+      "last_successful_fetch": "2026-09-18T17:14:06Z",
       "points": 320
     },
     {
@@ -502,8 +502,8 @@
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=3",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/sfef-shraw-1638122344.pdf",
       "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-15T17:49:25Z",
-      "points": 199
+      "last_successful_fetch": "2026-09-18T17:14:06Z",
+      "points": 200
     },
     {
       "symbol": "SFMF",
@@ -514,7 +514,7 @@
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=2",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/sfmf-shraw-1604323343.pdf",
       "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-15T17:49:25Z",
+      "last_successful_fetch": "2026-09-18T17:14:06Z",
       "points": 408
     },
     {
