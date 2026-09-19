@@ -5,9 +5,9 @@ package sources
 import (
 	"context"
 	"encoding/json"
-	"errors"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"net/url"
 	"strings"
@@ -37,10 +37,34 @@ func All() []Adapter {
 
 // request bounds response size and request rate; normal TLS verification stays enabled.
 // POST is used only for public, read-only filters. A *string receives HTML verbatim.
+//
+// The official sites intermittently drop connections, fail DNS resolution, or answer
+// 202 and 5xx before serving a payload, which previously discarded a whole source for
+// the day. Transient failures are retried with exponential backoff; a decoded response
+// is never retried, so a retry can only follow an attempt that produced no body.
 func request(ctx context.Context, client *http.Client, endpoint string, form url.Values, result any) error {
+	const attempts = 3
+	backoff := time.Second
+	for attempt := 1; ; attempt++ {
+		transient, err := requestOnce(ctx, client, endpoint, form, result)
+		if err == nil || !transient || attempt == attempts {
+			return err
+		}
+		log.Printf("retrying %s in %s after attempt %d/%d: %v", endpoint, backoff, attempt, attempts, err)
+		select {
+		case <-ctx.Done():
+			return ctx.Err()
+		case <-time.After(backoff):
+		}
+		backoff *= 2
+	}
+}
+
+// requestOnce performs a single attempt and reports whether the failure is transient.
+func requestOnce(ctx context.Context, client *http.Client, endpoint string, form url.Values, result any) (bool, error) {
 	select {
 	case <-ctx.Done():
-		return ctx.Err()
+		return false, ctx.Err()
 	case <-time.After(200 * time.Millisecond):
 	}
 	method := http.MethodGet
@@ -51,7 +75,7 @@ func request(ctx context.Context, client *http.Client, endpoint string, form url
 	}
 	req, err := http.NewRequestWithContext(ctx, method, endpoint, body)
 	if err != nil {
-		return err
+		return false, err
 	}
 	req.Header.Set("User-Agent", "nepse-mutual-funds/1.0 (+https://github.com/adityathebe/nepse-mutual-funds)")
 	req.Header.Set("Accept", "application/json, text/html")
@@ -60,45 +84,39 @@ func request(ctx context.Context, client *http.Client, endpoint string, form url
 	}
 	resp, err := client.Do(req)
 	if err != nil {
-		return err
+		// Dial, TLS, and DNS failures are worth another attempt; an expired or
+		// cancelled context belongs to the caller and is not retried.
+		return ctx.Err() == nil, err
 	}
 	defer resp.Body.Close()
 	if resp.StatusCode != http.StatusOK {
-		return &httpStatusError{endpoint: endpoint, status: resp.StatusCode}
+		return transientStatus(resp.StatusCode), &httpStatusError{endpoint: endpoint, status: resp.StatusCode}
 	}
 	const limit = 16 << 20
 	b, err := io.ReadAll(io.LimitReader(resp.Body, limit+1))
 	if err != nil {
-		return err
+		return ctx.Err() == nil, err
 	}
 	if len(b) > limit {
-		return fmt.Errorf("%s: response exceeds 16 MiB", endpoint)
+		return false, fmt.Errorf("%s: response exceeds 16 MiB", endpoint)
 	}
 	if text, ok := result.(*string); ok {
 		*text = string(b)
-		return nil
+		return false, nil
 	}
 	if err := json.Unmarshal(b, result); err != nil {
-		return fmt.Errorf("%s: invalid JSON: %w", endpoint, err)
+		return false, fmt.Errorf("%s: invalid JSON: %w", endpoint, err)
 	}
-	return nil
+	return false, nil
 }
 
-// requestNabil retries the WordPress endpoint when it transiently responds 202
-// before returning the requested NAV payload.
-func requestNabil(ctx context.Context, client *http.Client, endpoint string, form url.Values, result any) error {
-	const attempts = 3
-	for attempt := 0; attempt < attempts; attempt++ {
-		err := request(ctx, client, endpoint, form, result)
-		var statusErr *httpStatusError
-		if !errors.As(err, &statusErr) || statusErr.status != http.StatusAccepted || attempt == attempts-1 {
-			return err
-		}
-		select {
-		case <-ctx.Done():
-			return ctx.Err()
-		case <-time.After(time.Second):
-		}
+// transientStatus reports whether a status is worth retrying. The WordPress endpoints
+// answer 202 while they prepare the NAV payload, and the sites return 429 and 5xx
+// under load. Every other non-200 status reflects the request itself.
+func transientStatus(status int) bool {
+	switch status {
+	case http.StatusAccepted, http.StatusRequestTimeout, http.StatusTooManyRequests:
+		return true
 	}
-	return nil
+	return status >= 500
 }

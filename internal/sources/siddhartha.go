@@ -14,16 +14,16 @@ import (
 
 // fetchSiddhartha leaves date filters empty to collect beyond the UI's default month.
 func fetchSiddhartha(ctx context.Context, client *http.Client) ([]history.Series, error) {
-	return fetchSchemeData(ctx, client, request, "siddhartha", "Siddhartha Capital", "https://www.siddharthacapital.com", "/scheme-reports/nav-details/", []struct{ id, symbol, name string }{{"2", "SIGS2", "Siddhartha Investment Growth Scheme 2"}, {"4", "SIGS3", "Siddhartha Investment Growth Scheme 3"}, {"1", "SEF", "Siddhartha Equity Fund"}, {"5", "SEF2", "Siddhartha Equity Fund 2"}})
+	return fetchSchemeData(ctx, client, "siddhartha", "Siddhartha Capital", "https://www.siddharthacapital.com", "/scheme-reports/nav-details/", []struct{ id, symbol, name string }{{"2", "SIGS2", "Siddhartha Investment Growth Scheme 2"}, {"4", "SIGS3", "Siddhartha Investment Growth Scheme 3"}, {"1", "SEF", "Siddhartha Equity Fund"}, {"5", "SEF2", "Siddhartha Equity Fund 2"}})
 }
 
 func fetchNabil(ctx context.Context, client *http.Client) ([]history.Series, error) {
-	return fetchSchemeData(ctx, client, requestNabil, "nabil", "Nabil Investment Banking", "https://nabilinvest.com.np", "/investment-banking/mutual-funds/", []struct{ id, symbol, name string }{{"3", "NBF2", "Nabil Balanced Fund II"}, {"4", "NBF3", "Nabil Balanced Fund III"}})
+	return fetchSchemeData(ctx, client, "nabil", "Nabil Investment Banking", "https://nabilinvest.com.np", "/investment-banking/mutual-funds/", []struct{ id, symbol, name string }{{"3", "NBF2", "Nabil Balanced Fund II"}, {"4", "NBF3", "Nabil Balanced Fund III"}})
 }
 
 // Nabil and Siddhartha share the WordPress scheme_data_filter contract.
 // Empty year/month filters return the full history rather than the UI's current month.
-func fetchSchemeData(ctx context.Context, client *http.Client, get func(context.Context, *http.Client, string, url.Values, any) error, source, manager, base, page string, funds []struct{ id, symbol, name string }) ([]history.Series, error) {
+func fetchSchemeData(ctx context.Context, client *http.Client, source, manager, base, page string, funds []struct{ id, symbol, name string }) ([]history.Series, error) {
 	var result []history.Series
 	for _, fund := range funds {
 		s := history.Series{Fund: history.Fund{Symbol: fund.symbol, Name: fund.name, Source: source, Manager: manager, SourceURL: base + page, HistoryURL: base + "/wp-admin/admin-ajax.php?action=scheme_data_filter&scheme_id=" + fund.id}}
@@ -39,7 +39,7 @@ func fetchSchemeData(ctx context.Context, client *http.Client, get func(context.
 					DateBS   string `json:"nep_date"`
 				} `json:"data"`
 			}
-			if err := get(ctx, client, base+"/wp-admin/admin-ajax.php", form, &response); err != nil {
+			if err := request(ctx, client, base+"/wp-admin/admin-ajax.php", form, &response); err != nil {
 				return nil, err
 			}
 			if !response.Success || len(response.Rows) == 0 {

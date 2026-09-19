@@ -22,6 +22,7 @@ jobs:
       contents: write
     outputs:
       source_failure: ${{ steps.sync.outputs.source_failure }}
+      failed_sources: ${{ steps.sync.outputs.failed_sources }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -47,10 +48,16 @@ jobs:
       - name: Fetch official histories
         id: sync
         run: |
-          status=0
-          "$RUNNER_TEMP/navcollector" sync || status=$?
+          "$RUNNER_TEMP/navcollector" sync 2>&1 | tee "$RUNNER_TEMP/sync.log"
+          status=${PIPESTATUS[0]}
           if [ "$status" -eq 2 ]; then
-            echo 'source_failure=true' >> "$GITHUB_OUTPUT"
+            # Adapter names are fixed in sources.All(), so the log is the only record
+            # of which ones stayed unavailable after the collector exhausted its retries.
+            failed=$(sed -n 's/^FAILED \([^:]*\):.*/\1/p' "$RUNNER_TEMP/sync.log" | sort -u | tr '\n' ' ')
+            {
+              echo 'source_failure=true'
+              echo "failed_sources=${failed% }"
+            } >> "$GITHUB_OUTPUT"
           elif [ "$status" -ne 0 ]; then
             exit "$status"
           fi
@@ -66,12 +73,25 @@ jobs:
             git push origin "HEAD:${{ github.event.repository.default_branch }}"
           fi
 
+  # A source that stays down after the collector's retries is an upstream outage, not a
+  # defect in this repository: healthy snapshots are already published and the prior
+  # snapshot is retained. Annotate the run instead of failing it, so a red run keeps
+  # meaning the collector itself broke.
   source-status:
     needs: collect
     if: always() && needs.collect.outputs.source_failure == 'true'
     runs-on: ubuntu-latest
     steps:
-      - name: Report failed source after saving healthy snapshots
+      - name: Warn about sources unavailable after retries
+        env:
+          FAILED_SOURCES: ${{ needs.collect.outputs.failed_sources }}
         run: |
-          echo 'One or more sources failed. Prior snapshots were retained; inspect the collector log.'
-          exit 1
+          echo "::warning title=NAV sources unavailable::Retries exhausted for: ${FAILED_SOURCES:-unknown}. Prior snapshots were retained and healthy sources were published."
+          {
+            echo '### NAV sources unavailable'
+            echo
+            echo "Retries exhausted for: \`${FAILED_SOURCES:-unknown}\`"
+            echo
+            echo 'Prior snapshots were retained and every healthy source was published.'
+            echo 'Inspect the collect job log if the same source fails on consecutive days.'
+          } >> "$GITHUB_STEP_SUMMARY"
