@@ -48,8 +48,13 @@ jobs:
       - name: Fetch official histories
         id: sync
         run: |
+          # Read the collector's status rather than the pipeline's, and keep errexit
+          # off across the pipe so a future `shell: bash` (which adds pipefail) cannot
+          # abort the step on exit 2 before the status is inspected.
+          set +e
           "$RUNNER_TEMP/navcollector" sync 2>&1 | tee "$RUNNER_TEMP/sync.log"
           status=${PIPESTATUS[0]}
+          set -e
           if [ "$status" -eq 2 ]; then
             # Adapter names are fixed in sources.All(), so the log is the only record
             # of which ones stayed unavailable after the collector exhausted its retries.
