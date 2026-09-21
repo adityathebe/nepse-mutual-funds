@@ -1433,5 +1433,19 @@
     "date_bs": "2083-05-12",
     "frequency": "weekly",
     "source_label": "12 Bhadra 2083"
+  },
+  {
+    "as_of": "2026-09-04",
+    "nav": 10.2,
+    "date_bs": "2083-05-19",
+    "frequency": "weekly",
+    "source_label": "19 Bhadra 2083"
+  },
+  {
+    "as_of": "2026-09-11",
+    "nav": 10.22,
+    "date_bs": "2083-05-26",
+    "frequency": "weekly",
+    "source_label": "26 Bhadra 2083"
   }
 ]

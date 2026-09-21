@@ -562,5 +562,11 @@
     "nav": 9.94,
     "frequency": "weekly",
     "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-09-18",
+    "nav": 10.25,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
   }
 ]
