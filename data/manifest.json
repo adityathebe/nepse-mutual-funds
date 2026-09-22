@@ -53,8 +53,8 @@
       "source_url": "https://www.globalimecapital.com/mutual-fund/global-ime-samunnat-yojana-ii",
       "history_url": "https://globalimecapital.com/api/v1/public/mutual-funds/global-ime-samunnat-yojana-ii",
       "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-14T18:51:04Z",
-      "points": 73
+      "last_successful_fetch": "2026-09-22T17:44:29Z",
+      "points": 74
     },
     {
       "symbol": "GIBF1",
@@ -63,9 +63,9 @@
       "name": "Global IME Balance Fund-I",
       "source_url": "https://www.globalimecapital.com/mutual-fund/global-ime-balance-fund",
       "history_url": "https://globalimecapital.com/api/v1/public/mutual-funds/global-ime-balance-fund",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-14T18:51:04Z",
-      "points": 264
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:44:29Z",
+      "points": 266
     },
     {
       "symbol": "GSY",
@@ -74,9 +74,9 @@
       "name": "Garima Samriddhi Yojana",
       "source_url": "https://garimacapital.com/nav-details",
       "history_url": "https://garimacapital.com/nav/category-data/3",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-16T17:44:05Z",
-      "points": 108
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:45:18Z",
+      "points": 109
     },
     {
       "symbol": "H8020",
@@ -97,9 +97,9 @@
       "source_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
       "history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
       "monthly_history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav-monthly",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-14T18:51:31Z",
-      "points": 62
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:44:57Z",
+      "points": 63
     },
     {
       "symbol": "KDBY",
@@ -188,9 +188,9 @@
       "name": "Mega Mutual Fund 1",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-mega-mutual-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=mega-mutual-fund-nav",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-15T17:47:03Z",
-      "points": 123
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:44:56Z",
+      "points": 124
     },
     {
       "symbol": "MNMF1",
@@ -232,9 +232,9 @@
       "name": "NIBL Growth Fund",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-growth-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nav-nibl-growth-fund",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-15T17:47:03Z",
-      "points": 121
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:44:56Z",
+      "points": 122
     },
     {
       "symbol": "NIBLSTF",
@@ -243,9 +243,9 @@
       "name": "NIBL Stable Fund",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-stable-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nav-nibl-stable-fund",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-15T17:47:03Z",
-      "points": 120
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:44:56Z",
+      "points": 121
     },
     {
       "symbol": "NIBSF2",
@@ -254,9 +254,9 @@
       "name": "NIBL Samriddhi Fund II",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-samriddhi-fund-ii/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nibl-samriddhi-fund-2-nav",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-15T17:47:03Z",
-      "points": 121
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:44:56Z",
+      "points": 122
     },
     {
       "symbol": "NICBF",
@@ -276,9 +276,9 @@
       "name": "NIC ASIA Flexi Cap Fund",
       "source_url": "https://www.nicasiacapital.com/nav-details",
       "history_url": "https://www.nicasiacapital.com/nav-details?category=7",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-15T17:50:17Z",
-      "points": 266
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:47:52Z",
+      "points": 267
     },
     {
       "symbol": "NICGF",
@@ -309,9 +309,9 @@
       "name": "NIC ASIA Select 30 (Index Fund)",
       "source_url": "https://www.nicasiacapital.com/nav-details",
       "history_url": "https://www.nicasiacapital.com/nav-details?category=6",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-15T17:50:17Z",
-      "points": 319
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:47:52Z",
+      "points": 320
     },
     {
       "symbol": "NMB50",
@@ -331,9 +331,9 @@
       "name": "NMB Hybrid Fund L II",
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=6",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-16T17:43:05Z",
-      "points": 98
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:44:16Z",
+      "points": 99
     },
     {
       "symbol": "NSIF2",
@@ -342,9 +342,9 @@
       "name": "NMB Sulav Investment Fund II",
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=5",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-15T17:46:25Z",
-      "points": 259
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:44:16Z",
+      "points": 260
     },
     {
       "symbol": "NSY",
@@ -354,9 +354,9 @@
       "source_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
       "history_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-08-16",
-      "last_successful_fetch": "2026-09-10T05:41:22Z",
-      "points": 34
+      "latest_as_of": "2026-09-16",
+      "last_successful_fetch": "2026-09-22T17:45:11Z",
+      "points": 36
     },
     {
       "symbol": "PRSF",
@@ -444,9 +444,9 @@
       "name": "Sanima Equity Fund-2",
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=5",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-14T18:52:00Z",
-      "points": 15
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:45:30Z",
+      "points": 16
     },
     {
       "symbol": "SAGF",
@@ -455,9 +455,9 @@
       "name": "Sanima Growth Fund",
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=3",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-14T18:52:00Z",
-      "points": 243
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:45:30Z",
+      "points": 244
     },
     {
       "symbol": "SBCF",
@@ -478,9 +478,9 @@
       "name": "Siddhartha Equity Fund",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=1",
-      "latest_as_of": "2026-09-16",
-      "last_successful_fetch": "2026-09-21T18:53:50Z",
-      "points": 577
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:44:26Z",
+      "points": 578
     },
     {
       "symbol": "SEF2",
@@ -489,9 +489,9 @@
       "name": "Siddhartha Equity Fund 2",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=5",
-      "latest_as_of": "2026-09-16",
-      "last_successful_fetch": "2026-09-21T18:53:50Z",
-      "points": 15
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:44:26Z",
+      "points": 16
     },
     {
       "symbol": "SFEF",
@@ -524,9 +524,9 @@
       "name": "Siddhartha Investment Growth Scheme 2",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=2",
-      "latest_as_of": "2026-09-16",
-      "last_successful_fetch": "2026-09-21T18:53:50Z",
-      "points": 463
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:44:26Z",
+      "points": 464
     },
     {
       "symbol": "SIGS3",
@@ -535,9 +535,9 @@
       "name": "Siddhartha Investment Growth Scheme 3",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
-      "latest_as_of": "2026-09-16",
-      "last_successful_fetch": "2026-09-21T18:53:50Z",
-      "points": 221
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:44:26Z",
+      "points": 222
     },
     {
       "symbol": "SLCF",
@@ -546,9 +546,9 @@
       "name": "Sanima Large Cap Fund",
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=2",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-14T18:52:00Z",
-      "points": 358
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-09-22T17:45:30Z",
+      "points": 359
     }
   ]
 }
