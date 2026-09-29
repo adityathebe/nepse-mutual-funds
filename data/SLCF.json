@@ -2511,5 +2511,12 @@
     "date_bs": "2083-06-02",
     "frequency": "weekly",
     "source_label": "2083-06-02"
+  },
+  {
+    "as_of": "2026-09-25",
+    "nav": 10.09,
+    "date_bs": "2083-06-09",
+    "frequency": "weekly",
+    "source_label": "2083-06-09"
   }
 ]

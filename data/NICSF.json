@@ -1860,6 +1860,12 @@
     "frequency": "weekly"
   },
   {
+    "as_of": "2026-07-16",
+    "nav": 9.55,
+    "date_bs": "2083-03-32",
+    "frequency": "monthly"
+  },
+  {
     "as_of": "2026-07-17",
     "nav": 9.69,
     "date_bs": "2083-04-01",
@@ -1890,6 +1896,12 @@
     "frequency": "weekly"
   },
   {
+    "as_of": "2026-08-16",
+    "nav": 9.48,
+    "date_bs": "2083-04-31",
+    "frequency": "monthly"
+  },
+  {
     "as_of": "2026-08-21",
     "nav": 9.39,
     "date_bs": "2083-05-05",
@@ -1912,6 +1924,12 @@
     "nav": 9.07,
     "date_bs": "2083-05-26",
     "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-09-16",
+    "nav": 9.28,
+    "date_bs": "2083-05-31",
+    "frequency": "monthly"
   },
   {
     "as_of": "2026-09-18",
