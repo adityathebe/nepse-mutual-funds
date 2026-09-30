@@ -73,6 +73,13 @@
     "frequency": "weekly"
   },
   {
+    "as_of": "2026-09-16",
+    "nav": 10.01,
+    "date_bs": "2083-05-31",
+    "frequency": "monthly",
+    "source_label": "LSH12  MONTHLY NAV BHADRA 2083"
+  },
+  {
     "as_of": "2026-09-18",
     "nav": 10.06,
     "date_bs": "2083-06-02",

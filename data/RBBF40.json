@@ -264,6 +264,12 @@
     "frequency": "weekly"
   },
   {
+    "as_of": "2026-09-16",
+    "nav": 9.98,
+    "frequency": "monthly",
+    "source_label": "Bhadra 2083"
+  },
+  {
     "as_of": "2026-09-18",
     "nav": 10.06,
     "frequency": "weekly"

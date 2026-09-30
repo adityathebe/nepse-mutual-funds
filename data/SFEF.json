@@ -1201,6 +1201,13 @@
     "frequency": "weekly"
   },
   {
+    "as_of": "2026-09-16",
+    "nav": 9.94,
+    "date_bs": "2083-05-31",
+    "frequency": "monthly",
+    "source_label": "SFEF MONTHLY NAV BHADRA 2083"
+  },
+  {
     "as_of": "2026-09-18",
     "nav": 10.02,
     "date_bs": "2083-06-02",

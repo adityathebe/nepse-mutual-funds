@@ -1914,6 +1914,12 @@
     "frequency": "weekly"
   },
   {
+    "as_of": "2026-09-16",
+    "nav": 10.09,
+    "date_bs": "2083-06-31",
+    "frequency": "monthly"
+  },
+  {
     "as_of": "2026-09-18",
     "nav": 10.2,
     "date_bs": "2083-06-02",
