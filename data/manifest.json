@@ -8,9 +8,9 @@
       "name": "Citizens Super 30 Mutual Fund",
       "source_url": "https://www.citizenscapital.com.np/",
       "history_url": "https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=3",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-21T18:54:34Z",
-      "points": 207
+      "latest_as_of": "2026-09-25",
+      "last_successful_fetch": "2026-10-01T19:01:21Z",
+      "points": 210
     },
     {
       "symbol": "CMF1",
@@ -41,9 +41,9 @@
       "name": "Citizens Santulit Yojana",
       "source_url": "https://www.citizenscapital.com.np/",
       "history_url": "https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=5",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-23T17:58:00Z",
-      "points": 38
+      "latest_as_of": "2026-09-25",
+      "last_successful_fetch": "2026-10-01T19:01:21Z",
+      "points": 40
     },
     {
       "symbol": "GBIMESY2",
@@ -85,9 +85,9 @@
       "name": "Himalayan 80-20",
       "source_url": "https://himalayancapital.com/nav-details",
       "history_url": "https://flowvity.himalayancapital.com/adminapi/v1/public/hist-nav?ticker=H8020",
-      "latest_as_of": "2026-09-11",
-      "last_successful_fetch": "2026-09-21T18:56:41Z",
-      "points": 190
+      "latest_as_of": "2026-09-18",
+      "last_successful_fetch": "2026-10-01T19:03:25Z",
+      "points": 192
     },
     {
       "symbol": "HLICF",
@@ -366,8 +366,8 @@
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PRSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PRSF",
       "latest_as_of": "2026-09-25",
-      "last_successful_fetch": "2026-09-28T20:13:30Z",
-      "points": 227
+      "last_successful_fetch": "2026-10-01T19:00:33Z",
+      "points": 228
     },
     {
       "symbol": "PSF",
@@ -377,8 +377,8 @@
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PSF",
       "latest_as_of": "2026-09-25",
-      "last_successful_fetch": "2026-09-28T20:13:30Z",
-      "points": 341
+      "last_successful_fetch": "2026-10-01T19:00:33Z",
+      "points": 342
     },
     {
       "symbol": "RBBF40",

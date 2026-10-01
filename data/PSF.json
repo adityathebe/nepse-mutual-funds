@@ -1758,6 +1758,12 @@
     "frequency": "weekly"
   },
   {
+    "as_of": "2026-09-16",
+    "nav": 12,
+    "frequency": "monthly",
+    "source_label": "Bhadau"
+  },
+  {
     "as_of": "2026-09-18",
     "nav": 12.18,
     "frequency": "weekly"

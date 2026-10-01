@@ -1447,5 +1447,26 @@
     "date_bs": "2083-05-26",
     "frequency": "weekly",
     "source_label": "26 Bhadra 2083"
+  },
+  {
+    "as_of": "2026-09-16",
+    "nav": 10.45,
+    "date_bs": "2083-05-31",
+    "frequency": "monthly",
+    "source_label": "31 Bhadra 2083"
+  },
+  {
+    "as_of": "2026-09-18",
+    "nav": 10.55,
+    "date_bs": "2083-06-02",
+    "frequency": "weekly",
+    "source_label": "2 Ashwin 2083"
+  },
+  {
+    "as_of": "2026-09-25",
+    "nav": 9.94,
+    "date_bs": "2083-06-09",
+    "frequency": "weekly",
+    "source_label": "9 Ashwin 2083"
   }
 ]

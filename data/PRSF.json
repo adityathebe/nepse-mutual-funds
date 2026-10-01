@@ -1166,6 +1166,12 @@
     "frequency": "weekly"
   },
   {
+    "as_of": "2026-09-16",
+    "nav": 13.01,
+    "frequency": "monthly",
+    "source_label": "Bhadau"
+  },
+  {
     "as_of": "2026-09-18",
     "nav": 13.2,
     "frequency": "weekly"
