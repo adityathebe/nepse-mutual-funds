@@ -1938,5 +1938,11 @@
     "nav": 9.87,
     "date_bs": "2083-06-09",
     "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-10-02",
+    "nav": 9.42,
+    "date_bs": "2083-06-16",
+    "frequency": "weekly"
   }
 ]

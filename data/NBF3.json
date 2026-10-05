@@ -1930,5 +1930,11 @@
     "nav": 9.88,
     "date_bs": "2083-06-09",
     "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-10-02",
+    "nav": 9.79,
+    "date_bs": "2083-06-16",
+    "frequency": "weekly"
   }
 ]

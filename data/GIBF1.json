@@ -1603,7 +1603,13 @@
   },
   {
     "as_of": "2026-09-25",
-    "nav": 11.87,
+    "nav": 11.86,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-10-02",
+    "nav": 10.51,
     "frequency": "weekly",
     "source_label": "Weekly NAV"
   }
