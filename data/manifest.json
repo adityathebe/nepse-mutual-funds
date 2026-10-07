@@ -85,9 +85,9 @@
       "name": "Himalayan 80-20",
       "source_url": "https://himalayancapital.com/nav-details",
       "history_url": "https://flowvity.himalayancapital.com/adminapi/v1/public/hist-nav?ticker=H8020",
-      "latest_as_of": "2026-09-18",
-      "last_successful_fetch": "2026-10-01T19:03:25Z",
-      "points": 192
+      "latest_as_of": "2026-09-25",
+      "last_successful_fetch": "2026-10-07T19:32:16Z",
+      "points": 193
     },
     {
       "symbol": "HLICF",
@@ -387,9 +387,9 @@
       "name": "RBB Focus 40",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-focus-40",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-focus-40",
-      "latest_as_of": "2026-09-25",
-      "last_successful_fetch": "2026-09-30T18:33:06Z",
-      "points": 54
+      "latest_as_of": "2026-10-02",
+      "last_successful_fetch": "2026-10-07T19:29:34Z",
+      "points": 55
     },
     {
       "symbol": "RMF1",
@@ -398,9 +398,9 @@
       "name": "RBB Mutual Fund 1",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-1",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-1",
-      "latest_as_of": "2026-09-25",
-      "last_successful_fetch": "2026-09-30T18:33:06Z",
-      "points": 267
+      "latest_as_of": "2026-10-02",
+      "last_successful_fetch": "2026-10-07T19:29:34Z",
+      "points": 268
     },
     {
       "symbol": "RMF2",
@@ -409,9 +409,9 @@
       "name": "RBB Mutual Fund 2",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-2",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-2",
-      "latest_as_of": "2026-09-25",
-      "last_successful_fetch": "2026-09-30T18:33:06Z",
-      "points": 214
+      "latest_as_of": "2026-10-02",
+      "last_successful_fetch": "2026-10-07T19:29:34Z",
+      "points": 215
     },
     {
       "symbol": "RSY",
