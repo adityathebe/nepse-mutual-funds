@@ -85,9 +85,9 @@
       "name": "Himalayan 80-20",
       "source_url": "https://himalayancapital.com/nav-details",
       "history_url": "https://flowvity.himalayancapital.com/adminapi/v1/public/hist-nav?ticker=H8020",
-      "latest_as_of": "2026-09-25",
-      "last_successful_fetch": "2026-10-07T19:32:16Z",
-      "points": 193
+      "latest_as_of": "2026-10-02",
+      "last_successful_fetch": "2026-10-08T19:26:52Z",
+      "points": 194
     },
     {
       "symbol": "HLICF",
@@ -155,7 +155,7 @@
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=6",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/laxmi-unna-1472636827.pdf",
       "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:16:44Z",
+      "last_successful_fetch": "2026-10-08T19:26:51Z",
       "points": 150
     },
     {
@@ -167,7 +167,7 @@
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=7",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/laxmi-valu-2015491662.pdf",
       "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:16:44Z",
+      "last_successful_fetch": "2026-10-08T19:26:51Z",
       "points": 150
     },
     {
