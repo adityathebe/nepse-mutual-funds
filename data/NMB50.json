@@ -2091,6 +2091,12 @@
     "as_of": "2026-08-28",
     "nav": 9.97,
     "date_bs": "2083-05-12",
+    "frequency": "monthly"
+  },
+  {
+    "as_of": "2026-08-28",
+    "nav": 9.97,
+    "date_bs": "2083-05-12",
     "frequency": "weekly"
   },
   {
