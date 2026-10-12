@@ -1777,5 +1777,10 @@
     "as_of": "2026-10-02",
     "nav": 12.02,
     "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-10-09",
+    "nav": 12.14,
+    "frequency": "weekly"
   }
 ]

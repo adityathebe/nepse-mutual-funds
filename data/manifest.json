@@ -8,9 +8,9 @@
       "name": "Citizens Super 30 Mutual Fund",
       "source_url": "https://www.citizenscapital.com.np/",
       "history_url": "https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=3",
-      "latest_as_of": "2026-09-25",
-      "last_successful_fetch": "2026-10-01T19:01:21Z",
-      "points": 210
+      "latest_as_of": "2026-10-02",
+      "last_successful_fetch": "2026-10-12T21:51:34Z",
+      "points": 211
     },
     {
       "symbol": "CMF1",
@@ -52,9 +52,9 @@
       "name": "Global IME Samunnat Yojana-II",
       "source_url": "https://www.globalimecapital.com/mutual-fund/global-ime-samunnat-yojana-ii",
       "history_url": "https://globalimecapital.com/api/v1/public/mutual-funds/global-ime-samunnat-yojana-ii",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-06T19:01:44Z",
-      "points": 78
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:50:58Z",
+      "points": 79
     },
     {
       "symbol": "GIBF1",
@@ -63,9 +63,9 @@
       "name": "Global IME Balance Fund-I",
       "source_url": "https://www.globalimecapital.com/mutual-fund/global-ime-balance-fund",
       "history_url": "https://globalimecapital.com/api/v1/public/mutual-funds/global-ime-balance-fund",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:13:48Z",
-      "points": 269
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:50:58Z",
+      "points": 270
     },
     {
       "symbol": "GSY",
@@ -74,9 +74,9 @@
       "name": "Garima Samriddhi Yojana",
       "source_url": "https://garimacapital.com/nav-details",
       "history_url": "https://garimacapital.com/nav/category-data/3",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:14:39Z",
-      "points": 112
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:51:44Z",
+      "points": 113
     },
     {
       "symbol": "H8020",
@@ -154,9 +154,9 @@
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=6",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/laxmi-unna-1472636827.pdf",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-08T19:26:51Z",
-      "points": 150
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:53:38Z",
+      "points": 151
     },
     {
       "symbol": "LVF2",
@@ -166,9 +166,9 @@
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=7",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/laxmi-valu-2015491662.pdf",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-08T19:26:51Z",
-      "points": 150
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:53:38Z",
+      "points": 151
     },
     {
       "symbol": "MBLEF",
@@ -177,9 +177,9 @@
       "name": "MBL Equity Fund",
       "source_url": "https://mcl.com.np/mutual-funds/close/mbl-equity-fund",
       "history_url": "https://mcl.com.np/api/v1/public/mutual-funds/mbl-equity-fund",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:13:49Z",
-      "points": 98
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:50:59Z",
+      "points": 99
     },
     {
       "symbol": "MMF1",
@@ -210,9 +210,9 @@
       "name": "Nabil Balanced Fund II",
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=3",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:16:49Z",
-      "points": 470
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:53:43Z",
+      "points": 471
     },
     {
       "symbol": "NBF3",
@@ -221,9 +221,9 @@
       "name": "Nabil Balanced Fund III",
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:16:49Z",
-      "points": 323
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:53:43Z",
+      "points": 324
     },
     {
       "symbol": "NIBLGF",
@@ -331,9 +331,9 @@
       "name": "NMB Hybrid Fund L II",
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=6",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-09T18:57:28Z",
-      "points": 102
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:50:45Z",
+      "points": 103
     },
     {
       "symbol": "NSIF2",
@@ -342,9 +342,9 @@
       "name": "NMB Sulav Investment Fund II",
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=5",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-09T18:57:28Z",
-      "points": 263
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:50:45Z",
+      "points": 264
     },
     {
       "symbol": "NSY",
@@ -365,9 +365,9 @@
       "name": "Prabhu Smart Fund",
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PRSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PRSF",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:13:38Z",
-      "points": 229
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:50:48Z",
+      "points": 230
     },
     {
       "symbol": "PSF",
@@ -376,9 +376,9 @@
       "name": "Prabhu Select Fund",
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PSF",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:13:38Z",
-      "points": 343
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:50:48Z",
+      "points": 344
     },
     {
       "symbol": "RBBF40",
@@ -421,9 +421,9 @@
       "source_url": "https://reliablecapital.com.np/reliable-samridhi-yojana",
       "history_url": "https://api.reliablecapital.com.np/api/nav-charts",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:14:22Z",
-      "points": 79
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:51:28Z",
+      "points": 80
     },
     {
       "symbol": "RSY2",
@@ -433,9 +433,9 @@
       "source_url": "https://reliablecapital.com.np/reliable-samridhi-yojana-two",
       "history_url": "https://api.reliablecapital.com.np/api/nav-chart-2",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:14:22Z",
-      "points": 18
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:51:28Z",
+      "points": 19
     },
     {
       "symbol": "SAEF2",
@@ -444,9 +444,9 @@
       "name": "Sanima Equity Fund-2",
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=5",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-06T19:02:48Z",
-      "points": 19
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:51:55Z",
+      "points": 20
     },
     {
       "symbol": "SAGF",
@@ -455,9 +455,9 @@
       "name": "Sanima Growth Fund",
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=3",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:14:53Z",
-      "points": 247
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:51:55Z",
+      "points": 248
     },
     {
       "symbol": "SBCF",
@@ -467,9 +467,9 @@
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=1",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/sbcf-bhad-1963711431.pdf",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:16:44Z",
-      "points": 324
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:53:38Z",
+      "points": 325
     },
     {
       "symbol": "SEF",
@@ -501,9 +501,9 @@
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=3",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/sfef-bhadr-1873170656.pdf",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:16:44Z",
-      "points": 204
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:53:38Z",
+      "points": 205
     },
     {
       "symbol": "SFMF",
@@ -513,9 +513,9 @@
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=2",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/sfmf-bhad-2057143974.pdf",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:16:44Z",
-      "points": 412
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:53:38Z",
+      "points": 413
     },
     {
       "symbol": "SIGS2",
@@ -546,9 +546,9 @@
       "name": "Sanima Large Cap Fund",
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=2",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:14:53Z",
-      "points": 362
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-12T21:51:55Z",
+      "points": 363
     }
   ]
 }
