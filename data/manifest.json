@@ -97,9 +97,9 @@
       "source_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
       "history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
       "monthly_history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav-monthly",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:14:17Z",
-      "points": 66
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-13T19:58:07Z",
+      "points": 67
     },
     {
       "symbol": "KDBY",
@@ -188,9 +188,9 @@
       "name": "Mega Mutual Fund 1",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-mega-mutual-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=mega-mutual-fund-nav",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-06T19:02:13Z",
-      "points": 127
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-13T19:58:05Z",
+      "points": 128
     },
     {
       "symbol": "MNMF1",
@@ -232,9 +232,9 @@
       "name": "NIBL Growth Fund",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-growth-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nav-nibl-growth-fund",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-06T19:02:13Z",
-      "points": 125
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-13T19:58:05Z",
+      "points": 126
     },
     {
       "symbol": "NIBLSTF",
@@ -243,9 +243,9 @@
       "name": "NIBL Stable Fund",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-stable-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nav-nibl-stable-fund",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-06T19:02:13Z",
-      "points": 124
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-13T19:58:05Z",
+      "points": 125
     },
     {
       "symbol": "NIBSF2",
@@ -254,9 +254,9 @@
       "name": "NIBL Samriddhi Fund II",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-samriddhi-fund-ii/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nibl-samriddhi-fund-2-nav",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-06T19:02:13Z",
-      "points": 125
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-13T19:58:05Z",
+      "points": 126
     },
     {
       "symbol": "NICBF",
