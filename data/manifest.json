@@ -142,9 +142,9 @@
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=8",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/lsh-12-bha-1769036297.pdf",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-06T19:04:37Z",
-      "points": 16
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-14T18:12:24Z",
+      "points": 17
     },
     {
       "symbol": "LUK",
@@ -387,9 +387,9 @@
       "name": "RBB Focus 40",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-focus-40",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-focus-40",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-07T19:29:34Z",
-      "points": 55
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-14T18:09:32Z",
+      "points": 56
     },
     {
       "symbol": "RMF1",
@@ -398,9 +398,9 @@
       "name": "RBB Mutual Fund 1",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-1",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-1",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-07T19:29:34Z",
-      "points": 268
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-14T18:09:32Z",
+      "points": 269
     },
     {
       "symbol": "RMF2",
@@ -409,9 +409,9 @@
       "name": "RBB Mutual Fund 2",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-2",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-2",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-07T19:29:34Z",
-      "points": 215
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-14T18:09:32Z",
+      "points": 216
     },
     {
       "symbol": "RSY",
@@ -478,9 +478,9 @@
       "name": "Siddhartha Equity Fund",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=1",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-06T19:01:41Z",
-      "points": 580
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-14T18:09:22Z",
+      "points": 581
     },
     {
       "symbol": "SEF2",
@@ -489,9 +489,9 @@
       "name": "Siddhartha Equity Fund 2",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=5",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-06T19:01:41Z",
-      "points": 18
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-14T18:09:22Z",
+      "points": 19
     },
     {
       "symbol": "SFEF",
@@ -524,9 +524,9 @@
       "name": "Siddhartha Investment Growth Scheme 2",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=2",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-06T19:01:41Z",
-      "points": 466
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-14T18:09:22Z",
+      "points": 467
     },
     {
       "symbol": "SIGS3",
@@ -535,9 +535,9 @@
       "name": "Siddhartha Investment Growth Scheme 3",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-06T19:01:41Z",
-      "points": 224
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-14T18:09:22Z",
+      "points": 225
     },
     {
       "symbol": "SLCF",
