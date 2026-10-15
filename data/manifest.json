@@ -85,9 +85,9 @@
       "name": "Himalayan 80-20",
       "source_url": "https://himalayancapital.com/nav-details",
       "history_url": "https://flowvity.himalayancapital.com/adminapi/v1/public/hist-nav?ticker=H8020",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-08T19:26:52Z",
-      "points": 194
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-15T17:55:46Z",
+      "points": 195
     },
     {
       "symbol": "HLICF",
@@ -354,9 +354,9 @@
       "source_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
       "history_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-05T21:14:31Z",
-      "points": 43
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-15T17:53:32Z",
+      "points": 44
     },
     {
       "symbol": "PRSF",
