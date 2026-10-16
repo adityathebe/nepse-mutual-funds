@@ -8,9 +8,9 @@
       "name": "Citizens Super 30 Mutual Fund",
       "source_url": "https://www.citizenscapital.com.np/",
       "history_url": "https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=3",
-      "latest_as_of": "2026-10-02",
-      "last_successful_fetch": "2026-10-12T21:51:34Z",
-      "points": 211
+      "latest_as_of": "2026-10-09",
+      "last_successful_fetch": "2026-10-16T17:40:39Z",
+      "points": 212
     },
     {
       "symbol": "CMF1",
@@ -85,9 +85,9 @@
       "name": "Himalayan 80-20",
       "source_url": "https://himalayancapital.com/nav-details",
       "history_url": "https://flowvity.himalayancapital.com/adminapi/v1/public/hist-nav?ticker=H8020",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-15T17:55:46Z",
-      "points": 195
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-16T17:42:45Z",
+      "points": 196
     },
     {
       "symbol": "HLICF",
@@ -177,9 +177,9 @@
       "name": "MBL Equity Fund",
       "source_url": "https://mcl.com.np/mutual-funds/close/mbl-equity-fund",
       "history_url": "https://mcl.com.np/api/v1/public/mutual-funds/mbl-equity-fund",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-12T21:50:59Z",
-      "points": 99
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-16T17:39:59Z",
+      "points": 100
     },
     {
       "symbol": "MMF1",

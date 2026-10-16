@@ -1474,6 +1474,13 @@
     "nav": 9.83,
     "date_bs": "2083-06-16",
     "frequency": "weekly",
-    "source_label": "16th Ashwin 2083"
+    "source_label": "16 Ashwin 2083"
+  },
+  {
+    "as_of": "2026-10-09",
+    "nav": 9.88,
+    "date_bs": "2083-06-23",
+    "frequency": "weekly",
+    "source_label": "23 Ashwin 2083"
   }
 ]
