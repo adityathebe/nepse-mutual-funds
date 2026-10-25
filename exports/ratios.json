@@ -307,6 +307,25 @@
       "dividend_url": "https://www.nepalstock.com/api/nots/application/dividend/459"
     },
     {
+      "symbol": "MEN",
+      "name": "Mountain Energy Nepal Limited",
+      "sector": "Hydro Power",
+      "fiscal_year": "2082-2083",
+      "quarter": "Fourth Quarter",
+      "report_submitted_date": "2026-08-11",
+      "price_as_of": "2026-10-16",
+      "market_price": 671,
+      "pe": 26.29,
+      "pb": 4.45,
+      "roe": 16.93,
+      "net_margin": 0,
+      "debt_to_equity": 0.66,
+      "dividend_yield": 0.16,
+      "report_url": "https://www.nepalstock.com/api/nots/security/fetchFiles?fileLocation=Mountain_Energy_Nepal_Limited%2FReport+Upload%2F2026-08-11%2FSigned+Q4+Report+-+2082-83_1786418952681.pdf",
+      "price_url": "https://www.nepalstock.com/company/detail/2913",
+      "dividend_url": "https://www.nepalstock.com/api/nots/application/dividend/2913"
+    },
+    {
       "symbol": "MKJC",
       "name": "Mailung Khola Jal Vidhyut Company Limited",
       "sector": "Hydro Power",
@@ -1004,7 +1023,7 @@
     {
       "symbol": "BHPL",
       "sector": "Hydro Power",
-      "error": "cannot identify year-to-date revenue"
+      "error": "no attached document contains financial statements: tesseract failed: signal: killed: \ntesseract failed: signal: killed: "
     },
     {
       "symbol": "BJHL",
@@ -1064,7 +1083,7 @@
     {
       "symbol": "CHL",
       "sector": "Hydro Power",
-      "error": "no attached document contains financial statements: tesseract failed: signal: killed: \ntesseract failed: signal: killed: "
+      "error": "no attached document contains financial statements: tesseract failed: signal: killed: \ntesseract failed: signal: killed: Detected 24 diacritics\n"
     },
     {
       "symbol": "CIT",
@@ -1437,11 +1456,6 @@
       "error": "nepse: failed to get access token: token update: context deadline exceeded"
     },
     {
-      "symbol": "MEN",
-      "sector": "Hydro Power",
-      "error": "cannot identify year-to-date revenue"
-    },
-    {
       "symbol": "MEPDL",
       "sector": "Hydro Power",
       "error": "nepse: failed to get access token: token update: context deadline exceeded"
@@ -1459,7 +1473,7 @@
     {
       "symbol": "MHCL",
       "sector": "Hydro Power",
-      "error": "no attached document contains financial statements: tesseract failed: signal: killed: \ntesseract failed: signal: killed: Image too small to scale!! (2x36 vs min width of 3)\nLine cannot be recognized!!\nImage too small to scale!! (2x36 vs min width of 3)\nLine cannot be recognized!!\n"
+      "error": "no attached document contains financial statements: tesseract failed: signal: killed: \nGet \"https://www.nepalstock.com/api/nots/security/fetchFiles?fileLocation=Molung_Hydropower_Company_Limited%2FReport+Upload%2F2026-08-14%2FCover+Letter_1786687870470.pdf\": context deadline exceeded"
     },
     {
       "symbol": "MHL",
@@ -1659,7 +1673,7 @@
     {
       "symbol": "OHL",
       "sector": "Hotels And Tourism",
-      "error": "no attached document contains financial statements: tesseract failed: signal: killed: \ntesseract failed: signal: killed: Image too small to scale!! (2x36 vs min width of 3)\nLine cannot be recognized!!\nImage too small to scale!! (1x36 vs min width of 3)\nLine cannot be recognized!!\n\ntesseract failed: signal: killed: "
+      "error": "no attached document contains financial statements: tesseract failed: signal: killed: \ntesseract failed: signal: killed: Image too small to scale!! (2x36 vs min width of 3)\nLine cannot be recognized!!\nImage too small to scale!! (1x36 vs min width of 3)\nLine cannot be recognized!!\nImage too small to scale!! (2x36 vs min width of 3)\nLine cannot be recognized!!\nImage too small to scale!! (2x36 vs min width of 3)\nLine cannot be recognized!!\n\ntesseract failed: signal: killed: "
     },
     {
       "symbol": "OMPL",
