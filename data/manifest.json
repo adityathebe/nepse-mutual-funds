@@ -97,9 +97,9 @@
       "source_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
       "history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
       "monthly_history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav-monthly",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-13T19:58:07Z",
-      "points": 67
+      "latest_as_of": "2026-10-23",
+      "last_successful_fetch": "2026-10-26T19:32:42Z",
+      "points": 69
     },
     {
       "symbol": "KDBY",
@@ -210,9 +210,9 @@
       "name": "Nabil Balanced Fund II",
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=3",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-12T21:53:43Z",
-      "points": 471
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-26T19:33:22Z",
+      "points": 472
     },
     {
       "symbol": "NBF3",
@@ -221,9 +221,9 @@
       "name": "Nabil Balanced Fund III",
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-12T21:53:43Z",
-      "points": 324
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-26T19:33:22Z",
+      "points": 325
     },
     {
       "symbol": "NIBLGF",
@@ -354,9 +354,9 @@
       "source_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
       "history_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-15T17:53:32Z",
-      "points": 44
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-26T19:32:54Z",
+      "points": 45
     },
     {
       "symbol": "PRSF",
@@ -365,9 +365,9 @@
       "name": "Prabhu Smart Fund",
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PRSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PRSF",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-12T21:50:48Z",
-      "points": 230
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-26T19:30:49Z",
+      "points": 231
     },
     {
       "symbol": "PSF",
@@ -376,9 +376,9 @@
       "name": "Prabhu Select Fund",
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PSF",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-12T21:50:48Z",
-      "points": 344
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-26T19:30:49Z",
+      "points": 345
     },
     {
       "symbol": "RBBF40",
@@ -421,9 +421,9 @@
       "source_url": "https://reliablecapital.com.np/reliable-samridhi-yojana",
       "history_url": "https://api.reliablecapital.com.np/api/nav-charts",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-12T21:51:28Z",
-      "points": 80
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-26T19:32:47Z",
+      "points": 81
     },
     {
       "symbol": "RSY2",
@@ -433,9 +433,9 @@
       "source_url": "https://reliablecapital.com.np/reliable-samridhi-yojana-two",
       "history_url": "https://api.reliablecapital.com.np/api/nav-chart-2",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-12T21:51:28Z",
-      "points": 19
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-26T19:32:47Z",
+      "points": 20
     },
     {
       "symbol": "SAEF2",

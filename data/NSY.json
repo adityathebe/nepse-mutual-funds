@@ -306,5 +306,12 @@
     "date_bs": "2083-06-23",
     "frequency": "weekly",
     "source_label": "Nepal Life Samriddhi Lagani Yojana, Ashoj 23, 2083"
+  },
+  {
+    "as_of": "2026-10-16",
+    "nav": 9.96,
+    "date_bs": "2083-06-30",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Ashoj 30, 2083"
   }
 ]
