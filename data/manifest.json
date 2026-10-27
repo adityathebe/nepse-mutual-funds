@@ -74,9 +74,9 @@
       "name": "Garima Samriddhi Yojana",
       "source_url": "https://garimacapital.com/nav-details",
       "history_url": "https://garimacapital.com/nav/category-data/3",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-12T21:51:44Z",
-      "points": 113
+      "latest_as_of": "2026-10-23",
+      "last_successful_fetch": "2026-10-27T18:56:25Z",
+      "points": 115
     },
     {
       "symbol": "H8020",
@@ -188,9 +188,9 @@
       "name": "Mega Mutual Fund 1",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-mega-mutual-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=mega-mutual-fund-nav",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-13T19:58:05Z",
-      "points": 128
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-27T18:56:03Z",
+      "points": 129
     },
     {
       "symbol": "MNMF1",
@@ -210,9 +210,9 @@
       "name": "Nabil Balanced Fund II",
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=3",
-      "latest_as_of": "2026-10-16",
-      "last_successful_fetch": "2026-10-26T19:33:22Z",
-      "points": 472
+      "latest_as_of": "2026-10-23",
+      "last_successful_fetch": "2026-10-27T18:56:45Z",
+      "points": 473
     },
     {
       "symbol": "NBF3",
@@ -221,9 +221,9 @@
       "name": "Nabil Balanced Fund III",
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
-      "latest_as_of": "2026-10-16",
-      "last_successful_fetch": "2026-10-26T19:33:22Z",
-      "points": 325
+      "latest_as_of": "2026-10-23",
+      "last_successful_fetch": "2026-10-27T18:56:45Z",
+      "points": 326
     },
     {
       "symbol": "NIBLGF",
@@ -232,9 +232,9 @@
       "name": "NIBL Growth Fund",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-growth-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nav-nibl-growth-fund",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-13T19:58:05Z",
-      "points": 126
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-27T18:56:03Z",
+      "points": 127
     },
     {
       "symbol": "NIBLSTF",
@@ -243,9 +243,9 @@
       "name": "NIBL Stable Fund",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-stable-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nav-nibl-stable-fund",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-13T19:58:05Z",
-      "points": 125
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-27T18:56:03Z",
+      "points": 126
     },
     {
       "symbol": "NIBSF2",
@@ -254,9 +254,9 @@
       "name": "NIBL Samriddhi Fund II",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-samriddhi-fund-ii/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nibl-samriddhi-fund-2-nav",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-13T19:58:05Z",
-      "points": 126
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-27T18:56:03Z",
+      "points": 127
     },
     {
       "symbol": "NICBF",
@@ -365,9 +365,9 @@
       "name": "Prabhu Smart Fund",
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PRSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PRSF",
-      "latest_as_of": "2026-10-16",
-      "last_successful_fetch": "2026-10-26T19:30:49Z",
-      "points": 231
+      "latest_as_of": "2026-10-23",
+      "last_successful_fetch": "2026-10-27T18:52:36Z",
+      "points": 232
     },
     {
       "symbol": "PSF",
@@ -376,9 +376,9 @@
       "name": "Prabhu Select Fund",
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PSF",
-      "latest_as_of": "2026-10-16",
-      "last_successful_fetch": "2026-10-26T19:30:49Z",
-      "points": 345
+      "latest_as_of": "2026-10-23",
+      "last_successful_fetch": "2026-10-27T18:52:36Z",
+      "points": 346
     },
     {
       "symbol": "RBBF40",
@@ -387,9 +387,9 @@
       "name": "RBB Focus 40",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-focus-40",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-focus-40",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-14T18:09:32Z",
-      "points": 56
+      "latest_as_of": "2026-10-17",
+      "last_successful_fetch": "2026-10-27T18:52:53Z",
+      "points": 57
     },
     {
       "symbol": "RMF1",
@@ -398,9 +398,9 @@
       "name": "RBB Mutual Fund 1",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-1",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-1",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-14T18:09:32Z",
-      "points": 269
+      "latest_as_of": "2026-10-17",
+      "last_successful_fetch": "2026-10-27T18:52:53Z",
+      "points": 270
     },
     {
       "symbol": "RMF2",
@@ -409,9 +409,9 @@
       "name": "RBB Mutual Fund 2",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-2",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-2",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-14T18:09:32Z",
-      "points": 216
+      "latest_as_of": "2026-10-17",
+      "last_successful_fetch": "2026-10-27T18:52:53Z",
+      "points": 217
     },
     {
       "symbol": "RSY",
