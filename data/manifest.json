@@ -8,9 +8,9 @@
       "name": "Citizens Super 30 Mutual Fund",
       "source_url": "https://www.citizenscapital.com.np/",
       "history_url": "https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=3",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-16T17:40:39Z",
-      "points": 212
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-28T19:05:59Z",
+      "points": 213
     },
     {
       "symbol": "CMF1",
@@ -52,9 +52,9 @@
       "name": "Global IME Samunnat Yojana-II",
       "source_url": "https://www.globalimecapital.com/mutual-fund/global-ime-samunnat-yojana-ii",
       "history_url": "https://globalimecapital.com/api/v1/public/mutual-funds/global-ime-samunnat-yojana-ii",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-12T21:50:58Z",
-      "points": 79
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-28T19:02:31Z",
+      "points": 80
     },
     {
       "symbol": "GIBF1",
@@ -63,9 +63,9 @@
       "name": "Global IME Balance Fund-I",
       "source_url": "https://www.globalimecapital.com/mutual-fund/global-ime-balance-fund",
       "history_url": "https://globalimecapital.com/api/v1/public/mutual-funds/global-ime-balance-fund",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-12T21:50:58Z",
-      "points": 270
+      "latest_as_of": "2026-10-16",
+      "last_successful_fetch": "2026-10-28T19:02:31Z",
+      "points": 271
     },
     {
       "symbol": "GSY",
@@ -177,9 +177,9 @@
       "name": "MBL Equity Fund",
       "source_url": "https://mcl.com.np/mutual-funds/close/mbl-equity-fund",
       "history_url": "https://mcl.com.np/api/v1/public/mutual-funds/mbl-equity-fund",
-      "latest_as_of": "2026-10-16",
-      "last_successful_fetch": "2026-10-16T17:39:59Z",
-      "points": 100
+      "latest_as_of": "2026-10-23",
+      "last_successful_fetch": "2026-10-28T19:02:33Z",
+      "points": 101
     },
     {
       "symbol": "MMF1",
@@ -354,9 +354,9 @@
       "source_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
       "history_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-10-16",
-      "last_successful_fetch": "2026-10-26T19:32:54Z",
-      "points": 45
+      "latest_as_of": "2026-10-17",
+      "last_successful_fetch": "2026-10-28T19:06:01Z",
+      "points": 47
     },
     {
       "symbol": "PRSF",
