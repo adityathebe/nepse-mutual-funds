@@ -331,9 +331,9 @@
       "name": "NMB Hybrid Fund L II",
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=6",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-12T21:50:45Z",
-      "points": 103
+      "latest_as_of": "2026-10-23",
+      "last_successful_fetch": "2026-10-29T19:09:48Z",
+      "points": 105
     },
     {
       "symbol": "NSIF2",
@@ -342,9 +342,9 @@
       "name": "NMB Sulav Investment Fund II",
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=5",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-12T21:50:45Z",
-      "points": 264
+      "latest_as_of": "2026-10-23",
+      "last_successful_fetch": "2026-10-29T19:09:48Z",
+      "points": 266
     },
     {
       "symbol": "NSY",
@@ -421,9 +421,9 @@
       "source_url": "https://reliablecapital.com.np/reliable-samridhi-yojana",
       "history_url": "https://api.reliablecapital.com.np/api/nav-charts",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-10-16",
-      "last_successful_fetch": "2026-10-26T19:32:47Z",
-      "points": 81
+      "latest_as_of": "2026-10-23",
+      "last_successful_fetch": "2026-10-29T19:13:24Z",
+      "points": 82
     },
     {
       "symbol": "RSY2",
@@ -478,9 +478,9 @@
       "name": "Siddhartha Equity Fund",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=1",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-14T18:09:22Z",
-      "points": 581
+      "latest_as_of": "2026-10-17",
+      "last_successful_fetch": "2026-10-29T19:09:58Z",
+      "points": 583
     },
     {
       "symbol": "SEF2",
@@ -489,9 +489,9 @@
       "name": "Siddhartha Equity Fund 2",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=5",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-14T18:09:22Z",
-      "points": 19
+      "latest_as_of": "2026-10-17",
+      "last_successful_fetch": "2026-10-29T19:09:58Z",
+      "points": 21
     },
     {
       "symbol": "SFEF",
@@ -524,9 +524,9 @@
       "name": "Siddhartha Investment Growth Scheme 2",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=2",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-14T18:09:22Z",
-      "points": 467
+      "latest_as_of": "2026-10-17",
+      "last_successful_fetch": "2026-10-29T19:09:58Z",
+      "points": 469
     },
     {
       "symbol": "SIGS3",
@@ -535,9 +535,9 @@
       "name": "Siddhartha Investment Growth Scheme 3",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
-      "latest_as_of": "2026-10-09",
-      "last_successful_fetch": "2026-10-14T18:09:22Z",
-      "points": 225
+      "latest_as_of": "2026-10-17",
+      "last_successful_fetch": "2026-10-29T19:09:58Z",
+      "points": 227
     },
     {
       "symbol": "SLCF",
