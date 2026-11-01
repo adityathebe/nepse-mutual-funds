@@ -177,9 +177,9 @@
       "name": "MBL Equity Fund",
       "source_url": "https://mcl.com.np/mutual-funds/close/mbl-equity-fund",
       "history_url": "https://mcl.com.np/api/v1/public/mutual-funds/mbl-equity-fund",
-      "latest_as_of": "2026-10-23",
-      "last_successful_fetch": "2026-10-30T18:47:47Z",
-      "points": 102
+      "latest_as_of": "2026-10-30",
+      "last_successful_fetch": "2026-11-01T19:16:53Z",
+      "points": 103
     },
     {
       "symbol": "MMF1",
