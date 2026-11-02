@@ -291,6 +291,17 @@
   },
   {
     "as_of": "2026-10-17",
+    "nav": 10.17,
+    "frequency": "monthly",
+    "source_label": "Ashwin 2083"
+  },
+  {
+    "as_of": "2026-10-17",
+    "nav": 10.16,
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-10-23",
     "nav": 10.16,
     "frequency": "weekly"
   }

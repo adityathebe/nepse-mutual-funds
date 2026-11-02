@@ -478,5 +478,17 @@
     "nav": 10.17,
     "frequency": "weekly",
     "source_label": "Weekly NAV"
+  },
+  {
+    "as_of": "2026-10-17",
+    "nav": 10.17,
+    "frequency": "monthly",
+    "source_label": "Monthly Nav- Ashwin 2083"
+  },
+  {
+    "as_of": "2026-10-23",
+    "nav": 10.17,
+    "frequency": "weekly",
+    "source_label": "Weekly NAV"
   }
 ]
