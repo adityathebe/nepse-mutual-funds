@@ -1003,6 +1003,12 @@
   {
     "as_of": "2026-10-16",
     "nav": 11.13,
+    "frequency": "monthly",
+    "source_label": "Himalayan 80-20"
+  },
+  {
+    "as_of": "2026-10-16",
+    "nav": 11.13,
     "frequency": "weekly"
   },
   {

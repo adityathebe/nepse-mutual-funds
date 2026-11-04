@@ -52,9 +52,9 @@
       "name": "Global IME Samunnat Yojana-II",
       "source_url": "https://www.globalimecapital.com/mutual-fund/global-ime-samunnat-yojana-ii",
       "history_url": "https://globalimecapital.com/api/v1/public/mutual-funds/global-ime-samunnat-yojana-ii",
-      "latest_as_of": "2026-10-23",
-      "last_successful_fetch": "2026-11-03T20:15:58Z",
-      "points": 82
+      "latest_as_of": "2026-10-30",
+      "last_successful_fetch": "2026-11-04T20:31:40Z",
+      "points": 83
     },
     {
       "symbol": "GIBF1",
@@ -86,8 +86,8 @@
       "source_url": "https://himalayancapital.com/nav-details",
       "history_url": "https://flowvity.himalayancapital.com/adminapi/v1/public/hist-nav?ticker=H8020",
       "latest_as_of": "2026-10-23",
-      "last_successful_fetch": "2026-11-02T22:34:15Z",
-      "points": 197
+      "last_successful_fetch": "2026-11-04T20:36:41Z",
+      "points": 198
     },
     {
       "symbol": "HLICF",
@@ -478,9 +478,9 @@
       "name": "Siddhartha Equity Fund",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=1",
-      "latest_as_of": "2026-10-17",
-      "last_successful_fetch": "2026-10-29T19:09:58Z",
-      "points": 583
+      "latest_as_of": "2026-10-30",
+      "last_successful_fetch": "2026-11-04T20:31:37Z",
+      "points": 585
     },
     {
       "symbol": "SEF2",
@@ -489,9 +489,9 @@
       "name": "Siddhartha Equity Fund 2",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=5",
-      "latest_as_of": "2026-10-17",
-      "last_successful_fetch": "2026-10-29T19:09:58Z",
-      "points": 21
+      "latest_as_of": "2026-10-30",
+      "last_successful_fetch": "2026-11-04T20:31:37Z",
+      "points": 23
     },
     {
       "symbol": "SFEF",
@@ -524,9 +524,9 @@
       "name": "Siddhartha Investment Growth Scheme 2",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=2",
-      "latest_as_of": "2026-10-17",
-      "last_successful_fetch": "2026-10-29T19:09:58Z",
-      "points": 469
+      "latest_as_of": "2026-10-30",
+      "last_successful_fetch": "2026-11-04T20:31:37Z",
+      "points": 471
     },
     {
       "symbol": "SIGS3",
@@ -535,9 +535,9 @@
       "name": "Siddhartha Investment Growth Scheme 3",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
-      "latest_as_of": "2026-10-17",
-      "last_successful_fetch": "2026-10-29T19:09:58Z",
-      "points": 227
+      "latest_as_of": "2026-10-30",
+      "last_successful_fetch": "2026-11-04T20:31:37Z",
+      "points": 229
     },
     {
       "symbol": "SLCF",

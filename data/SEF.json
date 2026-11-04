@@ -3496,5 +3496,17 @@
     "nav": 10.78,
     "date_bs": "2083-06-31",
     "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-10-22",
+    "nav": 10.78,
+    "date_bs": "2083-07-06",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-10-30",
+    "nav": 10.96,
+    "date_bs": "2083-07-13",
+    "frequency": "weekly"
   }
 ]
