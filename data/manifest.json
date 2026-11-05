@@ -98,8 +98,8 @@
       "history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
       "monthly_history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav-monthly",
       "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-11-02T22:31:47Z",
-      "points": 70
+      "last_successful_fetch": "2026-11-05T20:50:25Z",
+      "points": 71
     },
     {
       "symbol": "KDBY",
@@ -211,8 +211,8 @@
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=3",
       "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-11-02T22:34:19Z",
-      "points": 474
+      "last_successful_fetch": "2026-11-05T20:52:44Z",
+      "points": 475
     },
     {
       "symbol": "NBF3",
@@ -222,8 +222,8 @@
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
       "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-11-02T22:34:19Z",
-      "points": 327
+      "last_successful_fetch": "2026-11-05T20:52:44Z",
+      "points": 328
     },
     {
       "symbol": "NIBLGF",
@@ -434,7 +434,7 @@
       "history_url": "https://api.reliablecapital.com.np/api/nav-chart-2",
       "monthly_nav_basis": "bs_month_end_observation",
       "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-11-02T22:31:52Z",
+      "last_successful_fetch": "2026-11-05T20:50:30Z",
       "points": 22
     },
     {
