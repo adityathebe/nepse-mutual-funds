@@ -74,9 +74,9 @@
       "name": "Garima Samriddhi Yojana",
       "source_url": "https://garimacapital.com/nav-details",
       "history_url": "https://garimacapital.com/nav/category-data/3",
-      "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-11-02T22:32:09Z",
-      "points": 117
+      "latest_as_of": "2026-11-06",
+      "last_successful_fetch": "2026-11-13T20:41:19Z",
+      "points": 118
     },
     {
       "symbol": "H8020",
@@ -85,9 +85,9 @@
       "name": "Himalayan 80-20",
       "source_url": "https://himalayancapital.com/nav-details",
       "history_url": "https://flowvity.himalayancapital.com/adminapi/v1/public/hist-nav?ticker=H8020",
-      "latest_as_of": "2026-10-23",
-      "last_successful_fetch": "2026-11-04T20:36:41Z",
-      "points": 198
+      "latest_as_of": "2026-10-30",
+      "last_successful_fetch": "2026-11-13T20:43:18Z",
+      "points": 199
     },
     {
       "symbol": "HLICF",
@@ -354,9 +354,9 @@
       "source_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
       "history_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
       "monthly_nav_basis": "bs_month_end_observation",
-      "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-11-03T20:18:48Z",
-      "points": 49
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-13T20:41:10Z",
+      "points": 51
     },
     {
       "symbol": "PRSF",
@@ -365,9 +365,9 @@
       "name": "Prabhu Smart Fund",
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PRSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PRSF",
-      "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-11-03T20:15:48Z",
-      "points": 234
+      "latest_as_of": "2026-11-06",
+      "last_successful_fetch": "2026-11-13T20:38:12Z",
+      "points": 235
     },
     {
       "symbol": "PSF",
@@ -376,9 +376,9 @@
       "name": "Prabhu Select Fund",
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PSF",
-      "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-11-03T20:15:48Z",
-      "points": 348
+      "latest_as_of": "2026-11-06",
+      "last_successful_fetch": "2026-11-13T20:38:12Z",
+      "points": 349
     },
     {
       "symbol": "RBBF40",
