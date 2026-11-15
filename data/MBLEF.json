@@ -616,5 +616,11 @@
     "nav": 10.5,
     "frequency": "weekly",
     "source_label": "MBLEF"
+  },
+  {
+    "as_of": "2026-11-06",
+    "nav": 10.4,
+    "frequency": "weekly",
+    "source_label": "MBLEF"
   }
 ]
