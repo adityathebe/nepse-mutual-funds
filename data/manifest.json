@@ -8,6 +8,7 @@
       "name": "Citizens Super 30 Mutual Fund",
       "source_url": "https://www.citizenscapital.com.np/",
       "history_url": "https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=3",
+      "maturity_date": "2033-05-14",
       "latest_as_of": "2026-10-16",
       "last_successful_fetch": "2026-10-28T19:05:59Z",
       "points": 213
@@ -19,6 +20,7 @@
       "name": "Citizens Mutual Fund-I",
       "source_url": "https://www.citizenscapital.com.np/",
       "history_url": "https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=1",
+      "maturity_date": "2025-03-02",
       "latest_as_of": "2025-03-03",
       "last_successful_fetch": "2026-09-10T04:00:52Z",
       "points": 293
@@ -30,6 +32,7 @@
       "name": "Citizens Mutual Fund-II",
       "source_url": "https://www.citizenscapital.com.np/",
       "history_url": "https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=2",
+      "maturity_date": "2026-07-05",
       "latest_as_of": "2026-07-05",
       "last_successful_fetch": "2026-09-10T04:00:52Z",
       "points": 373
@@ -41,6 +44,7 @@
       "name": "Citizens Santulit Yojana",
       "source_url": "https://www.citizenscapital.com.np/",
       "history_url": "https://www.citizenscapital.com.np/frontapi/en/getMutualFund?schemeId=5",
+      "maturity_date": "2036-01-18",
       "latest_as_of": "2026-10-23",
       "last_successful_fetch": "2026-11-03T20:18:46Z",
       "points": 44
@@ -52,6 +56,7 @@
       "name": "Global IME Samunnat Yojana-II",
       "source_url": "https://www.globalimecapital.com/mutual-fund/global-ime-samunnat-yojana-ii",
       "history_url": "https://globalimecapital.com/api/v1/public/mutual-funds/global-ime-samunnat-yojana-ii",
+      "maturity_date": "2035-07-18",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-04T20:31:40Z",
       "points": 83
@@ -63,6 +68,7 @@
       "name": "Global IME Balance Fund-I",
       "source_url": "https://www.globalimecapital.com/mutual-fund/global-ime-balance-fund",
       "history_url": "https://globalimecapital.com/api/v1/public/mutual-funds/global-ime-balance-fund",
+      "maturity_date": "2032-07-28",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-02T22:28:32Z",
       "points": 274
@@ -74,6 +80,7 @@
       "name": "Garima Samriddhi Yojana",
       "source_url": "https://garimacapital.com/nav-details",
       "history_url": "https://garimacapital.com/nav/category-data/3",
+      "maturity_date": "2035-01-02",
       "latest_as_of": "2026-11-06",
       "last_successful_fetch": "2026-11-13T20:41:19Z",
       "points": 118
@@ -85,6 +92,7 @@
       "name": "Himalayan 80-20",
       "source_url": "https://himalayancapital.com/nav-details",
       "history_url": "https://flowvity.himalayancapital.com/adminapi/v1/public/hist-nav?ticker=H8020",
+      "maturity_date": "2033-10-01",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-13T20:43:18Z",
       "points": 199
@@ -97,6 +105,7 @@
       "source_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
       "history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
       "monthly_history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav-monthly",
+      "maturity_date": "2035-09-15",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-05T20:50:25Z",
       "points": 71
@@ -108,6 +117,7 @@
       "name": "Kumari Dhanabriddhi Yojana",
       "source_url": "https://kumaricapital.com/floorsheet/kdby",
       "history_url": "https://api-web.kumaricapital.com/items/navs?filter[scheme][_eq]=4",
+      "maturity_date": "2032-07-25",
       "latest_as_of": "2026-09-18",
       "last_successful_fetch": "2026-09-21T18:54:50Z",
       "points": 273
@@ -119,6 +129,7 @@
       "name": "Kumari Equity Fund",
       "source_url": "https://kumaricapital.com/floorsheet/kef",
       "history_url": "https://api-web.kumaricapital.com/items/navs?filter[scheme][_eq]=3",
+      "maturity_date": "2031-03-18",
       "latest_as_of": "2026-09-18",
       "last_successful_fetch": "2026-09-21T18:54:50Z",
       "points": 352
@@ -130,6 +141,7 @@
       "name": "Kumari Sabal Yojana",
       "source_url": "https://kumaricapital.com/floorsheet/ksy",
       "history_url": "https://api-web.kumaricapital.com/items/navs?filter[scheme][_eq]=2",
+      "maturity_date": "2034-03-19",
       "latest_as_of": "2026-09-18",
       "last_successful_fetch": "2026-09-21T18:54:50Z",
       "points": 164
@@ -142,6 +154,7 @@
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=8",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/lsh-12-bha-1769036297.pdf",
+      "maturity_date": "2038-06-18",
       "latest_as_of": "2026-10-09",
       "last_successful_fetch": "2026-10-14T18:12:24Z",
       "points": 17
@@ -154,6 +167,7 @@
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=6",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/laxmi-unna-1472636827.pdf",
+      "maturity_date": "2030-08-14",
       "latest_as_of": "2026-10-09",
       "last_successful_fetch": "2026-10-12T21:53:38Z",
       "points": 151
@@ -166,6 +180,7 @@
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=7",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/laxmi-valu-2015491662.pdf",
+      "maturity_date": "2033-09-03",
       "latest_as_of": "2026-10-09",
       "last_successful_fetch": "2026-10-12T21:53:38Z",
       "points": 151
@@ -177,6 +192,7 @@
       "name": "MBL Equity Fund",
       "source_url": "https://mcl.com.np/mutual-funds/close/mbl-equity-fund",
       "history_url": "https://mcl.com.np/api/v1/public/mutual-funds/mbl-equity-fund",
+      "maturity_date": "2037-03-27",
       "latest_as_of": "2026-11-06",
       "last_successful_fetch": "2026-11-15T20:13:14Z",
       "points": 104
@@ -188,6 +204,7 @@
       "name": "Mega Mutual Fund 1",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-mega-mutual-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=mega-mutual-fund-nav",
+      "maturity_date": "2031-09-08",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-03T20:18:33Z",
       "points": 132
@@ -199,6 +216,7 @@
       "name": "Muktinath Mutual Fund 1",
       "source_url": "https://muktinathcapital.com/services/mutual-fund/muktinath-mutual-fund-1",
       "history_url": "https://muktinathcapital.com/frontapi/en/mutualfund?slug=muktinath-mutual-fund-1",
+      "maturity_date": "2034-12-19",
       "latest_as_of": "2026-09-25",
       "last_successful_fetch": "2026-09-28T20:14:30Z",
       "points": 111
@@ -210,6 +228,7 @@
       "name": "Nabil Balanced Fund II",
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=3",
+      "maturity_date": "2029-05-31",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-05T20:52:44Z",
       "points": 475
@@ -221,6 +240,7 @@
       "name": "Nabil Balanced Fund III",
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
+      "maturity_date": "2031-09-23",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-05T20:52:44Z",
       "points": 328
@@ -232,6 +252,7 @@
       "name": "NIBL Growth Fund",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-growth-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nav-nibl-growth-fund",
+      "maturity_date": "2033-01-17",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-03T20:18:33Z",
       "points": 130
@@ -243,6 +264,7 @@
       "name": "NIBL Stable Fund",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-stable-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nav-nibl-stable-fund",
+      "maturity_date": "2036-02-07",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-03T20:18:33Z",
       "points": 129
@@ -254,6 +276,7 @@
       "name": "NIBL Samriddhi Fund II",
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-samriddhi-fund-ii/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nibl-samriddhi-fund-2-nav",
+      "maturity_date": "2031-05-29",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-03T20:18:33Z",
       "points": 130
@@ -265,6 +288,7 @@
       "name": "NIC ASIA Balanced Fund",
       "source_url": "https://www.nicasiacapital.com/nav-details",
       "history_url": "https://www.nicasiacapital.com/nav-details?category=2",
+      "maturity_date": "2029-08-27",
       "latest_as_of": "2026-10-02",
       "last_successful_fetch": "2026-10-06T19:05:20Z",
       "points": 347
@@ -276,6 +300,7 @@
       "name": "NIC ASIA Flexi Cap Fund",
       "source_url": "https://www.nicasiacapital.com/nav-details",
       "history_url": "https://www.nicasiacapital.com/nav-details?category=7",
+      "maturity_date": "2029-06-15",
       "latest_as_of": "2026-10-02",
       "last_successful_fetch": "2026-10-05T21:17:23Z",
       "points": 272
@@ -287,6 +312,7 @@
       "name": "NIC ASIA Growth Fund",
       "source_url": "https://www.nicasiacapital.com/nav-details",
       "history_url": "https://www.nicasiacapital.com/nav-details?category=1",
+      "maturity_date": "2025-03-12",
       "latest_as_of": "2025-03-13",
       "last_successful_fetch": "2026-09-10T04:03:15Z",
       "points": 278
@@ -298,6 +324,7 @@
       "name": "NIC ASIA Growth Fund 2",
       "source_url": "https://www.nicasiacapital.com/nav-details",
       "history_url": "https://www.nicasiacapital.com/nav-details?category=8",
+      "maturity_date": "2030-11-20",
       "latest_as_of": "2026-10-02",
       "last_successful_fetch": "2026-10-05T21:17:23Z",
       "points": 180
@@ -309,6 +336,7 @@
       "name": "NIC ASIA Select 30 (Index Fund)",
       "source_url": "https://www.nicasiacapital.com/nav-details",
       "history_url": "https://www.nicasiacapital.com/nav-details?category=6",
+      "maturity_date": "2028-07-05",
       "latest_as_of": "2026-10-02",
       "last_successful_fetch": "2026-10-05T21:17:23Z",
       "points": 325
@@ -320,6 +348,7 @@
       "name": "NMB 50",
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=3",
+      "maturity_date": "2026-08-28",
       "latest_as_of": "2026-08-31",
       "last_successful_fetch": "2026-10-09T18:57:28Z",
       "points": 351
@@ -331,6 +360,7 @@
       "name": "NMB Hybrid Fund L II",
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=6",
+      "maturity_date": "2035-02-27",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-10-30T18:47:31Z",
       "points": 106
@@ -342,6 +372,7 @@
       "name": "NMB Sulav Investment Fund II",
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=5",
+      "maturity_date": "2032-09-01",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-10-30T18:47:31Z",
       "points": 267
@@ -354,6 +385,7 @@
       "source_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
       "history_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
       "monthly_nav_basis": "bs_month_end_observation",
+      "maturity_date": "2036-02-02",
       "latest_as_of": "2026-11-13",
       "last_successful_fetch": "2026-11-13T20:41:10Z",
       "points": 51
@@ -365,6 +397,7 @@
       "name": "Prabhu Smart Fund",
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PRSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PRSF",
+      "maturity_date": "2032-03-14",
       "latest_as_of": "2026-11-06",
       "last_successful_fetch": "2026-11-13T20:38:12Z",
       "points": 235
@@ -376,6 +409,7 @@
       "name": "Prabhu Select Fund",
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PSF",
+      "maturity_date": "2028-06-21",
       "latest_as_of": "2026-11-06",
       "last_successful_fetch": "2026-11-13T20:38:12Z",
       "points": 349
@@ -387,6 +421,7 @@
       "name": "RBB Focus 40",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-focus-40",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-focus-40",
+      "maturity_date": "2037-11-12",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-03T20:16:06Z",
       "points": 60
@@ -398,6 +433,7 @@
       "name": "RBB Mutual Fund 1",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-1",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-1",
+      "maturity_date": "2028-07-23",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-03T20:16:06Z",
       "points": 273
@@ -409,6 +445,7 @@
       "name": "RBB Mutual Fund 2",
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-2",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-2",
+      "maturity_date": "2033-05-21",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-03T20:16:06Z",
       "points": 220
@@ -421,6 +458,7 @@
       "source_url": "https://reliablecapital.com.np/reliable-samridhi-yojana",
       "history_url": "https://api.reliablecapital.com.np/api/nav-charts",
       "monthly_nav_basis": "bs_month_end_observation",
+      "maturity_date": "2035-05-02",
       "latest_as_of": "2026-11-06",
       "last_successful_fetch": "2026-11-06T20:06:04Z",
       "points": 84
@@ -433,6 +471,7 @@
       "source_url": "https://reliablecapital.com.np/reliable-samridhi-yojana-two",
       "history_url": "https://api.reliablecapital.com.np/api/nav-chart-2",
       "monthly_nav_basis": "bs_month_end_observation",
+      "maturity_date": "2036-06-18",
       "latest_as_of": "2026-11-06",
       "last_successful_fetch": "2026-11-06T20:06:04Z",
       "points": 23
@@ -444,6 +483,7 @@
       "name": "Sanima Equity Fund-2",
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=5",
+      "maturity_date": "2036-06-18",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-03T20:19:09Z",
       "points": 23
@@ -455,6 +495,7 @@
       "name": "Sanima Growth Fund",
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=3",
+      "maturity_date": "2033-11-27",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-03T20:19:09Z",
       "points": 252
@@ -467,6 +508,7 @@
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=1",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/sbcf-bhad-1963711431.pdf",
+      "maturity_date": "2031-03-26",
       "latest_as_of": "2026-10-09",
       "last_successful_fetch": "2026-10-12T21:53:38Z",
       "points": 325
@@ -478,6 +520,7 @@
       "name": "Siddhartha Equity Fund",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=1",
+      "maturity_date": "2027-11-08",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-04T20:31:37Z",
       "points": 585
@@ -489,6 +532,7 @@
       "name": "Siddhartha Equity Fund 2",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=5",
+      "maturity_date": "2038-06-18",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-04T20:31:37Z",
       "points": 23
@@ -501,6 +545,7 @@
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=3",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/sfef-bhadr-1873170656.pdf",
+      "maturity_date": "2032-02-12",
       "latest_as_of": "2026-10-09",
       "last_successful_fetch": "2026-10-12T21:53:38Z",
       "points": 205
@@ -513,6 +558,7 @@
       "source_url": "https://lscapital.com.np/",
       "history_url": "https://lscapital.com.np/frontapi/en/getMutualFund?schemeId=2",
       "monthly_history_url": "https://lscapital.com.np/site_uploads/sfmf-bhad-2057143974.pdf",
+      "maturity_date": "2029-11-04",
       "latest_as_of": "2026-10-09",
       "last_successful_fetch": "2026-10-12T21:53:38Z",
       "points": 413
@@ -524,6 +570,7 @@
       "name": "Siddhartha Investment Growth Scheme 2",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=2",
+      "maturity_date": "2029-08-26",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-04T20:31:37Z",
       "points": 471
@@ -535,6 +582,7 @@
       "name": "Siddhartha Investment Growth Scheme 3",
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
+      "maturity_date": "2033-04-30",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-04T20:31:37Z",
       "points": 229
@@ -546,6 +594,7 @@
       "name": "Sanima Large Cap Fund",
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=2",
+      "maturity_date": "2028-02-23",
       "latest_as_of": "2026-10-30",
       "last_successful_fetch": "2026-11-03T20:19:09Z",
       "points": 368

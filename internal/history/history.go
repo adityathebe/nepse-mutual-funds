@@ -35,6 +35,7 @@ type Fund struct {
 	HistoryURL          string `json:"history_url"`
 	MonthlyHistoryURL   string `json:"monthly_history_url,omitempty"`
 	MonthlyNAVBasis     string `json:"monthly_nav_basis,omitempty"`
+	MaturityDate        string `json:"maturity_date,omitempty"`
 	LatestAsOf          string `json:"latest_as_of"`
 	LastSuccessfulFetch string `json:"last_successful_fetch"`
 	Points              int    `json:"points"`
@@ -95,6 +96,11 @@ func validateSeries(s Series) error {
 	}
 	if f.MonthlyNAVBasis != "" && f.MonthlyNAVBasis != "bs_month_end_observation" {
 		return fmt.Errorf("invalid monthly NAV basis for %s", f.Symbol)
+	}
+	if f.MaturityDate != "" {
+		if _, err := time.Parse(time.DateOnly, f.MaturityDate); err != nil {
+			return fmt.Errorf("invalid maturity date for %s", f.Symbol)
+		}
 	}
 	fetched, err := time.Parse(time.RFC3339, f.LastSuccessfulFetch)
 	if err != nil || fetched.After(time.Now().Add(5*time.Minute)) {
@@ -218,6 +224,8 @@ func Sync(dir string, incoming []Series, fetched time.Time) (int, error) {
 		s.Fund.Points = len(s.History)
 		s.Fund.LatestAsOf = s.History[len(s.History)-1].AsOf
 		s.Fund.LastSuccessfulFetch = old.Fund.LastSuccessfulFetch
+		// Adapters do not know maturity dates; SetMaturityDates maintains them.
+		s.Fund.MaturityDate = old.Fund.MaturityDate
 		if !reflect.DeepEqual(s, old) {
 			s.Fund.LastSuccessfulFetch = fetched.UTC().Format(time.RFC3339)
 		}
@@ -249,6 +257,26 @@ func Sync(dir string, incoming []Series, fetched time.Time) (int, error) {
 		changed++
 	}
 	return changed, err
+}
+
+// SetMaturityDates records maturity dates in the manifest. Funds missing from dates
+// keep their recorded date, because matured funds can drop out of the source.
+func SetMaturityDates(dir string, dates map[string]string) (bool, error) {
+	series, err := Load(dir)
+	if err != nil {
+		return false, err
+	}
+	m := Manifest{SchemaVersion: 1}
+	for _, s := range series {
+		if d, ok := dates[s.Fund.Symbol]; ok {
+			s.Fund.MaturityDate = d
+		}
+		if err := validateSeries(s); err != nil {
+			return false, err
+		}
+		m.Funds = append(m.Funds, s.Fund)
+	}
+	return writeJSON(filepath.Join(dir, "manifest.json"), m)
 }
 
 // Export writes symbol -> [weekly NAV, weekly AD date, monthly NAV, monthly AD date].
