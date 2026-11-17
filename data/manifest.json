@@ -81,9 +81,9 @@
       "source_url": "https://garimacapital.com/nav-details",
       "history_url": "https://garimacapital.com/nav/category-data/3",
       "maturity_date": "2035-01-02",
-      "latest_as_of": "2026-11-06",
-      "last_successful_fetch": "2026-11-13T20:41:19Z",
-      "points": 118
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-17T21:56:21Z",
+      "points": 119
     },
     {
       "symbol": "H8020",
@@ -193,9 +193,9 @@
       "source_url": "https://mcl.com.np/mutual-funds/close/mbl-equity-fund",
       "history_url": "https://mcl.com.np/api/v1/public/mutual-funds/mbl-equity-fund",
       "maturity_date": "2037-03-27",
-      "latest_as_of": "2026-11-06",
-      "last_successful_fetch": "2026-11-15T20:13:14Z",
-      "points": 104
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-17T21:53:29Z",
+      "points": 105
     },
     {
       "symbol": "MMF1",
@@ -229,9 +229,9 @@
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=3",
       "maturity_date": "2029-05-31",
-      "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-11-05T20:52:44Z",
-      "points": 475
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-17T21:58:25Z",
+      "points": 476
     },
     {
       "symbol": "NBF3",
@@ -241,9 +241,9 @@
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
       "maturity_date": "2031-09-23",
-      "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-11-05T20:52:44Z",
-      "points": 328
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-17T21:58:25Z",
+      "points": 329
     },
     {
       "symbol": "NIBLGF",
@@ -387,7 +387,7 @@
       "monthly_nav_basis": "bs_month_end_observation",
       "maturity_date": "2036-02-02",
       "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-13T20:41:10Z",
+      "last_successful_fetch": "2026-11-17T21:56:13Z",
       "points": 51
     },
     {
@@ -398,9 +398,9 @@
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PRSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PRSF",
       "maturity_date": "2032-03-14",
-      "latest_as_of": "2026-11-06",
-      "last_successful_fetch": "2026-11-13T20:38:12Z",
-      "points": 235
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-17T21:53:17Z",
+      "points": 236
     },
     {
       "symbol": "PSF",
@@ -410,9 +410,9 @@
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PSF",
       "maturity_date": "2028-06-21",
-      "latest_as_of": "2026-11-06",
-      "last_successful_fetch": "2026-11-13T20:38:12Z",
-      "points": 349
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-17T21:53:17Z",
+      "points": 350
     },
     {
       "symbol": "RBBF40",
@@ -459,9 +459,9 @@
       "history_url": "https://api.reliablecapital.com.np/api/nav-charts",
       "monthly_nav_basis": "bs_month_end_observation",
       "maturity_date": "2035-05-02",
-      "latest_as_of": "2026-11-06",
-      "last_successful_fetch": "2026-11-06T20:06:04Z",
-      "points": 84
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-17T21:56:04Z",
+      "points": 85
     },
     {
       "symbol": "RSY2",
@@ -472,9 +472,9 @@
       "history_url": "https://api.reliablecapital.com.np/api/nav-chart-2",
       "monthly_nav_basis": "bs_month_end_observation",
       "maturity_date": "2036-06-18",
-      "latest_as_of": "2026-11-06",
-      "last_successful_fetch": "2026-11-06T20:06:04Z",
-      "points": 23
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-17T21:56:04Z",
+      "points": 24
     },
     {
       "symbol": "SAEF2",
