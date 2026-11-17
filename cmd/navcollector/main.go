@@ -103,6 +103,21 @@ func run() error {
 		}
 		log.Printf("%s: successful fetch at %s; %d files changed", a.Name, time.Now().UTC().Format(time.RFC3339), changed)
 	}
+	// A failed maturity fetch keeps the recorded dates, like a failed NAV source.
+	log.Print("fetching maturity dates")
+	fetchCtx, cancel := context.WithTimeout(ctx, 2*time.Minute)
+	dates, err := sources.MaturityDates(fetchCtx, client)
+	cancel()
+	if err != nil {
+		failures = append(failures, fmt.Errorf("maturity: %w", err))
+		log.Printf("FAILED maturity: %v", err)
+	} else {
+		changed, err := history.SetMaturityDates(*dir, dates)
+		if err != nil {
+			return fmt.Errorf("saving maturity dates: %w", err)
+		}
+		log.Printf("maturity: %d dates from ShareSansar; manifest changed=%t", len(dates), changed)
+	}
 	if len(failures) > 0 {
 		return fmt.Errorf("%w: %w", errSourceFailure, errors.Join(failures...))
 	}
