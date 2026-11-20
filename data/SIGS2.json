@@ -2830,5 +2830,17 @@
     "nav": 10.7,
     "date_bs": "2083-07-20",
     "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-11-13",
+    "nav": 10.7,
+    "date_bs": "2083-07-27",
+    "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-11-16",
+    "nav": 10.7,
+    "date_bs": "2083-07-30",
+    "frequency": "monthly"
   }
 ]

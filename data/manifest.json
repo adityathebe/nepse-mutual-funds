@@ -434,9 +434,9 @@
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-1",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-1",
       "maturity_date": "2028-07-23",
-      "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-11-03T20:16:06Z",
-      "points": 273
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-20T21:28:08Z",
+      "points": 275
     },
     {
       "symbol": "RMF2",
@@ -446,9 +446,9 @@
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-mutual-fund-2",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-mutual-fund-2",
       "maturity_date": "2033-05-21",
-      "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-11-03T20:16:06Z",
-      "points": 220
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-20T21:28:08Z",
+      "points": 222
     },
     {
       "symbol": "RSY",
@@ -459,9 +459,9 @@
       "history_url": "https://api.reliablecapital.com.np/api/nav-charts",
       "monthly_nav_basis": "bs_month_end_observation",
       "maturity_date": "2035-05-02",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-17T21:56:04Z",
-      "points": 85
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-20T21:28:38Z",
+      "points": 86
     },
     {
       "symbol": "RSY2",
@@ -472,9 +472,9 @@
       "history_url": "https://api.reliablecapital.com.np/api/nav-chart-2",
       "monthly_nav_basis": "bs_month_end_observation",
       "maturity_date": "2036-06-18",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-17T21:56:04Z",
-      "points": 24
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-20T21:28:38Z",
+      "points": 25
     },
     {
       "symbol": "SAEF2",
@@ -521,9 +521,9 @@
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=1",
       "maturity_date": "2027-11-08",
-      "latest_as_of": "2026-11-06",
-      "last_successful_fetch": "2026-11-18T21:34:02Z",
-      "points": 587
+      "latest_as_of": "2026-11-16",
+      "last_successful_fetch": "2026-11-20T21:27:56Z",
+      "points": 589
     },
     {
       "symbol": "SEF2",
@@ -533,9 +533,9 @@
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=5",
       "maturity_date": "2038-06-18",
-      "latest_as_of": "2026-11-06",
-      "last_successful_fetch": "2026-11-18T21:34:02Z",
-      "points": 24
+      "latest_as_of": "2026-11-16",
+      "last_successful_fetch": "2026-11-20T21:27:56Z",
+      "points": 26
     },
     {
       "symbol": "SFEF",
@@ -571,9 +571,9 @@
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=2",
       "maturity_date": "2029-08-26",
-      "latest_as_of": "2026-11-06",
-      "last_successful_fetch": "2026-11-18T21:34:02Z",
-      "points": 472
+      "latest_as_of": "2026-11-16",
+      "last_successful_fetch": "2026-11-20T21:27:56Z",
+      "points": 474
     },
     {
       "symbol": "SIGS3",
@@ -583,9 +583,9 @@
       "source_url": "https://www.siddharthacapital.com/scheme-reports/nav-details/",
       "history_url": "https://www.siddharthacapital.com/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
       "maturity_date": "2033-04-30",
-      "latest_as_of": "2026-11-06",
-      "last_successful_fetch": "2026-11-18T21:34:02Z",
-      "points": 230
+      "latest_as_of": "2026-11-16",
+      "last_successful_fetch": "2026-11-20T21:27:56Z",
+      "points": 232
     },
     {
       "symbol": "SLCF",
