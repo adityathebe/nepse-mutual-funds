@@ -355,5 +355,26 @@
     "date_bs": "2083-07-27",
     "frequency": "weekly",
     "source_label": "Nepal Life Samriddhi Lagani Yojana, Kartik 27, 2083"
+  },
+  {
+    "as_of": "2026-11-16",
+    "nav": 9.92,
+    "date_bs": "2083-07-30",
+    "frequency": "monthly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Kartik 30, 2083"
+  },
+  {
+    "as_of": "2026-11-16",
+    "nav": 9.92,
+    "date_bs": "2083-07-30",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Kartik 30, 2083"
+  },
+  {
+    "as_of": "2026-11-20",
+    "nav": 9.87,
+    "date_bs": "2083-08-04",
+    "frequency": "weekly",
+    "source_label": "Nepal Life Samriddhi Lagani Yojana, Mangsir 4, 2083"
   }
 ]

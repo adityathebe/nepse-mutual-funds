@@ -81,9 +81,9 @@
       "source_url": "https://garimacapital.com/nav-details",
       "history_url": "https://garimacapital.com/nav/category-data/3",
       "maturity_date": "2035-01-02",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-17T21:56:21Z",
-      "points": 119
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-24T01:11:50Z",
+      "points": 120
     },
     {
       "symbol": "H8020",
@@ -106,9 +106,9 @@
       "history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav",
       "monthly_history_url": "https://himalayaninvest.com/himalayan-large-cap-fund-nav-monthly",
       "maturity_date": "2035-09-15",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-18T21:36:41Z",
-      "points": 73
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-24T01:11:29Z",
+      "points": 74
     },
     {
       "symbol": "KDBY",
@@ -193,9 +193,9 @@
       "source_url": "https://mcl.com.np/mutual-funds/close/mbl-equity-fund",
       "history_url": "https://mcl.com.np/api/v1/public/mutual-funds/mbl-equity-fund",
       "maturity_date": "2037-03-27",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-17T21:53:29Z",
-      "points": 105
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-24T01:10:58Z",
+      "points": 106
     },
     {
       "symbol": "MMF1",
@@ -229,9 +229,9 @@
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=3",
       "maturity_date": "2029-05-31",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-17T21:58:25Z",
-      "points": 476
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-24T01:14:10Z",
+      "points": 477
     },
     {
       "symbol": "NBF3",
@@ -241,9 +241,9 @@
       "source_url": "https://nabilinvest.com.np/investment-banking/mutual-funds/",
       "history_url": "https://nabilinvest.com.np/wp-admin/admin-ajax.php?action=scheme_data_filter\u0026scheme_id=4",
       "maturity_date": "2031-09-23",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-17T21:58:25Z",
-      "points": 329
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-24T01:14:10Z",
+      "points": 330
     },
     {
       "symbol": "NIBLGF",
@@ -386,9 +386,9 @@
       "history_url": "https://nepallifecapital.com.np/samriddhi-yojana-investments",
       "monthly_nav_basis": "bs_month_end_observation",
       "maturity_date": "2036-02-02",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-17T21:56:13Z",
-      "points": 51
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-24T01:11:41Z",
+      "points": 54
     },
     {
       "symbol": "PRSF",
@@ -398,9 +398,9 @@
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PRSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PRSF",
       "maturity_date": "2032-03-14",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-17T21:53:17Z",
-      "points": 236
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-24T01:10:44Z",
+      "points": 237
     },
     {
       "symbol": "PSF",
@@ -410,9 +410,9 @@
       "source_url": "https://www.prabhucapital.com/mutual-fund?tabKey=PSF",
       "history_url": "https://www.prabhucapital.com/adminapi/v1/public/hist-nav?ticker=PSF",
       "maturity_date": "2028-06-21",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-17T21:53:17Z",
-      "points": 350
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-24T01:10:44Z",
+      "points": 351
     },
     {
       "symbol": "RBBF40",
