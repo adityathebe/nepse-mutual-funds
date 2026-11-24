@@ -93,9 +93,9 @@
       "source_url": "https://himalayancapital.com/nav-details",
       "history_url": "https://flowvity.himalayancapital.com/adminapi/v1/public/hist-nav?ticker=H8020",
       "maturity_date": "2033-10-01",
-      "latest_as_of": "2026-11-06",
-      "last_successful_fetch": "2026-11-19T21:48:19Z",
-      "points": 200
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-24T23:17:40Z",
+      "points": 201
     },
     {
       "symbol": "HLICF",
@@ -361,9 +361,9 @@
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=6",
       "maturity_date": "2035-02-27",
-      "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-10-30T18:47:31Z",
-      "points": 106
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-24T23:14:21Z",
+      "points": 109
     },
     {
       "symbol": "NSIF2",
@@ -373,9 +373,9 @@
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=5",
       "maturity_date": "2032-09-01",
-      "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-10-30T18:47:31Z",
-      "points": 267
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-24T23:14:21Z",
+      "points": 270
     },
     {
       "symbol": "NSY",
@@ -422,9 +422,9 @@
       "source_url": "https://www.rbbmbl.com.np/mutual-fund/rbb-focus-40",
       "history_url": "https://api.rbbmbl.com.np/api/getSchemeNavs?fund=rbb-focus-40",
       "maturity_date": "2037-11-12",
-      "latest_as_of": "2026-10-30",
-      "last_successful_fetch": "2026-11-03T20:16:06Z",
-      "points": 60
+      "latest_as_of": "2026-11-13",
+      "last_successful_fetch": "2026-11-24T23:14:44Z",
+      "points": 62
     },
     {
       "symbol": "RMF1",
@@ -484,9 +484,9 @@
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=5",
       "maturity_date": "2036-06-18",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-18T21:37:17Z",
-      "points": 25
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-24T23:15:41Z",
+      "points": 26
     },
     {
       "symbol": "SAGF",
@@ -496,9 +496,9 @@
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=3",
       "maturity_date": "2033-11-27",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-18T21:37:17Z",
-      "points": 254
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-24T23:15:41Z",
+      "points": 255
     },
     {
       "symbol": "SBCF",
@@ -595,9 +595,9 @@
       "source_url": "https://www.sanimacapital.com/",
       "history_url": "https://www.sanimacapital.com/frontapi/en/fund-data?scheme_id=2",
       "maturity_date": "2028-02-23",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-18T21:37:17Z",
-      "points": 370
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-24T23:15:41Z",
+      "points": 371
     }
   ]
 }

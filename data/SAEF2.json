@@ -173,5 +173,12 @@
     "date_bs": "2083-07-27",
     "frequency": "weekly",
     "source_label": "2083-07-27"
+  },
+  {
+    "as_of": "2026-11-20",
+    "nav": 10.15,
+    "date_bs": "2083-08-04",
+    "frequency": "weekly",
+    "source_label": "2083-08-04"
   }
 ]
