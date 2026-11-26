@@ -790,5 +790,11 @@
     "nav": 10.07,
     "date_bs": "2083-07-27",
     "frequency": "weekly"
+  },
+  {
+    "as_of": "2026-11-20",
+    "nav": 10.01,
+    "date_bs": "2083-08-04",
+    "frequency": "weekly"
   }
 ]

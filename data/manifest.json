@@ -205,9 +205,9 @@
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-mega-mutual-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=mega-mutual-fund-nav",
       "maturity_date": "2031-09-08",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-19T21:45:54Z",
-      "points": 134
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-26T22:32:41Z",
+      "points": 135
     },
     {
       "symbol": "MNMF1",
@@ -253,9 +253,9 @@
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-growth-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nav-nibl-growth-fund",
       "maturity_date": "2033-01-17",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-19T21:45:54Z",
-      "points": 132
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-26T22:32:41Z",
+      "points": 133
     },
     {
       "symbol": "NIBLSTF",
@@ -265,9 +265,9 @@
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-nibl-stable-fund/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nav-nibl-stable-fund",
       "maturity_date": "2036-02-07",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-19T21:45:54Z",
-      "points": 131
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-26T22:32:41Z",
+      "points": 132
     },
     {
       "symbol": "NIBSF2",
@@ -277,9 +277,9 @@
       "source_url": "https://nimbacecapital.com/services/mutual-funds/nav-samriddhi-fund-ii/",
       "history_url": "https://nimbacecapital.com/wp-admin/admin-ajax.php?action=load_mutual_fund_table\u0026mutual_fund=nibl-samriddhi-fund-2-nav",
       "maturity_date": "2031-05-29",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-19T21:45:54Z",
-      "points": 132
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-26T22:32:41Z",
+      "points": 133
     },
     {
       "symbol": "NICBF",
@@ -361,9 +361,9 @@
       "source_url": "https://www.nmbcl.com.np/navhistory",
       "history_url": "https://www.nmbcl.com.np/frontapi/en/getMutualFund?schemeId=6",
       "maturity_date": "2035-02-27",
-      "latest_as_of": "2026-11-13",
-      "last_successful_fetch": "2026-11-24T23:14:21Z",
-      "points": 109
+      "latest_as_of": "2026-11-20",
+      "last_successful_fetch": "2026-11-26T22:31:56Z",
+      "points": 110
     },
     {
       "symbol": "NSIF2",
