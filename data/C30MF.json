@@ -1489,5 +1489,26 @@
     "date_bs": "2083-06-30",
     "frequency": "weekly",
     "source_label": "30 Ashwin 2083"
+  },
+  {
+    "as_of": "2026-10-30",
+    "nav": 10.07,
+    "date_bs": "2083-07-13",
+    "frequency": "weekly",
+    "source_label": "13 Kartik 2083"
+  },
+  {
+    "as_of": "2026-11-06",
+    "nav": 10.09,
+    "date_bs": "2083-07-20",
+    "frequency": "weekly",
+    "source_label": "20 Kartik 2083"
+  },
+  {
+    "as_of": "2026-11-13",
+    "nav": 10.07,
+    "date_bs": "2083-07-27",
+    "frequency": "weekly",
+    "source_label": "27 Kartik 2083"
   }
 ]
